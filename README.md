@@ -1,7 +1,9 @@
 # 🤖 ROS2 自主导航与视觉抓取机器人系统
 
 > 📚 **南方科技大学 EE211 课程项目**
-> SLAM效果展示：[b站视频连接](https://www.bilibili.com/video/BV1LZBrBuETc/)
+
+> SLAM效果展示：[b站视频](https://www.bilibili.com/video/BV1LZBrBuETc/)
+
 > 课程主页：[EE211 2025 Fall](https://rpai-lab.github.io/EE211-25Fall/)
 
 基于 ROS2 的移动机器人自主导航与视觉识别抓取系统，集成了 TurtleBot4 底盘、YOLO 目标检测、ArUco 标记识别、机械臂控制等功能。
