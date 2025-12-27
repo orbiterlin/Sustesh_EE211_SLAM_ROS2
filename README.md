@@ -8,7 +8,7 @@
 
 ## 🎬 演示视频
 
-[![演示视频](https://img.shields.io/badge/Bilibili-演示视频-00A1D6?style=for-the-badge&logo=bilibili&logoColor=white)](https://www.bilibili.com/video/BV1LZBrBuETc/)
+[![SLAM小车演示](https://img.shields.io/badge/Bilibili-SLAM小车演示-00A1D6?style=for-the-badge&logo=bilibili&logoColor=white)](https://www.bilibili.com/video/BV1LZBrBuETc/)
 
 👆 点击上方按钮观看完整演示视频
 
