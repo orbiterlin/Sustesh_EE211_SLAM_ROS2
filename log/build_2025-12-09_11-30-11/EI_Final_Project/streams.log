@@ -1,0 +1,100 @@
+[0.078s] Invoking command in '/home/tony/ros2_ws/build/EI_Final_Project': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tony/ros2_ws/install/yolov10_inference:/home/tony/ros2_ws/install/witmotion_ros_driver:/home/tony/ros2_ws/install/turtlebot3_teleop:/home/tony/ros2_ws/install/turtlebot3_example:/home/tony/ros2_ws/install/ros2_aruco:/home/tony/ros2_ws/install/opencv_pkg:/home/tony/ros2_ws/install/ax12a_arm_controller:/opt/ros/humble /usr/bin/cmake /home/tony/ros2_ws/src/EI_Final_Project -DCMAKE_INSTALL_PREFIX=/home/tony/ros2_ws/install/EI_Final_Project
+[0.162s] -- The C compiler identification is GNU 11.4.0
+[0.230s] -- The CXX compiler identification is GNU 11.4.0
+[0.238s] -- Detecting C compiler ABI info
+[0.304s] -- Detecting C compiler ABI info - done
+[0.310s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.311s] -- Detecting C compile features
+[0.311s] -- Detecting C compile features - done
+[0.315s] -- Detecting CXX compiler ABI info
+[0.395s] -- Detecting CXX compiler ABI info - done
+[0.404s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.404s] -- Detecting CXX compile features
+[0.405s] -- Detecting CXX compile features - done
+[0.413s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.252s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.383s] -- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)
+[1.451s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.459s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.472s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.490s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.515s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.603s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[1.611s] -- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[1.724s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[1.754s] -- Found FastRTPS: /opt/ros/humble/include  
+[1.802s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[1.820s] -- Looking for pthread.h
+[1.889s] -- Looking for pthread.h - found
+[1.890s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[1.956s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[1.957s] -- Found Threads: TRUE  
+[2.108s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[2.151s] -- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)
+[2.224s] -- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)
+[2.300s] -- Found std_srvs: 4.2.3 (/opt/ros/humble/share/std_srvs/cmake)
+[2.318s] -- Found tf2: 0.25.8 (/opt/ros/humble/share/tf2/cmake)
+[2.337s] -- Found tf2_ros: 0.25.8 (/opt/ros/humble/share/tf2_ros/cmake)
+[2.653s] -- Found tf2_geometry_msgs: 0.25.5 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)
+[2.677s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[2.679s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[2.679s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.695s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[2.751s] WARNING: Package name "EI_Final_Project" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+[2.801s] -- Added test 'copyright' to check source files copyright and LICENSE
+[2.802s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[2.803s] -- Configured cppcheck include dirs: /home/tony/ros2_ws/src/EI_Final_Project/include
+[2.803s] -- Configured cppcheck exclude dirs and/or files: 
+[2.804s] -- Added test 'cpplint' to check C / C++ code against the Google style
+[2.804s] -- Configured cpplint exclude dirs and/or files: 
+[2.805s] -- Added test 'flake8' to check Python code syntax and style conventions
+[2.806s] -- Added test 'lint_cmake' to check CMake code style
+[2.807s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[2.808s] -- Added test 'uncrustify' to check C / C++ code style
+[2.808s] -- Configured uncrustify additional arguments: 
+[2.809s] -- Added test 'xmllint' to check XML markup files
+[2.813s] -- Configuring done
+[2.823s] -- Generating done
+[2.825s] -- Build files have been written to: /home/tony/ros2_ws/build/EI_Final_Project
+[2.838s] Invoked command in '/home/tony/ros2_ws/build/EI_Final_Project' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tony/ros2_ws/install/yolov10_inference:/home/tony/ros2_ws/install/witmotion_ros_driver:/home/tony/ros2_ws/install/turtlebot3_teleop:/home/tony/ros2_ws/install/turtlebot3_example:/home/tony/ros2_ws/install/ros2_aruco:/home/tony/ros2_ws/install/opencv_pkg:/home/tony/ros2_ws/install/ax12a_arm_controller:/opt/ros/humble /usr/bin/cmake /home/tony/ros2_ws/src/EI_Final_Project -DCMAKE_INSTALL_PREFIX=/home/tony/ros2_ws/install/EI_Final_Project
+[2.840s] Invoking command in '/home/tony/ros2_ws/build/EI_Final_Project': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tony/ros2_ws/install/yolov10_inference:/home/tony/ros2_ws/install/witmotion_ros_driver:/home/tony/ros2_ws/install/turtlebot3_teleop:/home/tony/ros2_ws/install/turtlebot3_example:/home/tony/ros2_ws/install/ros2_aruco:/home/tony/ros2_ws/install/opencv_pkg:/home/tony/ros2_ws/install/ax12a_arm_controller:/opt/ros/humble /usr/bin/cmake --build /home/tony/ros2_ws/build/EI_Final_Project -- -j8 -l8
+[2.891s] [ 50%] [32mBuilding CXX object CMakeFiles/map_saver_node.dir/src/map_saver_node.cpp.o[0m
+[5.291s] [01m[K/home/tony/ros2_ws/src/EI_Final_Project/src/map_saver_node.cpp:[m[K In member function ‘[01m[Kvoid MapSaverNode::saveMapService(std::shared_ptr<std_srvs::srv::Empty_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Empty_Response_<std::allocator<void> > >)[m[K’:
+[5.291s] [01m[K/home/tony/ros2_ws/src/EI_Final_Project/src/map_saver_node.cpp:54:78:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[5.291s]    54 |     void saveMapService([01;35m[Kconst std::shared_ptr<std_srvs::srv::Empty::Request> request[m[K,
+[5.291s]       |                         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[5.291s] [01m[K/home/tony/ros2_ws/src/EI_Final_Project/src/map_saver_node.cpp:55:72:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kresponse[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+[5.291s]    55 |                        [01;35m[Kstd::shared_ptr<std_srvs::srv::Empty::Response> response[m[K)
+[5.291s]       |                        [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K
+[11.351s] [100%] [32m[1mLinking CXX executable map_saver_node[0m
+[11.887s] [100%] Built target map_saver_node
+[11.898s] Invoked command in '/home/tony/ros2_ws/build/EI_Final_Project' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tony/ros2_ws/install/yolov10_inference:/home/tony/ros2_ws/install/witmotion_ros_driver:/home/tony/ros2_ws/install/turtlebot3_teleop:/home/tony/ros2_ws/install/turtlebot3_example:/home/tony/ros2_ws/install/ros2_aruco:/home/tony/ros2_ws/install/opencv_pkg:/home/tony/ros2_ws/install/ax12a_arm_controller:/opt/ros/humble /usr/bin/cmake --build /home/tony/ros2_ws/build/EI_Final_Project -- -j8 -l8
+[11.930s] Invoking command in '/home/tony/ros2_ws/build/EI_Final_Project': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tony/ros2_ws/install/yolov10_inference:/home/tony/ros2_ws/install/witmotion_ros_driver:/home/tony/ros2_ws/install/turtlebot3_teleop:/home/tony/ros2_ws/install/turtlebot3_example:/home/tony/ros2_ws/install/ros2_aruco:/home/tony/ros2_ws/install/opencv_pkg:/home/tony/ros2_ws/install/ax12a_arm_controller:/opt/ros/humble /usr/bin/cmake --install /home/tony/ros2_ws/build/EI_Final_Project
+[11.937s] -- Install configuration: ""
+[11.937s] -- Installing: /home/tony/ros2_ws/install/EI_Final_Project/lib/EI_Final_Project/map_saver_node
+[11.940s] -- Set runtime path of "/home/tony/ros2_ws/install/EI_Final_Project/lib/EI_Final_Project/map_saver_node" to ""
+[11.940s] -- Installing: /home/tony/ros2_ws/install/EI_Final_Project/share/EI_Final_Project/launch
+[11.940s] -- Installing: /home/tony/ros2_ws/install/EI_Final_Project/share/EI_Final_Project/launch/slam_2d.launch.py
+[11.940s] -- Installing: /home/tony/ros2_ws/install/EI_Final_Project/share/EI_Final_Project/launch/save_map.launch.py
+[11.940s] -- Installing: /home/tony/ros2_ws/install/EI_Final_Project/share/EI_Final_Project/config
+[11.940s] -- Installing: /home/tony/ros2_ws/install/EI_Final_Project/share/EI_Final_Project/config/slam_toolbox_params.yaml
+[11.941s] -- Installing: /home/tony/ros2_ws/install/EI_Final_Project/share/EI_Final_Project/config/cartographer_params.lua
+[11.941s] -- Installing: /home/tony/ros2_ws/install/EI_Final_Project/share/EI_Final_Project/maps
+[11.941s] -- Installing: /home/tony/ros2_ws/install/EI_Final_Project/share/EI_Final_Project/rviz
+[11.941s] -- Installing: /home/tony/ros2_ws/install/EI_Final_Project/share/EI_Final_Project/rviz/slam_2d.rviz
+[11.941s] -- Installing: /home/tony/ros2_ws/install/EI_Final_Project/share/ament_index/resource_index/package_run_dependencies/EI_Final_Project
+[11.941s] -- Installing: /home/tony/ros2_ws/install/EI_Final_Project/share/ament_index/resource_index/parent_prefix_path/EI_Final_Project
+[11.941s] -- Installing: /home/tony/ros2_ws/install/EI_Final_Project/share/EI_Final_Project/environment/ament_prefix_path.sh
+[11.941s] -- Installing: /home/tony/ros2_ws/install/EI_Final_Project/share/EI_Final_Project/environment/ament_prefix_path.dsv
+[11.941s] -- Installing: /home/tony/ros2_ws/install/EI_Final_Project/share/EI_Final_Project/environment/path.sh
+[11.941s] -- Installing: /home/tony/ros2_ws/install/EI_Final_Project/share/EI_Final_Project/environment/path.dsv
+[11.942s] -- Installing: /home/tony/ros2_ws/install/EI_Final_Project/share/EI_Final_Project/local_setup.bash
+[11.942s] -- Installing: /home/tony/ros2_ws/install/EI_Final_Project/share/EI_Final_Project/local_setup.sh
+[11.942s] -- Installing: /home/tony/ros2_ws/install/EI_Final_Project/share/EI_Final_Project/local_setup.zsh
+[11.942s] -- Installing: /home/tony/ros2_ws/install/EI_Final_Project/share/EI_Final_Project/local_setup.dsv
+[11.942s] -- Installing: /home/tony/ros2_ws/install/EI_Final_Project/share/EI_Final_Project/package.dsv
+[11.942s] -- Installing: /home/tony/ros2_ws/install/EI_Final_Project/share/ament_index/resource_index/packages/EI_Final_Project
+[11.942s] -- Installing: /home/tony/ros2_ws/install/EI_Final_Project/share/EI_Final_Project/cmake/EI_Final_ProjectConfig.cmake
+[11.942s] -- Installing: /home/tony/ros2_ws/install/EI_Final_Project/share/EI_Final_Project/cmake/EI_Final_ProjectConfig-version.cmake
+[11.942s] -- Installing: /home/tony/ros2_ws/install/EI_Final_Project/share/EI_Final_Project/package.xml
+[11.945s] Invoked command in '/home/tony/ros2_ws/build/EI_Final_Project' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tony/ros2_ws/install/yolov10_inference:/home/tony/ros2_ws/install/witmotion_ros_driver:/home/tony/ros2_ws/install/turtlebot3_teleop:/home/tony/ros2_ws/install/turtlebot3_example:/home/tony/ros2_ws/install/ros2_aruco:/home/tony/ros2_ws/install/opencv_pkg:/home/tony/ros2_ws/install/ax12a_arm_controller:/opt/ros/humble /usr/bin/cmake --install /home/tony/ros2_ws/build/EI_Final_Project

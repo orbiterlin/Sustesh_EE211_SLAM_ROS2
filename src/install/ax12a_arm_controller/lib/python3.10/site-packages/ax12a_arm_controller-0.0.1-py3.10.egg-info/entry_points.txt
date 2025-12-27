@@ -1,0 +1,2 @@
+[console_scripts]
+ax12a_arm_node = ax12a_arm_controller.ax12a_arm_node:main

@@ -1,0 +1,246 @@
+[0.499s] Invoking command in '/home/tony/ros2_ws/src/build/interbotix_xsarm_descriptions': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tony/ros2_ws/install/yolov10_inference:/home/tony/ros2_ws/install/witmotion_ros_driver:/home/tony/ros2_ws/install/turtlebot3_teleop:/home/tony/ros2_ws/install/turtlebot3_example:/home/tony/ros2_ws/install/ros2_aruco:/home/tony/ros2_ws/install/opencv_pkg:/home/tony/ros2_ws/install/iqr_tb4_description:/home/tony/ros2_ws/install/ax12a_arm_controller:/opt/ros/humble /usr/bin/cmake /home/tony/ros2_ws/src/interbotix_ros_manipulators/interbotix_ros_xsarms/interbotix_xsarm_descriptions -DCMAKE_INSTALL_PREFIX=/home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions
+[1.179s] -- The C compiler identification is GNU 11.4.0
+[1.179s] -- The CXX compiler identification is GNU 11.4.0
+[1.179s] -- Detecting C compiler ABI info
+[1.179s] -- Detecting C compiler ABI info - done
+[1.179s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.179s] -- Detecting C compile features
+[1.179s] -- Detecting C compile features - done
+[1.179s] -- Detecting CXX compiler ABI info
+[1.179s] -- Detecting CXX compiler ABI info - done
+[1.179s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.180s] -- Detecting CXX compile features
+[1.180s] -- Detecting CXX compile features - done
+[1.180s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.097s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[2.329s] -- Found robot_state_publisher: 3.0.2 (/opt/ros/humble/share/robot_state_publisher/cmake)
+[2.420s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.435s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.452s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.490s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.519s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.744s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[2.746s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[2.747s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[2.860s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[2.866s] -- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[3.004s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[3.037s] -- Found FastRTPS: /opt/ros/humble/include  
+[3.103s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[3.121s] -- Looking for pthread.h
+[3.215s] -- Looking for pthread.h - found
+[3.215s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[3.319s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[3.321s] -- Found Threads: TRUE  
+[4.073s] -- Found rviz2: 11.2.9 (/opt/ros/humble/share/rviz2/cmake)
+[4.077s] -- Found xacro: 2.0.8 (/opt/ros/humble/share/xacro/cmake)
+[4.081s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[4.203s] -- Added test 'copyright' to check source files copyright and LICENSE
+[4.217s] -- Added test 'flake8' to check Python code syntax and style conventions
+[4.220s] -- Added test 'lint_cmake' to check CMake code style
+[4.220s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[4.224s] -- Added test 'xmllint' to check XML markup files
+[4.226s] -- Configuring done
+[4.230s] -- Generating done
+[4.233s] -- Build files have been written to: /home/tony/ros2_ws/src/build/interbotix_xsarm_descriptions
+[4.933s] Invoked command in '/home/tony/ros2_ws/src/build/interbotix_xsarm_descriptions' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tony/ros2_ws/install/yolov10_inference:/home/tony/ros2_ws/install/witmotion_ros_driver:/home/tony/ros2_ws/install/turtlebot3_teleop:/home/tony/ros2_ws/install/turtlebot3_example:/home/tony/ros2_ws/install/ros2_aruco:/home/tony/ros2_ws/install/opencv_pkg:/home/tony/ros2_ws/install/iqr_tb4_description:/home/tony/ros2_ws/install/ax12a_arm_controller:/opt/ros/humble /usr/bin/cmake /home/tony/ros2_ws/src/interbotix_ros_manipulators/interbotix_ros_xsarms/interbotix_xsarm_descriptions -DCMAKE_INSTALL_PREFIX=/home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions
+[4.936s] Invoking command in '/home/tony/ros2_ws/src/build/interbotix_xsarm_descriptions': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tony/ros2_ws/install/yolov10_inference:/home/tony/ros2_ws/install/witmotion_ros_driver:/home/tony/ros2_ws/install/turtlebot3_teleop:/home/tony/ros2_ws/install/turtlebot3_example:/home/tony/ros2_ws/install/ros2_aruco:/home/tony/ros2_ws/install/opencv_pkg:/home/tony/ros2_ws/install/iqr_tb4_description:/home/tony/ros2_ws/install/ax12a_arm_controller:/opt/ros/humble /usr/bin/cmake --build /home/tony/ros2_ws/src/build/interbotix_xsarm_descriptions -- -j8 -l8
+[5.002s] Invoked command in '/home/tony/ros2_ws/src/build/interbotix_xsarm_descriptions' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tony/ros2_ws/install/yolov10_inference:/home/tony/ros2_ws/install/witmotion_ros_driver:/home/tony/ros2_ws/install/turtlebot3_teleop:/home/tony/ros2_ws/install/turtlebot3_example:/home/tony/ros2_ws/install/ros2_aruco:/home/tony/ros2_ws/install/opencv_pkg:/home/tony/ros2_ws/install/iqr_tb4_description:/home/tony/ros2_ws/install/ax12a_arm_controller:/opt/ros/humble /usr/bin/cmake --build /home/tony/ros2_ws/src/build/interbotix_xsarm_descriptions -- -j8 -l8
+[5.810s] Invoking command in '/home/tony/ros2_ws/src/build/interbotix_xsarm_descriptions': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tony/ros2_ws/install/yolov10_inference:/home/tony/ros2_ws/install/witmotion_ros_driver:/home/tony/ros2_ws/install/turtlebot3_teleop:/home/tony/ros2_ws/install/turtlebot3_example:/home/tony/ros2_ws/install/ros2_aruco:/home/tony/ros2_ws/install/opencv_pkg:/home/tony/ros2_ws/install/iqr_tb4_description:/home/tony/ros2_ws/install/ax12a_arm_controller:/opt/ros/humble /usr/bin/cmake --install /home/tony/ros2_ws/src/build/interbotix_xsarm_descriptions
+[5.839s] -- Install configuration: ""
+[5.839s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//urdf
+[5.842s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//urdf/rx150.urdf.xacro
+[5.849s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//urdf/mobile_wx200.urdf.xacro
+[5.849s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//urdf/gazebo_configs.urdf.xacro
+[5.849s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//urdf/control.urdf.xacro
+[5.850s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//urdf/wx200.urdf.xacro
+[5.851s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//urdf/aloha_wx250s.urdf.xacro
+[5.851s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//urdf/mobile_wx250s.urdf.xacro
+[5.851s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//urdf/vx300.urdf.xacro
+[5.851s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//urdf/wx250s.urdf.xacro
+[5.852s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//urdf/mobile_px100.urdf.xacro
+[5.853s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//urdf/px150.urdf.xacro
+[5.853s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//urdf/vx300s.urdf.xacro
+[5.854s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//urdf/wx250.urdf.xacro
+[5.855s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//urdf/aloha_vx300s.urdf.xacro
+[5.857s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//urdf/px100.urdf.xacro
+[5.857s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//urdf/rx200.urdf.xacro
+[5.858s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//urdf/vx250.urdf.xacro
+[5.858s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//urdf/ar_tag.urdf.xacro
+[5.859s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//launch
+[5.860s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//launch/remote_view.launch.py
+[5.860s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//launch/xsarm_description.launch.py
+[5.861s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes
+[5.865s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/mobile_wx200_meshes
+[5.865s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/mobile_wx200_meshes/forearm.stl
+[5.877s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/mobile_wx200_meshes/gripper.stl
+[5.877s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/mobile_wx200_meshes/gripper_prop.stl
+[5.877s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/mobile_wx200_meshes/base.stl
+[5.898s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/mobile_wx200_meshes/gripper_bar.stl
+[5.906s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/mobile_wx200_meshes/gripper_finger.stl
+[5.906s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/mobile_wx200_meshes/upper_arm.stl
+[5.906s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/mobile_wx200_meshes/shoulder.stl
+[5.908s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/mobile_wx200_meshes/wrist.stl
+[5.908s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/wx250s_meshes
+[5.908s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/wx250s_meshes/gripper.stl
+[5.909s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/wx250s_meshes/gripper_prop.stl
+[5.910s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/wx250s_meshes/lower_forearm.stl
+[5.911s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/wx250s_meshes/base.stl
+[5.912s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/wx250s_meshes/gripper_bar.stl
+[5.918s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/wx250s_meshes/gripper_finger.stl
+[5.918s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/wx250s_meshes/upper_arm.stl
+[5.919s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/wx250s_meshes/shoulder.stl
+[5.921s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/wx250s_meshes/upper_forearm.stl
+[5.922s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/wx250s_meshes/wrist.stl
+[5.922s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/mobile_wx250s_meshes
+[5.924s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/mobile_wx250s_meshes/gripper.stl
+[5.926s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/mobile_wx250s_meshes/gripper_prop.stl
+[5.929s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/mobile_wx250s_meshes/lower_forearm.stl
+[5.936s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/mobile_wx250s_meshes/base.stl
+[5.947s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/mobile_wx250s_meshes/gripper_bar.stl
+[5.954s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/mobile_wx250s_meshes/gripper_finger.stl
+[5.954s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/mobile_wx250s_meshes/upper_arm.stl
+[5.954s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/mobile_wx250s_meshes/shoulder.stl
+[5.955s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/mobile_wx250s_meshes/upper_forearm.stl
+[5.955s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/mobile_wx250s_meshes/wrist.stl
+[5.955s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/ar_tag.stl
+[5.955s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/rx150_meshes
+[5.955s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/rx150_meshes/forearm.stl
+[5.960s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/rx150_meshes/gripper.stl
+[5.966s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/rx150_meshes/gripper_prop.stl
+[5.966s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/rx150_meshes/base.stl
+[5.972s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/rx150_meshes/gripper_bar.stl
+[5.972s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/rx150_meshes/gripper_finger.stl
+[5.972s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/rx150_meshes/upper_arm.stl
+[5.972s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/rx150_meshes/shoulder.stl
+[5.972s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/rx150_meshes/wrist.stl
+[5.974s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/px100_meshes
+[5.974s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/px100_meshes/forearm.stl
+[5.980s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/px100_meshes/gripper.stl
+[5.985s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/px100_meshes/gripper_prop.stl
+[5.990s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/px100_meshes/base.stl
+[5.998s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/px100_meshes/gripper_bar.stl
+[5.999s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/px100_meshes/gripper_finger.stl
+[5.999s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/px100_meshes/upper_arm.stl
+[6.003s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/px100_meshes/shoulder.stl
+[6.006s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/mobile_px100_meshes
+[6.006s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/mobile_px100_meshes/forearm.stl
+[6.006s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/mobile_px100_meshes/gripper.stl
+[6.006s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/mobile_px100_meshes/gripper_prop.stl
+[6.006s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/mobile_px100_meshes/base.stl
+[6.008s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/mobile_px100_meshes/gripper_bar.stl
+[6.008s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/mobile_px100_meshes/gripper_finger.stl
+[6.010s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/mobile_px100_meshes/upper_arm.stl
+[6.012s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/mobile_px100_meshes/shoulder.stl
+[6.012s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/px150_meshes
+[6.012s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/px150_meshes/forearm.stl
+[6.023s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/px150_meshes/gripper.stl
+[6.029s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/px150_meshes/gripper_prop.stl
+[6.033s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/px150_meshes/base.stl
+[6.043s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/px150_meshes/gripper_bar.stl
+[6.044s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/px150_meshes/gripper_finger.stl
+[6.044s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/px150_meshes/upper_arm.stl
+[6.046s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/px150_meshes/shoulder.stl
+[6.052s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/px150_meshes/wrist.stl
+[6.052s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/vx300_meshes
+[6.052s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/vx300_meshes/forearm.stl
+[6.052s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/vx300_meshes/gripper.stl
+[6.053s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/vx300_meshes/gripper_prop.stl
+[6.053s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/vx300_meshes/base.stl
+[6.057s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/vx300_meshes/gripper_bar.stl
+[6.065s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/vx300_meshes/gripper_finger.stl
+[6.065s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/vx300_meshes/upper_arm.stl
+[6.092s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/vx300_meshes/shoulder.stl
+[6.092s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/vx300_meshes/wrist.stl
+[6.092s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/vx250_meshes
+[6.092s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/vx250_meshes/forearm.stl
+[6.092s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/vx250_meshes/gripper.stl
+[6.092s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/vx250_meshes/gripper_prop.stl
+[6.092s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/vx250_meshes/base.stl
+[6.093s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/vx250_meshes/gripper_bar.stl
+[6.093s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/vx250_meshes/gripper_finger.stl
+[6.093s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/vx250_meshes/upper_arm.stl
+[6.093s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/vx250_meshes/shoulder.stl
+[6.093s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/vx250_meshes/wrist.stl
+[6.093s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/aloha_vx300s_meshes
+[6.093s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/aloha_vx300s_meshes/gripper.stl
+[6.093s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/aloha_vx300s_meshes/gripper_prop.stl
+[6.093s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/aloha_vx300s_meshes/lower_forearm.stl
+[6.093s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/aloha_vx300s_meshes/base.stl
+[6.096s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/aloha_vx300s_meshes/gripper_bar.stl
+[6.101s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/aloha_vx300s_meshes/gripper_finger.stl
+[6.101s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/aloha_vx300s_meshes/upper_arm.stl
+[6.101s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/aloha_vx300s_meshes/shoulder.stl
+[6.108s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/aloha_vx300s_meshes/upper_forearm.stl
+[6.108s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/aloha_vx300s_meshes/wrist.stl
+[6.108s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/wx200_meshes
+[6.109s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/wx200_meshes/forearm.stl
+[6.109s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/wx200_meshes/gripper.stl
+[6.109s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/wx200_meshes/gripper_prop.stl
+[6.109s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/wx200_meshes/base.stl
+[6.109s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/wx200_meshes/gripper_bar.stl
+[6.109s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/wx200_meshes/gripper_finger.stl
+[6.109s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/wx200_meshes/upper_arm.stl
+[6.113s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/wx200_meshes/shoulder.stl
+[6.114s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/wx200_meshes/wrist.stl
+[6.114s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/interbotix_black.png
+[6.115s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/rx200_meshes
+[6.115s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/rx200_meshes/forearm.stl
+[6.120s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/rx200_meshes/gripper.stl
+[6.120s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/rx200_meshes/gripper_prop.stl
+[6.120s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/rx200_meshes/base.stl
+[6.126s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/rx200_meshes/gripper_bar.stl
+[6.127s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/rx200_meshes/gripper_finger.stl
+[6.127s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/rx200_meshes/upper_arm.stl
+[6.127s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/rx200_meshes/shoulder.stl
+[6.127s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/rx200_meshes/wrist.stl
+[6.127s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/wx250_meshes
+[6.127s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/wx250_meshes/forearm.stl
+[6.128s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/wx250_meshes/gripper.stl
+[6.128s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/wx250_meshes/gripper_prop.stl
+[6.128s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/wx250_meshes/base.stl
+[6.129s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/wx250_meshes/gripper_bar.stl
+[6.129s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/wx250_meshes/gripper_finger.stl
+[6.130s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/wx250_meshes/upper_arm.stl
+[6.131s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/wx250_meshes/shoulder.stl
+[6.132s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/wx250_meshes/wrist.stl
+[6.132s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/aloha_wx250s_meshes
+[6.132s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/aloha_wx250s_meshes/gripper.stl
+[6.133s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/aloha_wx250s_meshes/gripper_prop.stl
+[6.133s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/aloha_wx250s_meshes/lower_forearm.stl
+[6.139s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/aloha_wx250s_meshes/base.stl
+[6.140s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/aloha_wx250s_meshes/gripper_bar.stl
+[6.140s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/aloha_wx250s_meshes/gripper_finger.stl
+[6.140s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/aloha_wx250s_meshes/upper_arm.stl
+[6.142s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/aloha_wx250s_meshes/shoulder.stl
+[6.145s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/aloha_wx250s_meshes/upper_forearm.stl
+[6.145s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/aloha_wx250s_meshes/wrist.stl
+[6.145s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/vx300s_meshes
+[6.145s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/vx300s_meshes/gripper.stl
+[6.148s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/vx300s_meshes/gripper_prop.stl
+[6.149s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/vx300s_meshes/lower_forearm.stl
+[6.150s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/vx300s_meshes/base.stl
+[6.152s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/vx300s_meshes/gripper_bar.stl
+[6.153s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/vx300s_meshes/gripper_finger.stl
+[6.154s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/vx300s_meshes/upper_arm.stl
+[6.156s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/vx300s_meshes/shoulder.stl
+[6.156s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/vx300s_meshes/upper_forearm.stl
+[6.158s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//meshes/vx300s_meshes/wrist.stl
+[6.158s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//rviz
+[6.159s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions//rviz/xsarm_description.rviz
+[6.160s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/ament_index/resource_index/package_run_dependencies/interbotix_xsarm_descriptions
+[6.161s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/ament_index/resource_index/parent_prefix_path/interbotix_xsarm_descriptions
+[6.162s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions/environment/ament_prefix_path.sh
+[6.165s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions/environment/ament_prefix_path.dsv
+[6.166s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions/environment/path.sh
+[6.166s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions/environment/path.dsv
+[6.167s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions/local_setup.bash
+[6.167s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions/local_setup.sh
+[6.168s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions/local_setup.zsh
+[6.168s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions/local_setup.dsv
+[6.170s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions/package.dsv
+[6.170s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/ament_index/resource_index/packages/interbotix_xsarm_descriptions
+[6.171s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions/cmake/interbotix_xsarm_descriptionsConfig.cmake
+[6.171s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions/cmake/interbotix_xsarm_descriptionsConfig-version.cmake
+[6.171s] -- Installing: /home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions/share/interbotix_xsarm_descriptions/package.xml
+[6.193s] Invoked command in '/home/tony/ros2_ws/src/build/interbotix_xsarm_descriptions' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tony/ros2_ws/install/yolov10_inference:/home/tony/ros2_ws/install/witmotion_ros_driver:/home/tony/ros2_ws/install/turtlebot3_teleop:/home/tony/ros2_ws/install/turtlebot3_example:/home/tony/ros2_ws/install/ros2_aruco:/home/tony/ros2_ws/install/opencv_pkg:/home/tony/ros2_ws/install/iqr_tb4_description:/home/tony/ros2_ws/install/ax12a_arm_controller:/opt/ros/humble /usr/bin/cmake --install /home/tony/ros2_ws/src/build/interbotix_xsarm_descriptions

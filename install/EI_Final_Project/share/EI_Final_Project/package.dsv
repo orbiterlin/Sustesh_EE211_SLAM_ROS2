@@ -1,0 +1,8 @@
+source;share/EI_Final_Project/hook/cmake_prefix_path.ps1
+source;share/EI_Final_Project/hook/cmake_prefix_path.dsv
+source;share/EI_Final_Project/hook/cmake_prefix_path.sh
+source;share/EI_Final_Project/local_setup.bash
+source;share/EI_Final_Project/local_setup.dsv
+source;share/EI_Final_Project/local_setup.ps1
+source;share/EI_Final_Project/local_setup.sh
+source;share/EI_Final_Project/local_setup.zsh

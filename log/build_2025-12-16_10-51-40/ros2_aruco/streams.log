@@ -1,0 +1,22 @@
+[1.794s] Invoking command in '/home/tony/ros2_ws/build/ros2_aruco': PYTHONPATH=/home/tony/ros2_ws/build/ros2_aruco/prefix_override:/home/tony/ros2_ws/install/ros2_aruco/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/tony/ros2_ws/build/ros2_aruco/build --no-deps install_data
+[2.285s] running develop
+[2.285s] /home/tony/.local/lib/python3.10/site-packages/setuptools/command/easy_install.py:144: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[2.285s]   warnings.warn(
+[2.327s] /home/tony/.local/lib/python3.10/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.327s]   warnings.warn(
+[2.708s] running egg_info
+[2.734s] writing ros2_aruco.egg-info/PKG-INFO
+[2.735s] writing dependency_links to ros2_aruco.egg-info/dependency_links.txt
+[2.735s] writing entry points to ros2_aruco.egg-info/entry_points.txt
+[2.735s] writing requirements to ros2_aruco.egg-info/requires.txt
+[2.735s] writing top-level names to ros2_aruco.egg-info/top_level.txt
+[2.791s] reading manifest file 'ros2_aruco.egg-info/SOURCES.txt'
+[2.793s] writing manifest file 'ros2_aruco.egg-info/SOURCES.txt'
+[2.822s] running build_ext
+[2.823s] Creating /home/tony/ros2_ws/install/ros2_aruco/lib/python3.10/site-packages/ros2-aruco.egg-link (link to .)
+[2.823s] Installing aruco_generate_marker script to /home/tony/ros2_ws/install/ros2_aruco/lib/ros2_aruco
+[2.824s] Installing aruco_node script to /home/tony/ros2_ws/install/ros2_aruco/lib/ros2_aruco
+[2.825s] 
+[2.825s] Installed /home/tony/ros2_ws/build/ros2_aruco
+[2.825s] running install_data
+[3.291s] Invoked command in '/home/tony/ros2_ws/build/ros2_aruco' returned '0': PYTHONPATH=/home/tony/ros2_ws/build/ros2_aruco/prefix_override:/home/tony/ros2_ws/install/ros2_aruco/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/tony/ros2_ws/build/ros2_aruco/build --no-deps install_data

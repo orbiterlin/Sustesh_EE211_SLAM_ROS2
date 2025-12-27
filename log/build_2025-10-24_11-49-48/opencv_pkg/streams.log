@@ -1,0 +1,29 @@
+[6.821s] Invoking command in '/home/tony/ros2_ws/build/opencv_pkg': PYTHONPATH=/home/tony/ros2_ws/build/opencv_pkg/prefix_override:/home/tony/ros2_ws/install/opencv_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/tony/ros2_ws/build/opencv_pkg/build --no-deps install_data
+[8.301s] running develop
+[8.301s] /home/tony/.local/lib/python3.10/site-packages/setuptools/command/easy_install.py:144: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[8.302s]   warnings.warn(
+[8.444s] /home/tony/.local/lib/python3.10/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[8.444s]   warnings.warn(
+[9.306s] running egg_info
+[9.306s] creating opencv_pkg.egg-info
+[9.354s] writing opencv_pkg.egg-info/PKG-INFO
+[9.354s] writing dependency_links to opencv_pkg.egg-info/dependency_links.txt
+[9.354s] writing entry points to opencv_pkg.egg-info/entry_points.txt
+[9.355s] writing requirements to opencv_pkg.egg-info/requires.txt
+[9.355s] writing top-level names to opencv_pkg.egg-info/top_level.txt
+[9.355s] writing manifest file 'opencv_pkg.egg-info/SOURCES.txt'
+[9.503s] reading manifest file 'opencv_pkg.egg-info/SOURCES.txt'
+[9.504s] writing manifest file 'opencv_pkg.egg-info/SOURCES.txt'
+[9.563s] running build_ext
+[9.573s] Creating /home/tony/ros2_ws/install/opencv_pkg/lib/python3.10/site-packages/opencv-pkg.egg-link (link to .)
+[9.574s] Installing camera_publisher script to /home/tony/ros2_ws/install/opencv_pkg/lib/opencv_pkg
+[9.574s] Installing camera_subscriber script to /home/tony/ros2_ws/install/opencv_pkg/lib/opencv_pkg
+[9.574s] 
+[9.579s] Installed /home/tony/ros2_ws/build/opencv_pkg
+[9.579s] running install_data
+[9.579s] creating /home/tony/ros2_ws/install/opencv_pkg/share/ament_index
+[9.579s] creating /home/tony/ros2_ws/install/opencv_pkg/share/ament_index/resource_index
+[9.579s] creating /home/tony/ros2_ws/install/opencv_pkg/share/ament_index/resource_index/packages
+[9.579s] copying resource/opencv_pkg -> /home/tony/ros2_ws/install/opencv_pkg/share/ament_index/resource_index/packages
+[9.579s] copying package.xml -> /home/tony/ros2_ws/install/opencv_pkg/share/opencv_pkg
+[9.842s] Invoked command in '/home/tony/ros2_ws/build/opencv_pkg' returned '0': PYTHONPATH=/home/tony/ros2_ws/build/opencv_pkg/prefix_override:/home/tony/ros2_ws/install/opencv_pkg/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/tony/ros2_ws/build/opencv_pkg/build --no-deps install_data

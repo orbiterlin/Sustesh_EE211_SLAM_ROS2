@@ -1,0 +1,24 @@
+[2.818s] Invoking command in '/home/tony/ros2_ws/src/witmotion_ros_driver': PYTHONPATH=/home/tony/ros2_ws/build/witmotion_ros_driver/prefix_override:/home/tony/ros2_ws/install/witmotion_ros_driver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/witmotion_ros_driver build --build-base /home/tony/ros2_ws/build/witmotion_ros_driver/build install --record /home/tony/ros2_ws/build/witmotion_ros_driver/install.log --single-version-externally-managed
+[3.298s] running egg_info
+[3.314s] writing ../../build/witmotion_ros_driver/witmotion_ros_driver.egg-info/PKG-INFO
+[3.314s] writing dependency_links to ../../build/witmotion_ros_driver/witmotion_ros_driver.egg-info/dependency_links.txt
+[3.314s] writing entry points to ../../build/witmotion_ros_driver/witmotion_ros_driver.egg-info/entry_points.txt
+[3.315s] writing requirements to ../../build/witmotion_ros_driver/witmotion_ros_driver.egg-info/requires.txt
+[3.315s] writing top-level names to ../../build/witmotion_ros_driver/witmotion_ros_driver.egg-info/top_level.txt
+[3.346s] reading manifest file '../../build/witmotion_ros_driver/witmotion_ros_driver.egg-info/SOURCES.txt'
+[3.347s] writing manifest file '../../build/witmotion_ros_driver/witmotion_ros_driver.egg-info/SOURCES.txt'
+[3.347s] running build
+[3.347s] running build_py
+[3.347s] running install
+[3.348s] /home/tony/.local/lib/python3.10/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[3.348s]   warnings.warn(
+[3.352s] running install_lib
+[3.366s] running install_data
+[3.380s] running install_egg_info
+[3.395s] removing '/home/tony/ros2_ws/install/witmotion_ros_driver/lib/python3.10/site-packages/witmotion_ros_driver-1.1.0-py3.10.egg-info' (and everything under it)
+[3.396s] Copying ../../build/witmotion_ros_driver/witmotion_ros_driver.egg-info to /home/tony/ros2_ws/install/witmotion_ros_driver/lib/python3.10/site-packages/witmotion_ros_driver-1.1.0-py3.10.egg-info
+[3.396s] running install_scripts
+[3.454s] Installing modbus_rtu_driver script to /home/tony/ros2_ws/install/witmotion_ros_driver/lib/witmotion_ros_driver
+[3.455s] Installing modbus_rtu_driver_2 script to /home/tony/ros2_ws/install/witmotion_ros_driver/lib/witmotion_ros_driver
+[3.455s] writing list of installed files to '/home/tony/ros2_ws/build/witmotion_ros_driver/install.log'
+[3.518s] Invoked command in '/home/tony/ros2_ws/src/witmotion_ros_driver' returned '0': PYTHONPATH=/home/tony/ros2_ws/build/witmotion_ros_driver/prefix_override:/home/tony/ros2_ws/install/witmotion_ros_driver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/witmotion_ros_driver build --build-base /home/tony/ros2_ws/build/witmotion_ros_driver/build install --record /home/tony/ros2_ws/build/witmotion_ros_driver/install.log --single-version-externally-managed

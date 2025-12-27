@@ -1,0 +1,21 @@
+[2.200s] Invoking command in '/home/tony/ros2_ws/build/ax12a_arm_controller': PYTHONPATH=/home/tony/ros2_ws/build/ax12a_arm_controller/prefix_override:/home/tony/ros2_ws/install/ax12a_arm_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/tony/ros2_ws/build/ax12a_arm_controller/build --no-deps install_data
+[3.077s] running develop
+[3.077s] /home/tony/.local/lib/python3.10/site-packages/setuptools/command/easy_install.py:144: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[3.077s]   warnings.warn(
+[3.135s] /home/tony/.local/lib/python3.10/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[3.135s]   warnings.warn(
+[3.506s] running egg_info
+[3.527s] writing ax12a_arm_controller.egg-info/PKG-INFO
+[3.527s] writing dependency_links to ax12a_arm_controller.egg-info/dependency_links.txt
+[3.528s] writing entry points to ax12a_arm_controller.egg-info/entry_points.txt
+[3.528s] writing requirements to ax12a_arm_controller.egg-info/requires.txt
+[3.530s] writing top-level names to ax12a_arm_controller.egg-info/top_level.txt
+[3.563s] reading manifest file 'ax12a_arm_controller.egg-info/SOURCES.txt'
+[3.564s] writing manifest file 'ax12a_arm_controller.egg-info/SOURCES.txt'
+[3.584s] running build_ext
+[3.585s] Creating /home/tony/ros2_ws/install/ax12a_arm_controller/lib/python3.10/site-packages/ax12a-arm-controller.egg-link (link to .)
+[3.588s] Installing ax12a_arm_node script to /home/tony/ros2_ws/install/ax12a_arm_controller/lib/ax12a_arm_controller
+[3.588s] 
+[3.588s] Installed /home/tony/ros2_ws/build/ax12a_arm_controller
+[3.588s] running install_data
+[3.856s] Invoked command in '/home/tony/ros2_ws/build/ax12a_arm_controller' returned '0': PYTHONPATH=/home/tony/ros2_ws/build/ax12a_arm_controller/prefix_override:/home/tony/ros2_ws/install/ax12a_arm_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/tony/ros2_ws/build/ax12a_arm_controller/build --no-deps install_data

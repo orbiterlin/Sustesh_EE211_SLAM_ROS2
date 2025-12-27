@@ -1,0 +1,35 @@
+[0.176s] Invoking command in '/home/tony/ros2_ws/src/build/interbotix_xsarm_joy': AMENT_PREFIX_PATH=/home/tony/ros2_ws/src/install/interbotix_xsarm_control:/home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tony/ros2_ws/src/install/interbotix_xsarm_control:/home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions:/home/tony/ros2_ws/install/turtlebot3:/home/tony/ros2_ws/install/turtlebot3_bringup:/home/tony/ros2_ws/install/turtlebot3_node:/home/tony/ros2_ws/install/turtlebot3_navigation2:/home/tony/ros2_ws/install/turtlebot3_description:/home/tony/ros2_ws/install/turtlebot3_cartographer:/home/tony/ros2_ws/install/ros2_aruco_interfaces:/home/tony/ros2_ws/install/realsense2_description:/home/tony/ros2_ws/install/realsense2_camera:/home/tony/ros2_ws/install/realsense2_camera_msgs:/home/tony/ros2_ws/install/pan_tilt_driver:/home/tony/ros2_ws/install/pan_tilt_msgs:/home/tony/ros2_ws/install/pan_tilt_description:/home/tony/ros2_ws/install/pan_tilt_bringup:/home/tony/ros2_ws/install/iqr_tb4_navigation:/home/tony/ros2_ws/install/iqr_tb4_bringup:/home/tony/ros2_ws/install/interbotix_xsarm_sim:/home/tony/ros2_ws/install/interbotix_xsarm_control:/home/tony/ros2_ws/install/interbotix_xsarm_descriptions:/home/tony/ros2_ws/install/EI_Final_Project:/home/tony/ros2_ws/install/yolov10_inference:/home/tony/ros2_ws/install/witmotion_ros_driver:/home/tony/ros2_ws/install/turtlebot3_teleop:/home/tony/ros2_ws/install/turtlebot3_example:/home/tony/ros2_ws/install/ros2_aruco:/home/tony/ros2_ws/install/opencv_pkg:/home/tony/ros2_ws/install/iqr_tb4_description:/home/tony/ros2_ws/install/ax12a_arm_controller:/opt/ros/humble /usr/bin/cmake /home/tony/ros2_ws/src/interbotix_ros_manipulators/interbotix_ros_xsarms/examples/interbotix_xsarm_joy -DCMAKE_INSTALL_PREFIX=/home/tony/ros2_ws/src/install/interbotix_xsarm_joy
+[0.344s] -- The C compiler identification is GNU 11.4.0
+[0.563s] -- The CXX compiler identification is GNU 11.4.0
+[0.602s] -- Detecting C compiler ABI info
+[0.779s] -- Detecting C compiler ABI info - done
+[0.803s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.803s] -- Detecting C compile features
+[0.803s] -- Detecting C compile features - done
+[0.818s] -- Detecting CXX compiler ABI info
+[1.014s] -- Detecting CXX compiler ABI info - done
+[1.021s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.021s] -- Detecting CXX compile features
+[1.029s] -- Detecting CXX compile features - done
+[1.029s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.959s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[3.300s] [31mCMake Error at CMakeLists.txt:14 (find_package):
+[3.301s]   By not providing "Findinterbotix_xs_msgs.cmake" in CMAKE_MODULE_PATH this
+[3.301s]   project has asked CMake to find a package configuration file provided by
+[3.301s]   "interbotix_xs_msgs", but CMake did not find one.
+[3.301s] 
+[3.301s]   Could not find a package configuration file provided by
+[3.301s]   "interbotix_xs_msgs" with any of the following names:
+[3.301s] 
+[3.301s]     interbotix_xs_msgsConfig.cmake
+[3.301s]     interbotix_xs_msgs-config.cmake
+[3.301s] 
+[3.301s]   Add the installation prefix of "interbotix_xs_msgs" to CMAKE_PREFIX_PATH or
+[3.302s]   set "interbotix_xs_msgs_DIR" to a directory containing one of the above
+[3.302s]   files.  If "interbotix_xs_msgs" provides a separate development package or
+[3.302s]   SDK, be sure it has been installed.
+[3.303s] 
+[3.303s] [0m
+[3.303s] -- Configuring incomplete, errors occurred!
+[3.303s] See also "/home/tony/ros2_ws/src/build/interbotix_xsarm_joy/CMakeFiles/CMakeOutput.log".
+[4.092s] Invoked command in '/home/tony/ros2_ws/src/build/interbotix_xsarm_joy' returned '1': AMENT_PREFIX_PATH=/home/tony/ros2_ws/src/install/interbotix_xsarm_control:/home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/tony/ros2_ws/src/install/interbotix_xsarm_control:/home/tony/ros2_ws/src/install/interbotix_xsarm_descriptions:/home/tony/ros2_ws/install/turtlebot3:/home/tony/ros2_ws/install/turtlebot3_bringup:/home/tony/ros2_ws/install/turtlebot3_node:/home/tony/ros2_ws/install/turtlebot3_navigation2:/home/tony/ros2_ws/install/turtlebot3_description:/home/tony/ros2_ws/install/turtlebot3_cartographer:/home/tony/ros2_ws/install/ros2_aruco_interfaces:/home/tony/ros2_ws/install/realsense2_description:/home/tony/ros2_ws/install/realsense2_camera:/home/tony/ros2_ws/install/realsense2_camera_msgs:/home/tony/ros2_ws/install/pan_tilt_driver:/home/tony/ros2_ws/install/pan_tilt_msgs:/home/tony/ros2_ws/install/pan_tilt_description:/home/tony/ros2_ws/install/pan_tilt_bringup:/home/tony/ros2_ws/install/iqr_tb4_navigation:/home/tony/ros2_ws/install/iqr_tb4_bringup:/home/tony/ros2_ws/install/interbotix_xsarm_sim:/home/tony/ros2_ws/install/interbotix_xsarm_control:/home/tony/ros2_ws/install/interbotix_xsarm_descriptions:/home/tony/ros2_ws/install/EI_Final_Project:/home/tony/ros2_ws/install/yolov10_inference:/home/tony/ros2_ws/install/witmotion_ros_driver:/home/tony/ros2_ws/install/turtlebot3_teleop:/home/tony/ros2_ws/install/turtlebot3_example:/home/tony/ros2_ws/install/ros2_aruco:/home/tony/ros2_ws/install/opencv_pkg:/home/tony/ros2_ws/install/iqr_tb4_description:/home/tony/ros2_ws/install/ax12a_arm_controller:/opt/ros/humble /usr/bin/cmake /home/tony/ros2_ws/src/interbotix_ros_manipulators/interbotix_ros_xsarms/examples/interbotix_xsarm_joy -DCMAKE_INSTALL_PREFIX=/home/tony/ros2_ws/src/install/interbotix_xsarm_joy

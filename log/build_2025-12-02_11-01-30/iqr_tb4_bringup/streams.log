@@ -1,0 +1,25 @@
+[1.444s] Invoking command in '/home/tony/ros2_ws/build/iqr_tb4_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tony/ros2_ws/install/yolov10_inference:/home/tony/ros2_ws/install/witmotion_ros_driver:/home/tony/ros2_ws/install/turtlebot3_teleop:/home/tony/ros2_ws/install/turtlebot3_example:/home/tony/ros2_ws/install/ros2_aruco:/home/tony/ros2_ws/install/opencv_pkg:/home/tony/ros2_ws/install/ax12a_arm_controller:/opt/ros/humble /usr/bin/cmake --build /home/tony/ros2_ws/build/iqr_tb4_bringup -- -j8 -l8
+[1.511s] Invoked command in '/home/tony/ros2_ws/build/iqr_tb4_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tony/ros2_ws/install/yolov10_inference:/home/tony/ros2_ws/install/witmotion_ros_driver:/home/tony/ros2_ws/install/turtlebot3_teleop:/home/tony/ros2_ws/install/turtlebot3_example:/home/tony/ros2_ws/install/ros2_aruco:/home/tony/ros2_ws/install/opencv_pkg:/home/tony/ros2_ws/install/ax12a_arm_controller:/opt/ros/humble /usr/bin/cmake --build /home/tony/ros2_ws/build/iqr_tb4_bringup -- -j8 -l8
+[1.550s] Invoking command in '/home/tony/ros2_ws/build/iqr_tb4_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tony/ros2_ws/install/yolov10_inference:/home/tony/ros2_ws/install/witmotion_ros_driver:/home/tony/ros2_ws/install/turtlebot3_teleop:/home/tony/ros2_ws/install/turtlebot3_example:/home/tony/ros2_ws/install/ros2_aruco:/home/tony/ros2_ws/install/opencv_pkg:/home/tony/ros2_ws/install/ax12a_arm_controller:/opt/ros/humble /usr/bin/cmake --install /home/tony/ros2_ws/build/iqr_tb4_bringup
+[1.560s] -- Install configuration: ""
+[1.569s] -- Execute custom install script
+[1.569s] -- Up-to-date symlink: /home/tony/ros2_ws/install/iqr_tb4_bringup/share/iqr_tb4_bringup/launch/bringup.launch.py
+[1.569s] -- Up-to-date symlink: /home/tony/ros2_ws/install/iqr_tb4_bringup/share/iqr_tb4_bringup/launch/joy_teleop.launch.py
+[1.569s] -- Up-to-date symlink: /home/tony/ros2_ws/install/iqr_tb4_bringup/share/iqr_tb4_bringup/config/controller.config.yaml
+[1.569s] -- Up-to-date symlink: /home/tony/ros2_ws/install/iqr_tb4_bringup/lib/iqr_tb4_bringup/gripper_control.py
+[1.569s] -- Up-to-date symlink: /home/tony/ros2_ws/install/iqr_tb4_bringup/share/ament_index/resource_index/package_run_dependencies/iqr_tb4_bringup
+[1.569s] -- Up-to-date symlink: /home/tony/ros2_ws/install/iqr_tb4_bringup/share/ament_index/resource_index/parent_prefix_path/iqr_tb4_bringup
+[1.569s] -- Up-to-date symlink: /home/tony/ros2_ws/install/iqr_tb4_bringup/share/iqr_tb4_bringup/environment/ament_prefix_path.sh
+[1.569s] -- Up-to-date symlink: /home/tony/ros2_ws/install/iqr_tb4_bringup/share/iqr_tb4_bringup/environment/ament_prefix_path.dsv
+[1.569s] -- Up-to-date symlink: /home/tony/ros2_ws/install/iqr_tb4_bringup/share/iqr_tb4_bringup/environment/path.sh
+[1.569s] -- Up-to-date symlink: /home/tony/ros2_ws/install/iqr_tb4_bringup/share/iqr_tb4_bringup/environment/path.dsv
+[1.569s] -- Up-to-date symlink: /home/tony/ros2_ws/install/iqr_tb4_bringup/share/iqr_tb4_bringup/local_setup.bash
+[1.570s] -- Up-to-date symlink: /home/tony/ros2_ws/install/iqr_tb4_bringup/share/iqr_tb4_bringup/local_setup.sh
+[1.570s] -- Up-to-date symlink: /home/tony/ros2_ws/install/iqr_tb4_bringup/share/iqr_tb4_bringup/local_setup.zsh
+[1.570s] -- Up-to-date symlink: /home/tony/ros2_ws/install/iqr_tb4_bringup/share/iqr_tb4_bringup/local_setup.dsv
+[1.570s] -- Symlinking: /home/tony/ros2_ws/install/iqr_tb4_bringup/share/iqr_tb4_bringup/package.dsv
+[1.607s] -- Up-to-date symlink: /home/tony/ros2_ws/install/iqr_tb4_bringup/share/ament_index/resource_index/packages/iqr_tb4_bringup
+[1.607s] -- Up-to-date symlink: /home/tony/ros2_ws/install/iqr_tb4_bringup/share/iqr_tb4_bringup/cmake/iqr_tb4_bringupConfig.cmake
+[1.611s] -- Up-to-date symlink: /home/tony/ros2_ws/install/iqr_tb4_bringup/share/iqr_tb4_bringup/cmake/iqr_tb4_bringupConfig-version.cmake
+[1.612s] -- Up-to-date symlink: /home/tony/ros2_ws/install/iqr_tb4_bringup/share/iqr_tb4_bringup/package.xml
+[1.686s] Invoked command in '/home/tony/ros2_ws/build/iqr_tb4_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tony/ros2_ws/install/yolov10_inference:/home/tony/ros2_ws/install/witmotion_ros_driver:/home/tony/ros2_ws/install/turtlebot3_teleop:/home/tony/ros2_ws/install/turtlebot3_example:/home/tony/ros2_ws/install/ros2_aruco:/home/tony/ros2_ws/install/opencv_pkg:/home/tony/ros2_ws/install/ax12a_arm_controller:/opt/ros/humble /usr/bin/cmake --install /home/tony/ros2_ws/build/iqr_tb4_bringup

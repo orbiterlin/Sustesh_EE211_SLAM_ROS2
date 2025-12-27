@@ -1,0 +1,44 @@
+[0.461s] Invoking command in '/home/tony/ros2_ws/build/turtlebot3_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tony/ros2_ws/install/yolov10_inference:/home/tony/ros2_ws/install/witmotion_ros_driver:/home/tony/ros2_ws/install/turtlebot3_teleop:/home/tony/ros2_ws/install/turtlebot3_example:/home/tony/ros2_ws/install/ros2_aruco:/home/tony/ros2_ws/install/opencv_pkg:/home/tony/ros2_ws/install/ax12a_arm_controller:/opt/ros/humble /usr/bin/cmake /home/tony/ros2_ws/src/turtlebot3/turtlebot3_description -DCMAKE_INSTALL_PREFIX=/home/tony/ros2_ws/install/turtlebot3_description
+[1.031s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.031s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[1.031s] -- Found urdf: 2.6.0 (/opt/ros/humble/share/urdf/cmake)
+[1.031s] -- Configuring done
+[1.031s] -- Generating done
+[1.031s] -- Build files have been written to: /home/tony/ros2_ws/build/turtlebot3_description
+[1.544s] Invoked command in '/home/tony/ros2_ws/build/turtlebot3_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tony/ros2_ws/install/yolov10_inference:/home/tony/ros2_ws/install/witmotion_ros_driver:/home/tony/ros2_ws/install/turtlebot3_teleop:/home/tony/ros2_ws/install/turtlebot3_example:/home/tony/ros2_ws/install/ros2_aruco:/home/tony/ros2_ws/install/opencv_pkg:/home/tony/ros2_ws/install/ax12a_arm_controller:/opt/ros/humble /usr/bin/cmake /home/tony/ros2_ws/src/turtlebot3/turtlebot3_description -DCMAKE_INSTALL_PREFIX=/home/tony/ros2_ws/install/turtlebot3_description
+[1.546s] Invoking command in '/home/tony/ros2_ws/build/turtlebot3_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tony/ros2_ws/install/yolov10_inference:/home/tony/ros2_ws/install/witmotion_ros_driver:/home/tony/ros2_ws/install/turtlebot3_teleop:/home/tony/ros2_ws/install/turtlebot3_example:/home/tony/ros2_ws/install/ros2_aruco:/home/tony/ros2_ws/install/opencv_pkg:/home/tony/ros2_ws/install/ax12a_arm_controller:/opt/ros/humble /usr/bin/cmake --build /home/tony/ros2_ws/build/turtlebot3_description -- -j8 -l8
+[1.593s] Invoked command in '/home/tony/ros2_ws/build/turtlebot3_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tony/ros2_ws/install/yolov10_inference:/home/tony/ros2_ws/install/witmotion_ros_driver:/home/tony/ros2_ws/install/turtlebot3_teleop:/home/tony/ros2_ws/install/turtlebot3_example:/home/tony/ros2_ws/install/ros2_aruco:/home/tony/ros2_ws/install/opencv_pkg:/home/tony/ros2_ws/install/ax12a_arm_controller:/opt/ros/humble /usr/bin/cmake --build /home/tony/ros2_ws/build/turtlebot3_description -- -j8 -l8
+[1.659s] Invoking command in '/home/tony/ros2_ws/build/turtlebot3_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tony/ros2_ws/install/yolov10_inference:/home/tony/ros2_ws/install/witmotion_ros_driver:/home/tony/ros2_ws/install/turtlebot3_teleop:/home/tony/ros2_ws/install/turtlebot3_example:/home/tony/ros2_ws/install/ros2_aruco:/home/tony/ros2_ws/install/opencv_pkg:/home/tony/ros2_ws/install/ax12a_arm_controller:/opt/ros/humble /usr/bin/cmake --install /home/tony/ros2_ws/build/turtlebot3_description
+[1.674s] -- Install configuration: ""
+[1.677s] -- Execute custom install script
+[1.677s] -- Up-to-date symlink: /home/tony/ros2_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/burger_base.stl
+[1.677s] -- Up-to-date symlink: /home/tony/ros2_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/waffle_base.stl
+[1.677s] -- Up-to-date symlink: /home/tony/ros2_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/bases/waffle_pi_base.stl
+[1.678s] -- Up-to-date symlink: /home/tony/ros2_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/sensors/astra.dae
+[1.678s] -- Up-to-date symlink: /home/tony/ros2_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/sensors/astra.jpg
+[1.678s] -- Up-to-date symlink: /home/tony/ros2_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/sensors/lds.stl
+[1.678s] -- Up-to-date symlink: /home/tony/ros2_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/sensors/r200.dae
+[1.678s] -- Up-to-date symlink: /home/tony/ros2_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/sensors/r200.jpg
+[1.678s] -- Up-to-date symlink: /home/tony/ros2_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/wheels/left_tire.stl
+[1.678s] -- Up-to-date symlink: /home/tony/ros2_ws/install/turtlebot3_description/share/turtlebot3_description/meshes/wheels/right_tire.stl
+[1.678s] -- Up-to-date symlink: /home/tony/ros2_ws/install/turtlebot3_description/share/turtlebot3_description/rviz/model.rviz
+[1.678s] -- Up-to-date symlink: /home/tony/ros2_ws/install/turtlebot3_description/share/turtlebot3_description/urdf/common_properties.urdf
+[1.678s] -- Up-to-date symlink: /home/tony/ros2_ws/install/turtlebot3_description/share/turtlebot3_description/urdf/turtlebot3_burger.urdf
+[1.678s] -- Up-to-date symlink: /home/tony/ros2_ws/install/turtlebot3_description/share/turtlebot3_description/urdf/turtlebot3_waffle.urdf
+[1.678s] -- Up-to-date symlink: /home/tony/ros2_ws/install/turtlebot3_description/share/turtlebot3_description/urdf/turtlebot3_waffle_pi.urdf
+[1.679s] -- Up-to-date symlink: /home/tony/ros2_ws/install/turtlebot3_description/share/ament_index/resource_index/package_run_dependencies/turtlebot3_description
+[1.679s] -- Up-to-date symlink: /home/tony/ros2_ws/install/turtlebot3_description/share/ament_index/resource_index/parent_prefix_path/turtlebot3_description
+[1.679s] -- Up-to-date symlink: /home/tony/ros2_ws/install/turtlebot3_description/share/turtlebot3_description/environment/ament_prefix_path.sh
+[1.679s] -- Up-to-date symlink: /home/tony/ros2_ws/install/turtlebot3_description/share/turtlebot3_description/environment/ament_prefix_path.dsv
+[1.679s] -- Up-to-date symlink: /home/tony/ros2_ws/install/turtlebot3_description/share/turtlebot3_description/environment/path.sh
+[1.679s] -- Up-to-date symlink: /home/tony/ros2_ws/install/turtlebot3_description/share/turtlebot3_description/environment/path.dsv
+[1.679s] -- Up-to-date symlink: /home/tony/ros2_ws/install/turtlebot3_description/share/turtlebot3_description/local_setup.bash
+[1.679s] -- Up-to-date symlink: /home/tony/ros2_ws/install/turtlebot3_description/share/turtlebot3_description/local_setup.sh
+[1.679s] -- Up-to-date symlink: /home/tony/ros2_ws/install/turtlebot3_description/share/turtlebot3_description/local_setup.zsh
+[1.679s] -- Up-to-date symlink: /home/tony/ros2_ws/install/turtlebot3_description/share/turtlebot3_description/local_setup.dsv
+[1.679s] -- Symlinking: /home/tony/ros2_ws/install/turtlebot3_description/share/turtlebot3_description/package.dsv
+[1.689s] -- Up-to-date symlink: /home/tony/ros2_ws/install/turtlebot3_description/share/ament_index/resource_index/packages/turtlebot3_description
+[1.690s] -- Up-to-date symlink: /home/tony/ros2_ws/install/turtlebot3_description/share/turtlebot3_description/cmake/turtlebot3_descriptionConfig.cmake
+[1.690s] -- Up-to-date symlink: /home/tony/ros2_ws/install/turtlebot3_description/share/turtlebot3_description/cmake/turtlebot3_descriptionConfig-version.cmake
+[1.690s] -- Up-to-date symlink: /home/tony/ros2_ws/install/turtlebot3_description/share/turtlebot3_description/package.xml
+[1.855s] Invoked command in '/home/tony/ros2_ws/build/turtlebot3_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tony/ros2_ws/install/yolov10_inference:/home/tony/ros2_ws/install/witmotion_ros_driver:/home/tony/ros2_ws/install/turtlebot3_teleop:/home/tony/ros2_ws/install/turtlebot3_example:/home/tony/ros2_ws/install/ros2_aruco:/home/tony/ros2_ws/install/opencv_pkg:/home/tony/ros2_ws/install/ax12a_arm_controller:/opt/ros/humble /usr/bin/cmake --install /home/tony/ros2_ws/build/turtlebot3_description

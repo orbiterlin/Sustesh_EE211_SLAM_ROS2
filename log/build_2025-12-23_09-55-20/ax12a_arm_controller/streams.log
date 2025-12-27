@@ -1,0 +1,23 @@
+[2.840s] Invoking command in '/home/tony/ros2_ws/src/ax12a_arm_controller': PYTHONPATH=/home/tony/ros2_ws/build/ax12a_arm_controller/prefix_override:/home/tony/ros2_ws/install/ax12a_arm_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ax12a_arm_controller build --build-base /home/tony/ros2_ws/build/ax12a_arm_controller/build install --record /home/tony/ros2_ws/build/ax12a_arm_controller/install.log --single-version-externally-managed
+[3.243s] running egg_info
+[3.258s] writing ../../build/ax12a_arm_controller/ax12a_arm_controller.egg-info/PKG-INFO
+[3.258s] writing dependency_links to ../../build/ax12a_arm_controller/ax12a_arm_controller.egg-info/dependency_links.txt
+[3.258s] writing entry points to ../../build/ax12a_arm_controller/ax12a_arm_controller.egg-info/entry_points.txt
+[3.259s] writing requirements to ../../build/ax12a_arm_controller/ax12a_arm_controller.egg-info/requires.txt
+[3.259s] writing top-level names to ../../build/ax12a_arm_controller/ax12a_arm_controller.egg-info/top_level.txt
+[3.289s] reading manifest file '../../build/ax12a_arm_controller/ax12a_arm_controller.egg-info/SOURCES.txt'
+[3.290s] writing manifest file '../../build/ax12a_arm_controller/ax12a_arm_controller.egg-info/SOURCES.txt'
+[3.290s] running build
+[3.290s] running build_py
+[3.290s] running install
+[3.290s] /home/tony/.local/lib/python3.10/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[3.291s]   warnings.warn(
+[3.299s] running install_lib
+[3.319s] running install_data
+[3.336s] running install_egg_info
+[3.354s] removing '/home/tony/ros2_ws/install/ax12a_arm_controller/lib/python3.10/site-packages/ax12a_arm_controller-0.0.1-py3.10.egg-info' (and everything under it)
+[3.355s] Copying ../../build/ax12a_arm_controller/ax12a_arm_controller.egg-info to /home/tony/ros2_ws/install/ax12a_arm_controller/lib/python3.10/site-packages/ax12a_arm_controller-0.0.1-py3.10.egg-info
+[3.355s] running install_scripts
+[3.414s] Installing ax12a_arm_node script to /home/tony/ros2_ws/install/ax12a_arm_controller/lib/ax12a_arm_controller
+[3.416s] writing list of installed files to '/home/tony/ros2_ws/build/ax12a_arm_controller/install.log'
+[3.769s] Invoked command in '/home/tony/ros2_ws/src/ax12a_arm_controller' returned '0': PYTHONPATH=/home/tony/ros2_ws/build/ax12a_arm_controller/prefix_override:/home/tony/ros2_ws/install/ax12a_arm_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/ax12a_arm_controller build --build-base /home/tony/ros2_ws/build/ax12a_arm_controller/build install --record /home/tony/ros2_ws/build/ax12a_arm_controller/install.log --single-version-externally-managed

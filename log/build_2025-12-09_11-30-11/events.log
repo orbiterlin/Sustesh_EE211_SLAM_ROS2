@@ -1,0 +1,251 @@
+[0.000000] (-) TimerEvent: {}
+[0.000247] (-) JobUnselected: {'identifier': 'ax12a_arm_controller'}
+[0.000453] (-) JobUnselected: {'identifier': 'iqr_tb4_bringup'}
+[0.000468] (-) JobUnselected: {'identifier': 'iqr_tb4_description'}
+[0.000479] (-) JobUnselected: {'identifier': 'iqr_tb4_navigation'}
+[0.000490] (-) JobUnselected: {'identifier': 'pan_tilt_bringup'}
+[0.000500] (-) JobUnselected: {'identifier': 'pan_tilt_description'}
+[0.000510] (-) JobUnselected: {'identifier': 'pan_tilt_driver'}
+[0.000520] (-) JobUnselected: {'identifier': 'pan_tilt_msgs'}
+[0.000530] (-) JobUnselected: {'identifier': 'realsense2_camera'}
+[0.000540] (-) JobUnselected: {'identifier': 'realsense2_camera_msgs'}
+[0.000550] (-) JobUnselected: {'identifier': 'realsense2_description'}
+[0.000559] (-) JobUnselected: {'identifier': 'ros2_aruco'}
+[0.000569] (-) JobUnselected: {'identifier': 'ros2_aruco_interfaces'}
+[0.000579] (-) JobUnselected: {'identifier': 'turtlebot3'}
+[0.000589] (-) JobUnselected: {'identifier': 'turtlebot3_bringup'}
+[0.000599] (-) JobUnselected: {'identifier': 'turtlebot3_cartographer'}
+[0.000609] (-) JobUnselected: {'identifier': 'turtlebot3_description'}
+[0.000619] (-) JobUnselected: {'identifier': 'turtlebot3_example'}
+[0.000629] (-) JobUnselected: {'identifier': 'turtlebot3_navigation2'}
+[0.000642] (-) JobUnselected: {'identifier': 'turtlebot3_node'}
+[0.000651] (-) JobUnselected: {'identifier': 'turtlebot3_teleop'}
+[0.000661] (-) JobUnselected: {'identifier': 'witmotion_ros_driver'}
+[0.000671] (-) JobUnselected: {'identifier': 'yolov10_inference'}
+[0.000684] (EI_Final_Project) JobQueued: {'identifier': 'EI_Final_Project', 'dependencies': OrderedDict()}
+[0.000698] (EI_Final_Project) JobStarted: {'identifier': 'EI_Final_Project'}
+[0.077894] (EI_Final_Project) JobProgress: {'identifier': 'EI_Final_Project', 'progress': 'cmake'}
+[0.078110] (EI_Final_Project) Command: {'cmd': ['/usr/bin/cmake', '/home/tony/ros2_ws/src/EI_Final_Project', '-DCMAKE_INSTALL_PREFIX=/home/tony/ros2_ws/install/EI_Final_Project'], 'cwd': '/home/tony/ros2_ws/build/EI_Final_Project', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'tony'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/tony/ros2_ws/install/ros2_aruco_interfaces/lib:/home/tony/ros2_ws/install/realsense2_camera/lib:/home/tony/ros2_ws/install/realsense2_camera_msgs/lib:/home/tony/ros2_ws/install/pan_tilt_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/tony'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/tony/ros2_ws'), ('TERM_PROGRAM_VERSION', '1.106.3'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '2490'), ('SYSTEMD_EXEC_PID', '2995'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '8458'), ('COLCON_PREFIX_PATH', '/home/tony/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'tony'), ('JOURNAL_STREAM', '8:16302'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'tony'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/tony/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/iqr-turtlebot4-128:@/tmp/.ICE-unix/2972,unix/iqr-turtlebot4-128:/tmp/.ICE-unix/2972'), ('INVOCATION_ID', '51c8d8560cd04b9e96bf335dc5864518'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/3d6b31cb_dcfd_47c8_81bc_086c9f2d8f4f'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('PYTHONSTARTUP', '/home/tony/.config/Code/User/workspaceStorage/4bc09c17e766d02378b0554ea6b5864c/ms-python.python/pythonrc.py'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('CLINE_ACTIVE', 'true'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-60ade31eeb.sock'), ('GNOME_TERMINAL_SERVICE', ':1.124'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('ROSDISTRO_INDEX_URL', 'https://mirrors.bfsu.edu.cn/rosdistro/index-v4.yaml'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '24'), ('AMENT_PREFIX_PATH', '/home/tony/ros2_ws/install/yolov10_inference:/home/tony/ros2_ws/install/witmotion_ros_driver:/home/tony/ros2_ws/install/turtlebot3:/home/tony/ros2_ws/install/turtlebot3_teleop:/home/tony/ros2_ws/install/turtlebot3_bringup:/home/tony/ros2_ws/install/turtlebot3_node:/home/tony/ros2_ws/install/turtlebot3_navigation2:/home/tony/ros2_ws/install/turtlebot3_example:/home/tony/ros2_ws/install/turtlebot3_description:/home/tony/ros2_ws/install/turtlebot3_cartographer:/home/tony/ros2_ws/install/ros2_aruco_interfaces:/home/tony/ros2_ws/install/ros2_aruco:/home/tony/ros2_ws/install/realsense2_description:/home/tony/ros2_ws/install/realsense2_camera:/home/tony/ros2_ws/install/realsense2_camera_msgs:/home/tony/ros2_ws/install/pan_tilt_driver:/home/tony/ros2_ws/install/pan_tilt_msgs:/home/tony/ros2_ws/install/pan_tilt_description:/home/tony/ros2_ws/install/pan_tilt_bringup:/home/tony/ros2_ws/install/opencv_pkg:/home/tony/ros2_ws/install/iqr_tb4_navigation:/home/tony/ros2_ws/install/iqr_tb4_description:/home/tony/ros2_ws/install/iqr_tb4_bringup:/home/tony/ros2_ws/install/ax12a_arm_controller:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('NO_AT_BRIDGE', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tony/ros2_ws/build/EI_Final_Project'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/tony/ros2_ws/install/yolov10_inference/lib/python3.10/site-packages:/home/tony/ros2_ws/install/witmotion_ros_driver/lib/python3.10/site-packages:/home/tony/ros2_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/tony/ros2_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/tony/ros2_ws/install/ros2_aruco_interfaces/local/lib/python3.10/dist-packages:/home/tony/ros2_ws/install/ros2_aruco/lib/python3.10/site-packages:/home/tony/ros2_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:/home/tony/ros2_ws/install/pan_tilt_msgs/local/lib/python3.10/dist-packages:/home/tony/ros2_ws/build/opencv_pkg:/home/tony/ros2_ws/install/opencv_pkg/lib/python3.10/site-packages:/home/tony/ros2_ws/install/ax12a_arm_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/tony/ros2_ws/install/turtlebot3:/home/tony/ros2_ws/install/turtlebot3_bringup:/home/tony/ros2_ws/install/turtlebot3_node:/home/tony/ros2_ws/install/turtlebot3_navigation2:/home/tony/ros2_ws/install/turtlebot3_description:/home/tony/ros2_ws/install/turtlebot3_cartographer:/home/tony/ros2_ws/install/ros2_aruco_interfaces:/home/tony/ros2_ws/install/realsense2_description:/home/tony/ros2_ws/install/realsense2_camera:/home/tony/ros2_ws/install/realsense2_camera_msgs:/home/tony/ros2_ws/install/pan_tilt_driver:/home/tony/ros2_ws/install/pan_tilt_msgs:/home/tony/ros2_ws/install/pan_tilt_description:/home/tony/ros2_ws/install/pan_tilt_bringup:/home/tony/ros2_ws/install/iqr_tb4_navigation:/home/tony/ros2_ws/install/iqr_tb4_description:/home/tony/ros2_ws/install/iqr_tb4_bringup:/home/tony/ros2_ws/install/yolov10_inference:/home/tony/ros2_ws/install/witmotion_ros_driver:/home/tony/ros2_ws/install/turtlebot3_teleop:/home/tony/ros2_ws/install/turtlebot3_example:/home/tony/ros2_ws/install/ros2_aruco:/home/tony/ros2_ws/install/opencv_pkg:/home/tony/ros2_ws/install/ax12a_arm_controller:/opt/ros/humble')]), 'shell': False}
+[0.099796] (-) TimerEvent: {}
+[0.162496] (EI_Final_Project) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.199919] (-) TimerEvent: {}
+[0.230764] (EI_Final_Project) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.238188] (EI_Final_Project) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.300357] (-) TimerEvent: {}
+[0.304305] (EI_Final_Project) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.310895] (EI_Final_Project) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.311271] (EI_Final_Project) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.311902] (EI_Final_Project) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.315608] (EI_Final_Project) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.395897] (EI_Final_Project) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.400142] (-) TimerEvent: {}
+[0.404897] (EI_Final_Project) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.405160] (EI_Final_Project) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.405723] (EI_Final_Project) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.413266] (EI_Final_Project) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.500276] (-) TimerEvent: {}
+[0.600541] (-) TimerEvent: {}
+[0.701360] (-) TimerEvent: {}
+[0.801740] (-) TimerEvent: {}
+[0.902067] (-) TimerEvent: {}
+[1.002326] (-) TimerEvent: {}
+[1.102672] (-) TimerEvent: {}
+[1.203113] (-) TimerEvent: {}
+[1.252438] (EI_Final_Project) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[1.303187] (-) TimerEvent: {}
+[1.383570] (EI_Final_Project) StdoutLine: {'line': b'-- Found rclcpp: 16.0.7 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[1.403303] (-) TimerEvent: {}
+[1.451394] (EI_Final_Project) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[1.459374] (EI_Final_Project) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[1.472177] (EI_Final_Project) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[1.491020] (EI_Final_Project) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.503408] (-) TimerEvent: {}
+[1.515753] (EI_Final_Project) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.603798] (EI_Final_Project) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[1.604235] (-) TimerEvent: {}
+[1.611744] (EI_Final_Project) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[1.704344] (-) TimerEvent: {}
+[1.724034] (EI_Final_Project) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[1.754797] (EI_Final_Project) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[1.802572] (EI_Final_Project) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[1.804445] (-) TimerEvent: {}
+[1.820224] (EI_Final_Project) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[1.889638] (EI_Final_Project) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[1.890141] (EI_Final_Project) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[1.904540] (-) TimerEvent: {}
+[1.956764] (EI_Final_Project) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[1.957952] (EI_Final_Project) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[2.005189] (-) TimerEvent: {}
+[2.105652] (-) TimerEvent: {}
+[2.108357] (EI_Final_Project) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[2.151445] (EI_Final_Project) StdoutLine: {'line': b'-- Found sensor_msgs: 4.2.3 (/opt/ros/humble/share/sensor_msgs/cmake)\n'}
+[2.205787] (-) TimerEvent: {}
+[2.224997] (EI_Final_Project) StdoutLine: {'line': b'-- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[2.300118] (EI_Final_Project) StdoutLine: {'line': b'-- Found std_srvs: 4.2.3 (/opt/ros/humble/share/std_srvs/cmake)\n'}
+[2.306025] (-) TimerEvent: {}
+[2.319049] (EI_Final_Project) StdoutLine: {'line': b'-- Found tf2: 0.25.8 (/opt/ros/humble/share/tf2/cmake)\n'}
+[2.337334] (EI_Final_Project) StdoutLine: {'line': b'-- Found tf2_ros: 0.25.8 (/opt/ros/humble/share/tf2_ros/cmake)\n'}
+[2.406155] (-) TimerEvent: {}
+[2.506898] (-) TimerEvent: {}
+[2.607581] (-) TimerEvent: {}
+[2.653973] (EI_Final_Project) StdoutLine: {'line': b'-- Found tf2_geometry_msgs: 0.25.5 (/opt/ros/humble/share/tf2_geometry_msgs/cmake)\n'}
+[2.677907] (EI_Final_Project) StdoutLine: {'line': b'-- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)\n'}
+[2.679599] (EI_Final_Project) StdoutLine: {'line': b'-- Found Eigen3: TRUE (found version "3.4.0") \n'}
+[2.679672] (EI_Final_Project) StdoutLine: {'line': b'-- Ensuring Eigen3 include directory is part of orocos-kdl CMake target\n'}
+[2.695790] (EI_Final_Project) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[2.707695] (-) TimerEvent: {}
+[2.751996] (EI_Final_Project) StderrLine: {'line': b'WARNING: Package name "EI_Final_Project" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.\n'}
+[2.801374] (EI_Final_Project) StdoutLine: {'line': b"-- Added test 'copyright' to check source files copyright and LICENSE\n"}
+[2.803106] (EI_Final_Project) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[2.803227] (EI_Final_Project) StdoutLine: {'line': b'-- Configured cppcheck include dirs: /home/tony/ros2_ws/src/EI_Final_Project/include\n'}
+[2.803292] (EI_Final_Project) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[2.804667] (EI_Final_Project) StdoutLine: {'line': b"-- Added test 'cpplint' to check C / C++ code against the Google style\n"}
+[2.804749] (EI_Final_Project) StdoutLine: {'line': b'-- Configured cpplint exclude dirs and/or files: \n'}
+[2.805615] (EI_Final_Project) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[2.806417] (EI_Final_Project) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.807242] (EI_Final_Project) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[2.807779] (-) TimerEvent: {}
+[2.808812] (EI_Final_Project) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[2.808997] (EI_Final_Project) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[2.810032] (EI_Final_Project) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.813350] (EI_Final_Project) StdoutLine: {'line': b'-- Configuring done\n'}
+[2.823835] (EI_Final_Project) StdoutLine: {'line': b'-- Generating done\n'}
+[2.825745] (EI_Final_Project) StdoutLine: {'line': b'-- Build files have been written to: /home/tony/ros2_ws/build/EI_Final_Project\n'}
+[2.838777] (EI_Final_Project) CommandEnded: {'returncode': 0}
+[2.839326] (EI_Final_Project) JobProgress: {'identifier': 'EI_Final_Project', 'progress': 'build'}
+[2.839900] (EI_Final_Project) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/tony/ros2_ws/build/EI_Final_Project', '--', '-j8', '-l8'], 'cwd': '/home/tony/ros2_ws/build/EI_Final_Project', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'tony'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/tony/ros2_ws/install/ros2_aruco_interfaces/lib:/home/tony/ros2_ws/install/realsense2_camera/lib:/home/tony/ros2_ws/install/realsense2_camera_msgs/lib:/home/tony/ros2_ws/install/pan_tilt_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/tony'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/tony/ros2_ws'), ('TERM_PROGRAM_VERSION', '1.106.3'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '2490'), ('SYSTEMD_EXEC_PID', '2995'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '8458'), ('COLCON_PREFIX_PATH', '/home/tony/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'tony'), ('JOURNAL_STREAM', '8:16302'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'tony'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/tony/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/iqr-turtlebot4-128:@/tmp/.ICE-unix/2972,unix/iqr-turtlebot4-128:/tmp/.ICE-unix/2972'), ('INVOCATION_ID', '51c8d8560cd04b9e96bf335dc5864518'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/3d6b31cb_dcfd_47c8_81bc_086c9f2d8f4f'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('PYTHONSTARTUP', '/home/tony/.config/Code/User/workspaceStorage/4bc09c17e766d02378b0554ea6b5864c/ms-python.python/pythonrc.py'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('CLINE_ACTIVE', 'true'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-60ade31eeb.sock'), ('GNOME_TERMINAL_SERVICE', ':1.124'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('ROSDISTRO_INDEX_URL', 'https://mirrors.bfsu.edu.cn/rosdistro/index-v4.yaml'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '24'), ('AMENT_PREFIX_PATH', '/home/tony/ros2_ws/install/yolov10_inference:/home/tony/ros2_ws/install/witmotion_ros_driver:/home/tony/ros2_ws/install/turtlebot3:/home/tony/ros2_ws/install/turtlebot3_teleop:/home/tony/ros2_ws/install/turtlebot3_bringup:/home/tony/ros2_ws/install/turtlebot3_node:/home/tony/ros2_ws/install/turtlebot3_navigation2:/home/tony/ros2_ws/install/turtlebot3_example:/home/tony/ros2_ws/install/turtlebot3_description:/home/tony/ros2_ws/install/turtlebot3_cartographer:/home/tony/ros2_ws/install/ros2_aruco_interfaces:/home/tony/ros2_ws/install/ros2_aruco:/home/tony/ros2_ws/install/realsense2_description:/home/tony/ros2_ws/install/realsense2_camera:/home/tony/ros2_ws/install/realsense2_camera_msgs:/home/tony/ros2_ws/install/pan_tilt_driver:/home/tony/ros2_ws/install/pan_tilt_msgs:/home/tony/ros2_ws/install/pan_tilt_description:/home/tony/ros2_ws/install/pan_tilt_bringup:/home/tony/ros2_ws/install/opencv_pkg:/home/tony/ros2_ws/install/iqr_tb4_navigation:/home/tony/ros2_ws/install/iqr_tb4_description:/home/tony/ros2_ws/install/iqr_tb4_bringup:/home/tony/ros2_ws/install/ax12a_arm_controller:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('NO_AT_BRIDGE', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tony/ros2_ws/build/EI_Final_Project'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/tony/ros2_ws/install/yolov10_inference/lib/python3.10/site-packages:/home/tony/ros2_ws/install/witmotion_ros_driver/lib/python3.10/site-packages:/home/tony/ros2_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/tony/ros2_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/tony/ros2_ws/install/ros2_aruco_interfaces/local/lib/python3.10/dist-packages:/home/tony/ros2_ws/install/ros2_aruco/lib/python3.10/site-packages:/home/tony/ros2_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:/home/tony/ros2_ws/install/pan_tilt_msgs/local/lib/python3.10/dist-packages:/home/tony/ros2_ws/build/opencv_pkg:/home/tony/ros2_ws/install/opencv_pkg/lib/python3.10/site-packages:/home/tony/ros2_ws/install/ax12a_arm_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/tony/ros2_ws/install/turtlebot3:/home/tony/ros2_ws/install/turtlebot3_bringup:/home/tony/ros2_ws/install/turtlebot3_node:/home/tony/ros2_ws/install/turtlebot3_navigation2:/home/tony/ros2_ws/install/turtlebot3_description:/home/tony/ros2_ws/install/turtlebot3_cartographer:/home/tony/ros2_ws/install/ros2_aruco_interfaces:/home/tony/ros2_ws/install/realsense2_description:/home/tony/ros2_ws/install/realsense2_camera:/home/tony/ros2_ws/install/realsense2_camera_msgs:/home/tony/ros2_ws/install/pan_tilt_driver:/home/tony/ros2_ws/install/pan_tilt_msgs:/home/tony/ros2_ws/install/pan_tilt_description:/home/tony/ros2_ws/install/pan_tilt_bringup:/home/tony/ros2_ws/install/iqr_tb4_navigation:/home/tony/ros2_ws/install/iqr_tb4_description:/home/tony/ros2_ws/install/iqr_tb4_bringup:/home/tony/ros2_ws/install/yolov10_inference:/home/tony/ros2_ws/install/witmotion_ros_driver:/home/tony/ros2_ws/install/turtlebot3_teleop:/home/tony/ros2_ws/install/turtlebot3_example:/home/tony/ros2_ws/install/ros2_aruco:/home/tony/ros2_ws/install/opencv_pkg:/home/tony/ros2_ws/install/ax12a_arm_controller:/opt/ros/humble')]), 'shell': False}
+[2.891696] (EI_Final_Project) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/map_saver_node.dir/src/map_saver_node.cpp.o\x1b[0m\n'}
+[2.907890] (-) TimerEvent: {}
+[3.008280] (-) TimerEvent: {}
+[3.108618] (-) TimerEvent: {}
+[3.209196] (-) TimerEvent: {}
+[3.309871] (-) TimerEvent: {}
+[3.410356] (-) TimerEvent: {}
+[3.511463] (-) TimerEvent: {}
+[3.611823] (-) TimerEvent: {}
+[3.712439] (-) TimerEvent: {}
+[3.812806] (-) TimerEvent: {}
+[3.913174] (-) TimerEvent: {}
+[4.013574] (-) TimerEvent: {}
+[4.113924] (-) TimerEvent: {}
+[4.214240] (-) TimerEvent: {}
+[4.314696] (-) TimerEvent: {}
+[4.414993] (-) TimerEvent: {}
+[4.515283] (-) TimerEvent: {}
+[4.615629] (-) TimerEvent: {}
+[4.716094] (-) TimerEvent: {}
+[4.816465] (-) TimerEvent: {}
+[4.916841] (-) TimerEvent: {}
+[5.017197] (-) TimerEvent: {}
+[5.117564] (-) TimerEvent: {}
+[5.217947] (-) TimerEvent: {}
+[5.291162] (EI_Final_Project) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tony/ros2_ws/src/EI_Final_Project/src/map_saver_node.cpp:\x1b[m\x1b[K In member function \xe2\x80\x98\x1b[01m\x1b[Kvoid MapSaverNode::saveMapService(std::shared_ptr<std_srvs::srv::Empty_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Empty_Response_<std::allocator<void> > >)\x1b[m\x1b[K\xe2\x80\x99:\n'}
+[5.291437] (EI_Final_Project) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tony/ros2_ws/src/EI_Final_Project/src/map_saver_node.cpp:54:78:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Krequest\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.291536] (EI_Final_Project) StderrLine: {'line': b'   54 |     void saveMapService(\x1b[01;35m\x1b[Kconst std::shared_ptr<std_srvs::srv::Empty::Request> request\x1b[m\x1b[K,\n'}
+[5.291608] (EI_Final_Project) StderrLine: {'line': b'      |                         \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~\x1b[m\x1b[K\n'}
+[5.291680] (EI_Final_Project) StderrLine: {'line': b'\x1b[01m\x1b[K/home/tony/ros2_ws/src/EI_Final_Project/src/map_saver_node.cpp:55:72:\x1b[m\x1b[K \x1b[01;35m\x1b[Kwarning: \x1b[m\x1b[Kunused parameter \xe2\x80\x98\x1b[01m\x1b[Kresponse\x1b[m\x1b[K\xe2\x80\x99 [\x1b[01;35m\x1b[K\x1b]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter\x07-Wunused-parameter\x1b]8;;\x07\x1b[m\x1b[K]\n'}
+[5.291755] (EI_Final_Project) StderrLine: {'line': b'   55 |                        \x1b[01;35m\x1b[Kstd::shared_ptr<std_srvs::srv::Empty::Response> response\x1b[m\x1b[K)\n'}
+[5.291827] (EI_Final_Project) StderrLine: {'line': b'      |                        \x1b[01;35m\x1b[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~\x1b[m\x1b[K\n'}
+[5.318157] (-) TimerEvent: {}
+[5.418618] (-) TimerEvent: {}
+[5.518959] (-) TimerEvent: {}
+[5.619273] (-) TimerEvent: {}
+[5.719600] (-) TimerEvent: {}
+[5.819966] (-) TimerEvent: {}
+[5.920429] (-) TimerEvent: {}
+[6.020747] (-) TimerEvent: {}
+[6.121040] (-) TimerEvent: {}
+[6.221523] (-) TimerEvent: {}
+[6.321958] (-) TimerEvent: {}
+[6.422280] (-) TimerEvent: {}
+[6.522628] (-) TimerEvent: {}
+[6.623098] (-) TimerEvent: {}
+[6.723560] (-) TimerEvent: {}
+[6.823937] (-) TimerEvent: {}
+[6.924717] (-) TimerEvent: {}
+[7.025174] (-) TimerEvent: {}
+[7.125492] (-) TimerEvent: {}
+[7.225829] (-) TimerEvent: {}
+[7.326240] (-) TimerEvent: {}
+[7.426726] (-) TimerEvent: {}
+[7.527114] (-) TimerEvent: {}
+[7.627439] (-) TimerEvent: {}
+[7.728289] (-) TimerEvent: {}
+[7.828732] (-) TimerEvent: {}
+[7.929311] (-) TimerEvent: {}
+[8.029942] (-) TimerEvent: {}
+[8.130266] (-) TimerEvent: {}
+[8.230608] (-) TimerEvent: {}
+[8.331089] (-) TimerEvent: {}
+[8.431376] (-) TimerEvent: {}
+[8.531673] (-) TimerEvent: {}
+[8.631938] (-) TimerEvent: {}
+[8.732292] (-) TimerEvent: {}
+[8.832544] (-) TimerEvent: {}
+[8.933164] (-) TimerEvent: {}
+[9.033622] (-) TimerEvent: {}
+[9.133936] (-) TimerEvent: {}
+[9.234250] (-) TimerEvent: {}
+[9.334509] (-) TimerEvent: {}
+[9.434787] (-) TimerEvent: {}
+[9.535059] (-) TimerEvent: {}
+[9.635626] (-) TimerEvent: {}
+[9.736097] (-) TimerEvent: {}
+[9.836390] (-) TimerEvent: {}
+[9.936741] (-) TimerEvent: {}
+[10.037050] (-) TimerEvent: {}
+[10.137340] (-) TimerEvent: {}
+[10.237653] (-) TimerEvent: {}
+[10.337978] (-) TimerEvent: {}
+[10.438302] (-) TimerEvent: {}
+[10.538610] (-) TimerEvent: {}
+[10.638961] (-) TimerEvent: {}
+[10.739287] (-) TimerEvent: {}
+[10.839578] (-) TimerEvent: {}
+[10.939921] (-) TimerEvent: {}
+[11.040541] (-) TimerEvent: {}
+[11.141268] (-) TimerEvent: {}
+[11.241708] (-) TimerEvent: {}
+[11.342138] (-) TimerEvent: {}
+[11.351455] (EI_Final_Project) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable map_saver_node\x1b[0m\n'}
+[11.442286] (-) TimerEvent: {}
+[11.542766] (-) TimerEvent: {}
+[11.645286] (-) TimerEvent: {}
+[11.745656] (-) TimerEvent: {}
+[11.846013] (-) TimerEvent: {}
+[11.887639] (EI_Final_Project) StdoutLine: {'line': b'[100%] Built target map_saver_node\n'}
+[11.898562] (EI_Final_Project) CommandEnded: {'returncode': 0}
+[11.922497] (EI_Final_Project) JobProgress: {'identifier': 'EI_Final_Project', 'progress': 'install'}
+[11.930357] (EI_Final_Project) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/tony/ros2_ws/build/EI_Final_Project'], 'cwd': '/home/tony/ros2_ws/build/EI_Final_Project', 'env': OrderedDict([('GJS_DEBUG_TOPICS', 'JS ERROR;JS LOG'), ('PYTHON_BASIC_REPL', '1'), ('LESSOPEN', '| /usr/bin/lesspipe %s'), ('LANGUAGE', 'zh_CN:en'), ('USER', 'tony'), ('LC_TIME', 'zh_CN.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('GIT_ASKPASS', '/usr/share/code/resources/app/extensions/git/dist/askpass.sh'), ('SHLVL', '2'), ('LD_LIBRARY_PATH', '/home/tony/ros2_ws/install/ros2_aruco_interfaces/lib:/home/tony/ros2_ws/install/realsense2_camera/lib:/home/tony/ros2_ws/install/realsense2_camera_msgs/lib:/home/tony/ros2_ws/install/pan_tilt_msgs/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/tony'), ('CHROME_DESKTOP', 'code.desktop'), ('OLDPWD', '/home/tony/ros2_ws'), ('TERM_PROGRAM_VERSION', '1.106.3'), ('DESKTOP_SESSION', 'ubuntu-xorg'), ('GIO_LAUNCHED_DESKTOP_FILE', '/usr/share/applications/code.desktop'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('VSCODE_GIT_ASKPASS_MAIN', '/usr/share/code/resources/app/extensions/git/dist/askpass-main.js'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_NODE', '/usr/share/code/code'), ('MANAGERPID', '2490'), ('SYSTEMD_EXEC_PID', '2995'), ('VSCODE_PYTHON_AUTOACTIVATE_GUARD', '1'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus'), ('COLORTERM', 'truecolor'), ('GIO_LAUNCHED_DESKTOP_FILE_PID', '8458'), ('COLCON_PREFIX_PATH', '/home/tony/ros2_ws/install'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'tony'), ('JOURNAL_STREAM', '8:16302'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'tony'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/home/tony/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/iqr-turtlebot4-128:@/tmp/.ICE-unix/2972,unix/iqr-turtlebot4-128:/tmp/.ICE-unix/2972'), ('INVOCATION_ID', '51c8d8560cd04b9e96bf335dc5864518'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/3d6b31cb_dcfd_47c8_81bc_086c9f2d8f4f'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('GDK_BACKEND', 'x11'), ('DISPLAY', ':1'), ('LANG', 'zh_CN.UTF-8'), ('XDG_CURRENT_DESKTOP', 'Unity'), ('PYTHONSTARTUP', '/home/tony/.config/Code/User/workspaceStorage/4bc09c17e766d02378b0554ea6b5864c/ms-python.python/pythonrc.py'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('CLINE_ACTIVE', 'true'), ('RMW_IMPLEMENTATION', 'rmw_fastrtps_cpp'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu-xorg'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('VSCODE_GIT_IPC_HANDLE', '/run/user/1000/vscode-git-60ade31eeb.sock'), ('GNOME_TERMINAL_SERVICE', ':1.124'), ('TERM_PROGRAM', 'vscode'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('ROSDISTRO_INDEX_URL', 'https://mirrors.bfsu.edu.cn/rosdistro/index-v4.yaml'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('ROS_DOMAIN_ID', '24'), ('AMENT_PREFIX_PATH', '/home/tony/ros2_ws/install/yolov10_inference:/home/tony/ros2_ws/install/witmotion_ros_driver:/home/tony/ros2_ws/install/turtlebot3:/home/tony/ros2_ws/install/turtlebot3_teleop:/home/tony/ros2_ws/install/turtlebot3_bringup:/home/tony/ros2_ws/install/turtlebot3_node:/home/tony/ros2_ws/install/turtlebot3_navigation2:/home/tony/ros2_ws/install/turtlebot3_example:/home/tony/ros2_ws/install/turtlebot3_description:/home/tony/ros2_ws/install/turtlebot3_cartographer:/home/tony/ros2_ws/install/ros2_aruco_interfaces:/home/tony/ros2_ws/install/ros2_aruco:/home/tony/ros2_ws/install/realsense2_description:/home/tony/ros2_ws/install/realsense2_camera:/home/tony/ros2_ws/install/realsense2_camera_msgs:/home/tony/ros2_ws/install/pan_tilt_driver:/home/tony/ros2_ws/install/pan_tilt_msgs:/home/tony/ros2_ws/install/pan_tilt_description:/home/tony/ros2_ws/install/pan_tilt_bringup:/home/tony/ros2_ws/install/opencv_pkg:/home/tony/ros2_ws/install/iqr_tb4_navigation:/home/tony/ros2_ws/install/iqr_tb4_description:/home/tony/ros2_ws/install/iqr_tb4_bringup:/home/tony/ros2_ws/install/ax12a_arm_controller:/opt/ros/humble'), ('ORIGINAL_XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('NO_AT_BRIDGE', '1'), ('GDMSESSION', 'ubuntu-xorg'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('GJS_DEBUG_OUTPUT', 'stderr'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('VSCODE_GIT_ASKPASS_EXTRA_ARGS', ''), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/tony/ros2_ws/build/EI_Final_Project'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu-xorg:/etc/xdg/xdg-ubuntu:/etc/xdg'), ('XDG_DATA_DIRS', '/usr/share/ubuntu-xorg:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/home/tony/ros2_ws/install/yolov10_inference/lib/python3.10/site-packages:/home/tony/ros2_ws/install/witmotion_ros_driver/lib/python3.10/site-packages:/home/tony/ros2_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:/home/tony/ros2_ws/install/turtlebot3_example/lib/python3.10/site-packages:/home/tony/ros2_ws/install/ros2_aruco_interfaces/local/lib/python3.10/dist-packages:/home/tony/ros2_ws/install/ros2_aruco/lib/python3.10/site-packages:/home/tony/ros2_ws/install/realsense2_camera_msgs/local/lib/python3.10/dist-packages:/home/tony/ros2_ws/install/pan_tilt_msgs/local/lib/python3.10/dist-packages:/home/tony/ros2_ws/build/opencv_pkg:/home/tony/ros2_ws/install/opencv_pkg/lib/python3.10/site-packages:/home/tony/ros2_ws/install/ax12a_arm_controller/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/home/tony/ros2_ws/install/turtlebot3:/home/tony/ros2_ws/install/turtlebot3_bringup:/home/tony/ros2_ws/install/turtlebot3_node:/home/tony/ros2_ws/install/turtlebot3_navigation2:/home/tony/ros2_ws/install/turtlebot3_description:/home/tony/ros2_ws/install/turtlebot3_cartographer:/home/tony/ros2_ws/install/ros2_aruco_interfaces:/home/tony/ros2_ws/install/realsense2_description:/home/tony/ros2_ws/install/realsense2_camera:/home/tony/ros2_ws/install/realsense2_camera_msgs:/home/tony/ros2_ws/install/pan_tilt_driver:/home/tony/ros2_ws/install/pan_tilt_msgs:/home/tony/ros2_ws/install/pan_tilt_description:/home/tony/ros2_ws/install/pan_tilt_bringup:/home/tony/ros2_ws/install/iqr_tb4_navigation:/home/tony/ros2_ws/install/iqr_tb4_description:/home/tony/ros2_ws/install/iqr_tb4_bringup:/home/tony/ros2_ws/install/yolov10_inference:/home/tony/ros2_ws/install/witmotion_ros_driver:/home/tony/ros2_ws/install/turtlebot3_teleop:/home/tony/ros2_ws/install/turtlebot3_example:/home/tony/ros2_ws/install/ros2_aruco:/home/tony/ros2_ws/install/opencv_pkg:/home/tony/ros2_ws/install/ax12a_arm_controller:/opt/ros/humble')]), 'shell': False}
+[11.937351] (EI_Final_Project) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[11.937717] (EI_Final_Project) StdoutLine: {'line': b'-- Installing: /home/tony/ros2_ws/install/EI_Final_Project/lib/EI_Final_Project/map_saver_node\n'}
+[11.940520] (EI_Final_Project) StdoutLine: {'line': b'-- Set runtime path of "/home/tony/ros2_ws/install/EI_Final_Project/lib/EI_Final_Project/map_saver_node" to ""\n'}
+[11.940784] (EI_Final_Project) StdoutLine: {'line': b'-- Installing: /home/tony/ros2_ws/install/EI_Final_Project/share/EI_Final_Project/launch\n'}
+[11.940877] (EI_Final_Project) StdoutLine: {'line': b'-- Installing: /home/tony/ros2_ws/install/EI_Final_Project/share/EI_Final_Project/launch/slam_2d.launch.py\n'}
+[11.940953] (EI_Final_Project) StdoutLine: {'line': b'-- Installing: /home/tony/ros2_ws/install/EI_Final_Project/share/EI_Final_Project/launch/save_map.launch.py\n'}
+[11.941055] (EI_Final_Project) StdoutLine: {'line': b'-- Installing: /home/tony/ros2_ws/install/EI_Final_Project/share/EI_Final_Project/config\n'}
+[11.941126] (EI_Final_Project) StdoutLine: {'line': b'-- Installing: /home/tony/ros2_ws/install/EI_Final_Project/share/EI_Final_Project/config/slam_toolbox_params.yaml\n'}
+[11.941199] (EI_Final_Project) StdoutLine: {'line': b'-- Installing: /home/tony/ros2_ws/install/EI_Final_Project/share/EI_Final_Project/config/cartographer_params.lua\n'}
+[11.941343] (EI_Final_Project) StdoutLine: {'line': b'-- Installing: /home/tony/ros2_ws/install/EI_Final_Project/share/EI_Final_Project/maps\n'}
+[11.941416] (EI_Final_Project) StdoutLine: {'line': b'-- Installing: /home/tony/ros2_ws/install/EI_Final_Project/share/EI_Final_Project/rviz\n'}
+[11.941485] (EI_Final_Project) StdoutLine: {'line': b'-- Installing: /home/tony/ros2_ws/install/EI_Final_Project/share/EI_Final_Project/rviz/slam_2d.rviz\n'}
+[11.941600] (EI_Final_Project) StdoutLine: {'line': b'-- Installing: /home/tony/ros2_ws/install/EI_Final_Project/share/ament_index/resource_index/package_run_dependencies/EI_Final_Project\n'}
+[11.941694] (EI_Final_Project) StdoutLine: {'line': b'-- Installing: /home/tony/ros2_ws/install/EI_Final_Project/share/ament_index/resource_index/parent_prefix_path/EI_Final_Project\n'}
+[11.941764] (EI_Final_Project) StdoutLine: {'line': b'-- Installing: /home/tony/ros2_ws/install/EI_Final_Project/share/EI_Final_Project/environment/ament_prefix_path.sh\n'}
+[11.941860] (EI_Final_Project) StdoutLine: {'line': b'-- Installing: /home/tony/ros2_ws/install/EI_Final_Project/share/EI_Final_Project/environment/ament_prefix_path.dsv\n'}
+[11.941953] (EI_Final_Project) StdoutLine: {'line': b'-- Installing: /home/tony/ros2_ws/install/EI_Final_Project/share/EI_Final_Project/environment/path.sh\n'}
+[11.942088] (EI_Final_Project) StdoutLine: {'line': b'-- Installing: /home/tony/ros2_ws/install/EI_Final_Project/share/EI_Final_Project/environment/path.dsv\n'}
+[11.942180] (EI_Final_Project) StdoutLine: {'line': b'-- Installing: /home/tony/ros2_ws/install/EI_Final_Project/share/EI_Final_Project/local_setup.bash\n'}
+[11.942280] (EI_Final_Project) StdoutLine: {'line': b'-- Installing: /home/tony/ros2_ws/install/EI_Final_Project/share/EI_Final_Project/local_setup.sh\n'}
+[11.942377] (EI_Final_Project) StdoutLine: {'line': b'-- Installing: /home/tony/ros2_ws/install/EI_Final_Project/share/EI_Final_Project/local_setup.zsh\n'}
+[11.942444] (EI_Final_Project) StdoutLine: {'line': b'-- Installing: /home/tony/ros2_ws/install/EI_Final_Project/share/EI_Final_Project/local_setup.dsv\n'}
+[11.942531] (EI_Final_Project) StdoutLine: {'line': b'-- Installing: /home/tony/ros2_ws/install/EI_Final_Project/share/EI_Final_Project/package.dsv\n'}
+[11.942627] (EI_Final_Project) StdoutLine: {'line': b'-- Installing: /home/tony/ros2_ws/install/EI_Final_Project/share/ament_index/resource_index/packages/EI_Final_Project\n'}
+[11.942751] (EI_Final_Project) StdoutLine: {'line': b'-- Installing: /home/tony/ros2_ws/install/EI_Final_Project/share/EI_Final_Project/cmake/EI_Final_ProjectConfig.cmake\n'}
+[11.942917] (EI_Final_Project) StdoutLine: {'line': b'-- Installing: /home/tony/ros2_ws/install/EI_Final_Project/share/EI_Final_Project/cmake/EI_Final_ProjectConfig-version.cmake\n'}
+[11.942989] (EI_Final_Project) StdoutLine: {'line': b'-- Installing: /home/tony/ros2_ws/install/EI_Final_Project/share/EI_Final_Project/package.xml\n'}
+[11.944953] (EI_Final_Project) CommandEnded: {'returncode': 0}
+[11.946110] (-) TimerEvent: {}
+[12.060613] (-) TimerEvent: {}
+[12.117556] (EI_Final_Project) JobEnded: {'identifier': 'EI_Final_Project', 'rc': 0}
+[12.118100] (-) EventReactorShutdown: {}

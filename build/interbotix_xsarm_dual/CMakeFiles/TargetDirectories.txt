@@ -1,0 +1,9 @@
+/home/tony/ros2_ws/build/interbotix_xsarm_dual/CMakeFiles/uninstall.dir
+/home/tony/ros2_ws/build/interbotix_xsarm_dual/CMakeFiles/interbotix_xsarm_dual_uninstall.dir
+/home/tony/ros2_ws/build/interbotix_xsarm_dual/CMakeFiles/test.dir
+/home/tony/ros2_ws/build/interbotix_xsarm_dual/CMakeFiles/edit_cache.dir
+/home/tony/ros2_ws/build/interbotix_xsarm_dual/CMakeFiles/rebuild_cache.dir
+/home/tony/ros2_ws/build/interbotix_xsarm_dual/CMakeFiles/list_install_components.dir
+/home/tony/ros2_ws/build/interbotix_xsarm_dual/CMakeFiles/install.dir
+/home/tony/ros2_ws/build/interbotix_xsarm_dual/CMakeFiles/install/local.dir
+/home/tony/ros2_ws/build/interbotix_xsarm_dual/CMakeFiles/install/strip.dir

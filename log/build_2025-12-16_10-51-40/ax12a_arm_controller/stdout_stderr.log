@@ -1,0 +1,19 @@
+running develop
+/home/tony/.local/lib/python3.10/site-packages/setuptools/command/easy_install.py:144: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+/home/tony/.local/lib/python3.10/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+  warnings.warn(
+running egg_info
+writing ax12a_arm_controller.egg-info/PKG-INFO
+writing dependency_links to ax12a_arm_controller.egg-info/dependency_links.txt
+writing entry points to ax12a_arm_controller.egg-info/entry_points.txt
+writing requirements to ax12a_arm_controller.egg-info/requires.txt
+writing top-level names to ax12a_arm_controller.egg-info/top_level.txt
+reading manifest file 'ax12a_arm_controller.egg-info/SOURCES.txt'
+writing manifest file 'ax12a_arm_controller.egg-info/SOURCES.txt'
+running build_ext
+Creating /home/tony/ros2_ws/install/ax12a_arm_controller/lib/python3.10/site-packages/ax12a-arm-controller.egg-link (link to .)
+Installing ax12a_arm_node script to /home/tony/ros2_ws/install/ax12a_arm_controller/lib/ax12a_arm_controller
+
+Installed /home/tony/ros2_ws/build/ax12a_arm_controller
+running install_data

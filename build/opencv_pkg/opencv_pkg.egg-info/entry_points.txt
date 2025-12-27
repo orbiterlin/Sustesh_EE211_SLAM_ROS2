@@ -1,0 +1,3 @@
+[console_scripts]
+camera_publisher = opencv_pkg.camera_publisher:main
+camera_subscriber = opencv_pkg.camera_subscriber:main

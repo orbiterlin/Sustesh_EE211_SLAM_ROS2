@@ -1,0 +1,44 @@
+[2.849s] Invoking command in '/home/tony/ros2_ws/build/witmotion_ros_driver': PYTHONPATH=/home/tony/ros2_ws/build/witmotion_ros_driver/prefix_override:/home/tony/ros2_ws/install/witmotion_ros_driver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/tony/ros2_ws/build/witmotion_ros_driver/build
+[3.567s] running develop
+[3.571s] /home/tony/.local/lib/python3.10/site-packages/setuptools/command/easy_install.py:144: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[3.572s]   warnings.warn(
+[3.640s] /home/tony/.local/lib/python3.10/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[3.641s]   warnings.warn(
+[4.122s] Removing /home/tony/ros2_ws/install/witmotion_ros_driver/lib/python3.10/site-packages/witmotion-ros-driver.egg-link (link to .)
+[4.339s] Invoked command in '/home/tony/ros2_ws/build/witmotion_ros_driver' returned '0': PYTHONPATH=/home/tony/ros2_ws/build/witmotion_ros_driver/prefix_override:/home/tony/ros2_ws/install/witmotion_ros_driver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/tony/ros2_ws/build/witmotion_ros_driver/build
+[4.341s] Invoking command in '/home/tony/ros2_ws/src/witmotion_ros_driver': PYTHONPATH=/home/tony/ros2_ws/build/witmotion_ros_driver/prefix_override:/home/tony/ros2_ws/install/witmotion_ros_driver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/witmotion_ros_driver build --build-base /home/tony/ros2_ws/build/witmotion_ros_driver/build install --record /home/tony/ros2_ws/build/witmotion_ros_driver/install.log --single-version-externally-managed
+[4.978s] running egg_info
+[4.999s] writing ../../build/witmotion_ros_driver/witmotion_ros_driver.egg-info/PKG-INFO
+[4.999s] writing dependency_links to ../../build/witmotion_ros_driver/witmotion_ros_driver.egg-info/dependency_links.txt
+[4.999s] writing entry points to ../../build/witmotion_ros_driver/witmotion_ros_driver.egg-info/entry_points.txt
+[5.000s] writing requirements to ../../build/witmotion_ros_driver/witmotion_ros_driver.egg-info/requires.txt
+[5.001s] writing top-level names to ../../build/witmotion_ros_driver/witmotion_ros_driver.egg-info/top_level.txt
+[5.049s] reading manifest file '../../build/witmotion_ros_driver/witmotion_ros_driver.egg-info/SOURCES.txt'
+[5.050s] writing manifest file '../../build/witmotion_ros_driver/witmotion_ros_driver.egg-info/SOURCES.txt'
+[5.050s] running build
+[5.050s] running build_py
+[5.050s] creating /home/tony/ros2_ws/build/witmotion_ros_driver/build
+[5.050s] creating /home/tony/ros2_ws/build/witmotion_ros_driver/build/lib
+[5.050s] creating /home/tony/ros2_ws/build/witmotion_ros_driver/build/lib/witmotion_ros_driver
+[5.051s] copying witmotion_ros_driver/modbus_rtu_driver.py -> /home/tony/ros2_ws/build/witmotion_ros_driver/build/lib/witmotion_ros_driver
+[5.051s] copying witmotion_ros_driver/modbus_rtu_driver_2.py -> /home/tony/ros2_ws/build/witmotion_ros_driver/build/lib/witmotion_ros_driver
+[5.051s] copying witmotion_ros_driver/__init__.py -> /home/tony/ros2_ws/build/witmotion_ros_driver/build/lib/witmotion_ros_driver
+[5.051s] running install
+[5.051s] /home/tony/.local/lib/python3.10/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[5.051s]   warnings.warn(
+[5.058s] running install_lib
+[5.080s] creating /home/tony/ros2_ws/install/witmotion_ros_driver/lib/python3.10/site-packages/witmotion_ros_driver
+[5.080s] copying /home/tony/ros2_ws/build/witmotion_ros_driver/build/lib/witmotion_ros_driver/modbus_rtu_driver.py -> /home/tony/ros2_ws/install/witmotion_ros_driver/lib/python3.10/site-packages/witmotion_ros_driver
+[5.080s] copying /home/tony/ros2_ws/build/witmotion_ros_driver/build/lib/witmotion_ros_driver/modbus_rtu_driver_2.py -> /home/tony/ros2_ws/install/witmotion_ros_driver/lib/python3.10/site-packages/witmotion_ros_driver
+[5.080s] copying /home/tony/ros2_ws/build/witmotion_ros_driver/build/lib/witmotion_ros_driver/__init__.py -> /home/tony/ros2_ws/install/witmotion_ros_driver/lib/python3.10/site-packages/witmotion_ros_driver
+[5.080s] byte-compiling /home/tony/ros2_ws/install/witmotion_ros_driver/lib/python3.10/site-packages/witmotion_ros_driver/modbus_rtu_driver.py to modbus_rtu_driver.cpython-310.pyc
+[5.082s] byte-compiling /home/tony/ros2_ws/install/witmotion_ros_driver/lib/python3.10/site-packages/witmotion_ros_driver/modbus_rtu_driver_2.py to modbus_rtu_driver_2.cpython-310.pyc
+[5.083s] byte-compiling /home/tony/ros2_ws/install/witmotion_ros_driver/lib/python3.10/site-packages/witmotion_ros_driver/__init__.py to __init__.cpython-310.pyc
+[5.085s] running install_data
+[5.103s] running install_egg_info
+[5.129s] Copying ../../build/witmotion_ros_driver/witmotion_ros_driver.egg-info to /home/tony/ros2_ws/install/witmotion_ros_driver/lib/python3.10/site-packages/witmotion_ros_driver-1.1.0-py3.10.egg-info
+[5.130s] running install_scripts
+[5.220s] Installing modbus_rtu_driver script to /home/tony/ros2_ws/install/witmotion_ros_driver/lib/witmotion_ros_driver
+[5.222s] Installing modbus_rtu_driver_2 script to /home/tony/ros2_ws/install/witmotion_ros_driver/lib/witmotion_ros_driver
+[5.227s] writing list of installed files to '/home/tony/ros2_ws/build/witmotion_ros_driver/install.log'
+[5.391s] Invoked command in '/home/tony/ros2_ws/src/witmotion_ros_driver' returned '0': PYTHONPATH=/home/tony/ros2_ws/build/witmotion_ros_driver/prefix_override:/home/tony/ros2_ws/install/witmotion_ros_driver/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/witmotion_ros_driver build --build-base /home/tony/ros2_ws/build/witmotion_ros_driver/build install --record /home/tony/ros2_ws/build/witmotion_ros_driver/install.log --single-version-externally-managed

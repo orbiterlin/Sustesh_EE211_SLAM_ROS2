@@ -1,0 +1,75 @@
+[0.479s] Invoking command in '/home/tony/ros2_ws/src/build/iqr_tb4_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tony/ros2_ws/install/yolov10_inference:/home/tony/ros2_ws/install/witmotion_ros_driver:/home/tony/ros2_ws/install/turtlebot3_teleop:/home/tony/ros2_ws/install/turtlebot3_example:/home/tony/ros2_ws/install/ros2_aruco:/home/tony/ros2_ws/install/opencv_pkg:/home/tony/ros2_ws/install/iqr_tb4_description:/home/tony/ros2_ws/install/ax12a_arm_controller:/opt/ros/humble /usr/bin/cmake /home/tony/ros2_ws/src/iqr_tb4_ros/iqr_tb4_description -DCMAKE_INSTALL_PREFIX=/home/tony/ros2_ws/src/install/iqr_tb4_description
+[0.752s] -- The C compiler identification is GNU 11.4.0
+[1.013s] -- The CXX compiler identification is GNU 11.4.0
+[1.037s] -- Detecting C compiler ABI info
+[1.353s] -- Detecting C compiler ABI info - done
+[1.374s] -- Check for working C compiler: /usr/bin/cc - skipped
+[1.374s] -- Detecting C compile features
+[1.374s] -- Detecting C compile features - done
+[1.411s] -- Detecting CXX compiler ABI info
+[1.853s] -- Detecting CXX compiler ABI info - done
+[1.905s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.905s] -- Detecting CXX compile features
+[1.910s] -- Detecting CXX compile features - done
+[1.955s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[6.939s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[7.697s] -- Found robot_state_publisher: 3.0.2 (/opt/ros/humble/share/robot_state_publisher/cmake)
+[7.951s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[7.993s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[8.050s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[8.140s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[8.266s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[8.826s] -- Found eigen3_cmake_module: 0.1.1 (/opt/ros/humble/share/eigen3_cmake_module/cmake)
+[8.830s] -- Found Eigen3: TRUE (found version "3.4.0") 
+[8.831s] -- Ensuring Eigen3 include directory is part of orocos-kdl CMake target
+[9.124s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[9.135s] -- Found rmw_fastrtps_cpp: 6.2.5 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[9.424s] -- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  
+[9.521s] -- Found FastRTPS: /opt/ros/humble/include  
+[9.712s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[9.781s] -- Looking for pthread.h
+[9.954s] -- Looking for pthread.h - found
+[9.954s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+[10.152s] -- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+[10.153s] -- Found Threads: TRUE  
+[12.588s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[12.909s] -- Added test 'flake8' to check Python code syntax and style conventions
+[12.914s] -- Added test 'lint_cmake' to check CMake code style
+[12.921s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[12.946s] -- Added test 'xmllint' to check XML markup files
+[12.946s] -- Configuring done
+[12.962s] -- Generating done
+[12.974s] -- Build files have been written to: /home/tony/ros2_ws/src/build/iqr_tb4_description
+[13.062s] Invoked command in '/home/tony/ros2_ws/src/build/iqr_tb4_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tony/ros2_ws/install/yolov10_inference:/home/tony/ros2_ws/install/witmotion_ros_driver:/home/tony/ros2_ws/install/turtlebot3_teleop:/home/tony/ros2_ws/install/turtlebot3_example:/home/tony/ros2_ws/install/ros2_aruco:/home/tony/ros2_ws/install/opencv_pkg:/home/tony/ros2_ws/install/iqr_tb4_description:/home/tony/ros2_ws/install/ax12a_arm_controller:/opt/ros/humble /usr/bin/cmake /home/tony/ros2_ws/src/iqr_tb4_ros/iqr_tb4_description -DCMAKE_INSTALL_PREFIX=/home/tony/ros2_ws/src/install/iqr_tb4_description
+[13.063s] Invoking command in '/home/tony/ros2_ws/src/build/iqr_tb4_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tony/ros2_ws/install/yolov10_inference:/home/tony/ros2_ws/install/witmotion_ros_driver:/home/tony/ros2_ws/install/turtlebot3_teleop:/home/tony/ros2_ws/install/turtlebot3_example:/home/tony/ros2_ws/install/ros2_aruco:/home/tony/ros2_ws/install/opencv_pkg:/home/tony/ros2_ws/install/iqr_tb4_description:/home/tony/ros2_ws/install/ax12a_arm_controller:/opt/ros/humble /usr/bin/cmake --build /home/tony/ros2_ws/src/build/iqr_tb4_description -- -j8 -l8
+[13.965s] Invoked command in '/home/tony/ros2_ws/src/build/iqr_tb4_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tony/ros2_ws/install/yolov10_inference:/home/tony/ros2_ws/install/witmotion_ros_driver:/home/tony/ros2_ws/install/turtlebot3_teleop:/home/tony/ros2_ws/install/turtlebot3_example:/home/tony/ros2_ws/install/ros2_aruco:/home/tony/ros2_ws/install/opencv_pkg:/home/tony/ros2_ws/install/iqr_tb4_description:/home/tony/ros2_ws/install/ax12a_arm_controller:/opt/ros/humble /usr/bin/cmake --build /home/tony/ros2_ws/src/build/iqr_tb4_description -- -j8 -l8
+[14.381s] Invoking command in '/home/tony/ros2_ws/src/build/iqr_tb4_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tony/ros2_ws/install/yolov10_inference:/home/tony/ros2_ws/install/witmotion_ros_driver:/home/tony/ros2_ws/install/turtlebot3_teleop:/home/tony/ros2_ws/install/turtlebot3_example:/home/tony/ros2_ws/install/ros2_aruco:/home/tony/ros2_ws/install/opencv_pkg:/home/tony/ros2_ws/install/iqr_tb4_description:/home/tony/ros2_ws/install/ax12a_arm_controller:/opt/ros/humble /usr/bin/cmake --install /home/tony/ros2_ws/src/build/iqr_tb4_description
+[14.404s] -- Install configuration: ""
+[14.404s] -- Installing: /home/tony/ros2_ws/src/install/iqr_tb4_description/share/iqr_tb4_description/launch
+[14.404s] -- Installing: /home/tony/ros2_ws/src/install/iqr_tb4_description/share/iqr_tb4_description/launch/display.launch.py
+[14.404s] -- Installing: /home/tony/ros2_ws/src/install/iqr_tb4_description/share/iqr_tb4_description/meshes
+[14.405s] -- Installing: /home/tony/ros2_ws/src/install/iqr_tb4_description/share/iqr_tb4_description/meshes/iqr_tb4_pro.stl
+[14.455s] -- Installing: /home/tony/ros2_ws/src/install/iqr_tb4_description/share/iqr_tb4_description/src
+[14.455s] -- Installing: /home/tony/ros2_ws/src/install/iqr_tb4_description/share/iqr_tb4_description/urdf
+[14.455s] -- Installing: /home/tony/ros2_ws/src/install/iqr_tb4_description/share/iqr_tb4_description/urdf/output.urdf
+[14.457s] -- Installing: /home/tony/ros2_ws/src/install/iqr_tb4_description/share/iqr_tb4_description/urdf/realsense_d435.urdf.xacro
+[14.457s] -- Installing: /home/tony/ros2_ws/src/install/iqr_tb4_description/share/iqr_tb4_description/urdf/tb_full.urdf.xacro
+[14.457s] -- Installing: /home/tony/ros2_ws/src/install/iqr_tb4_description/share/iqr_tb4_description/urdf/create3.urdf.xacro
+[14.457s] -- Installing: /home/tony/ros2_ws/src/install/iqr_tb4_description/share/iqr_tb4_description/rviz
+[14.457s] -- Installing: /home/tony/ros2_ws/src/install/iqr_tb4_description/share/iqr_tb4_description/rviz/rviz_basic_settings.rviz
+[14.460s] -- Installing: /home/tony/ros2_ws/src/install/iqr_tb4_description/share/ament_index/resource_index/package_run_dependencies/iqr_tb4_description
+[14.460s] -- Installing: /home/tony/ros2_ws/src/install/iqr_tb4_description/share/ament_index/resource_index/parent_prefix_path/iqr_tb4_description
+[14.460s] -- Installing: /home/tony/ros2_ws/src/install/iqr_tb4_description/share/iqr_tb4_description/environment/ament_prefix_path.sh
+[14.461s] -- Installing: /home/tony/ros2_ws/src/install/iqr_tb4_description/share/iqr_tb4_description/environment/ament_prefix_path.dsv
+[14.463s] -- Installing: /home/tony/ros2_ws/src/install/iqr_tb4_description/share/iqr_tb4_description/environment/path.sh
+[14.464s] -- Installing: /home/tony/ros2_ws/src/install/iqr_tb4_description/share/iqr_tb4_description/environment/path.dsv
+[14.464s] -- Installing: /home/tony/ros2_ws/src/install/iqr_tb4_description/share/iqr_tb4_description/local_setup.bash
+[14.464s] -- Installing: /home/tony/ros2_ws/src/install/iqr_tb4_description/share/iqr_tb4_description/local_setup.sh
+[14.464s] -- Installing: /home/tony/ros2_ws/src/install/iqr_tb4_description/share/iqr_tb4_description/local_setup.zsh
+[14.464s] -- Installing: /home/tony/ros2_ws/src/install/iqr_tb4_description/share/iqr_tb4_description/local_setup.dsv
+[14.464s] -- Installing: /home/tony/ros2_ws/src/install/iqr_tb4_description/share/iqr_tb4_description/package.dsv
+[14.464s] -- Installing: /home/tony/ros2_ws/src/install/iqr_tb4_description/share/ament_index/resource_index/packages/iqr_tb4_description
+[14.464s] -- Installing: /home/tony/ros2_ws/src/install/iqr_tb4_description/share/iqr_tb4_description/cmake/iqr_tb4_descriptionConfig.cmake
+[14.464s] -- Installing: /home/tony/ros2_ws/src/install/iqr_tb4_description/share/iqr_tb4_description/cmake/iqr_tb4_descriptionConfig-version.cmake
+[14.464s] -- Installing: /home/tony/ros2_ws/src/install/iqr_tb4_description/share/iqr_tb4_description/package.xml
+[14.965s] Invoked command in '/home/tony/ros2_ws/src/build/iqr_tb4_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tony/ros2_ws/install/yolov10_inference:/home/tony/ros2_ws/install/witmotion_ros_driver:/home/tony/ros2_ws/install/turtlebot3_teleop:/home/tony/ros2_ws/install/turtlebot3_example:/home/tony/ros2_ws/install/ros2_aruco:/home/tony/ros2_ws/install/opencv_pkg:/home/tony/ros2_ws/install/iqr_tb4_description:/home/tony/ros2_ws/install/ax12a_arm_controller:/opt/ros/humble /usr/bin/cmake --install /home/tony/ros2_ws/src/build/iqr_tb4_description

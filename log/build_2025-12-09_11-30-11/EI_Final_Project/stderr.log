@@ -1,0 +1,8 @@
+WARNING: Package name "EI_Final_Project" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+[01m[K/home/tony/ros2_ws/src/EI_Final_Project/src/map_saver_node.cpp:[m[K In member function ‘[01m[Kvoid MapSaverNode::saveMapService(std::shared_ptr<std_srvs::srv::Empty_Request_<std::allocator<void> > >, std::shared_ptr<std_srvs::srv::Empty_Response_<std::allocator<void> > >)[m[K’:
+[01m[K/home/tony/ros2_ws/src/EI_Final_Project/src/map_saver_node.cpp:54:78:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Krequest[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   54 |     void saveMapService([01;35m[Kconst std::shared_ptr<std_srvs::srv::Empty::Request> request[m[K,
+      |                         [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~[m[K
+[01m[K/home/tony/ros2_ws/src/EI_Final_Project/src/map_saver_node.cpp:55:72:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kresponse[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   55 |                        [01;35m[Kstd::shared_ptr<std_srvs::srv::Empty::Response> response[m[K)
+      |                        [01;35m[K~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~^~~~~~~~[m[K

@@ -1,0 +1,9 @@
+source;share/yolov10_inference/hook/pythonpath.ps1
+source;share/yolov10_inference/hook/pythonpath.dsv
+source;share/yolov10_inference/hook/pythonpath.sh
+source;share/yolov10_inference/hook/ament_prefix_path.ps1
+source;share/yolov10_inference/hook/ament_prefix_path.dsv
+source;share/yolov10_inference/hook/ament_prefix_path.sh
+source;../../build/yolov10_inference/share/yolov10_inference/hook/pythonpath_develop.ps1
+source;../../build/yolov10_inference/share/yolov10_inference/hook/pythonpath_develop.dsv
+source;../../build/yolov10_inference/share/yolov10_inference/hook/pythonpath_develop.sh

@@ -1,0 +1,44 @@
+[3.052s] Invoking command in '/home/tony/ros2_ws/build/ros2_aruco': PYTHONPATH=/home/tony/ros2_ws/build/ros2_aruco/prefix_override:/home/tony/ros2_ws/install/ros2_aruco/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/tony/ros2_ws/build/ros2_aruco/build
+[3.642s] running develop
+[3.642s] /home/tony/.local/lib/python3.10/site-packages/setuptools/command/easy_install.py:144: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[3.642s]   warnings.warn(
+[3.694s] /home/tony/.local/lib/python3.10/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[3.694s]   warnings.warn(
+[4.054s] Removing /home/tony/ros2_ws/install/ros2_aruco/lib/python3.10/site-packages/ros2-aruco.egg-link (link to .)
+[4.164s] Invoked command in '/home/tony/ros2_ws/build/ros2_aruco' returned '0': PYTHONPATH=/home/tony/ros2_ws/build/ros2_aruco/prefix_override:/home/tony/ros2_ws/install/ros2_aruco/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/tony/ros2_ws/build/ros2_aruco/build
+[4.166s] Invoking command in '/home/tony/ros2_ws/src/ros2_aruco_realsense/ros2_aruco': PYTHONPATH=/home/tony/ros2_ws/build/ros2_aruco/prefix_override:/home/tony/ros2_ws/install/ros2_aruco/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ros2_aruco build --build-base /home/tony/ros2_ws/build/ros2_aruco/build install --record /home/tony/ros2_ws/build/ros2_aruco/install.log --single-version-externally-managed
+[4.835s] running egg_info
+[4.863s] writing ../../../build/ros2_aruco/ros2_aruco.egg-info/PKG-INFO
+[4.864s] writing dependency_links to ../../../build/ros2_aruco/ros2_aruco.egg-info/dependency_links.txt
+[4.864s] writing entry points to ../../../build/ros2_aruco/ros2_aruco.egg-info/entry_points.txt
+[4.864s] writing requirements to ../../../build/ros2_aruco/ros2_aruco.egg-info/requires.txt
+[4.864s] writing top-level names to ../../../build/ros2_aruco/ros2_aruco.egg-info/top_level.txt
+[4.921s] reading manifest file '../../../build/ros2_aruco/ros2_aruco.egg-info/SOURCES.txt'
+[4.921s] writing manifest file '../../../build/ros2_aruco/ros2_aruco.egg-info/SOURCES.txt'
+[4.923s] running build
+[4.926s] running build_py
+[4.926s] creating /home/tony/ros2_ws/build/ros2_aruco/build
+[4.926s] creating /home/tony/ros2_ws/build/ros2_aruco/build/lib
+[4.926s] creating /home/tony/ros2_ws/build/ros2_aruco/build/lib/ros2_aruco
+[4.926s] copying ros2_aruco/__init__.py -> /home/tony/ros2_ws/build/ros2_aruco/build/lib/ros2_aruco
+[4.926s] copying ros2_aruco/aruco_generate_marker.py -> /home/tony/ros2_ws/build/ros2_aruco/build/lib/ros2_aruco
+[4.926s] copying ros2_aruco/aruco_node.py -> /home/tony/ros2_ws/build/ros2_aruco/build/lib/ros2_aruco
+[4.927s] running install
+[4.927s] /home/tony/.local/lib/python3.10/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[4.927s]   warnings.warn(
+[4.935s] running install_lib
+[4.962s] creating /home/tony/ros2_ws/install/ros2_aruco/lib/python3.10/site-packages/ros2_aruco
+[4.962s] copying /home/tony/ros2_ws/build/ros2_aruco/build/lib/ros2_aruco/__init__.py -> /home/tony/ros2_ws/install/ros2_aruco/lib/python3.10/site-packages/ros2_aruco
+[4.962s] copying /home/tony/ros2_ws/build/ros2_aruco/build/lib/ros2_aruco/aruco_generate_marker.py -> /home/tony/ros2_ws/install/ros2_aruco/lib/python3.10/site-packages/ros2_aruco
+[4.962s] copying /home/tony/ros2_ws/build/ros2_aruco/build/lib/ros2_aruco/aruco_node.py -> /home/tony/ros2_ws/install/ros2_aruco/lib/python3.10/site-packages/ros2_aruco
+[4.964s] byte-compiling /home/tony/ros2_ws/install/ros2_aruco/lib/python3.10/site-packages/ros2_aruco/__init__.py to __init__.cpython-310.pyc
+[4.964s] byte-compiling /home/tony/ros2_ws/install/ros2_aruco/lib/python3.10/site-packages/ros2_aruco/aruco_generate_marker.py to aruco_generate_marker.cpython-310.pyc
+[4.964s] byte-compiling /home/tony/ros2_ws/install/ros2_aruco/lib/python3.10/site-packages/ros2_aruco/aruco_node.py to aruco_node.cpython-310.pyc
+[4.967s] running install_data
+[4.998s] running install_egg_info
+[5.021s] Copying ../../../build/ros2_aruco/ros2_aruco.egg-info to /home/tony/ros2_ws/install/ros2_aruco/lib/python3.10/site-packages/ros2_aruco-0.1.0-py3.10.egg-info
+[5.026s] running install_scripts
+[5.130s] Installing aruco_generate_marker script to /home/tony/ros2_ws/install/ros2_aruco/lib/ros2_aruco
+[5.131s] Installing aruco_node script to /home/tony/ros2_ws/install/ros2_aruco/lib/ros2_aruco
+[5.132s] writing list of installed files to '/home/tony/ros2_ws/build/ros2_aruco/install.log'
+[5.196s] Invoked command in '/home/tony/ros2_ws/src/ros2_aruco_realsense/ros2_aruco' returned '0': PYTHONPATH=/home/tony/ros2_ws/build/ros2_aruco/prefix_override:/home/tony/ros2_ws/install/ros2_aruco/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../../build/ros2_aruco build --build-base /home/tony/ros2_ws/build/ros2_aruco/build install --record /home/tony/ros2_ws/build/ros2_aruco/install.log --single-version-externally-managed

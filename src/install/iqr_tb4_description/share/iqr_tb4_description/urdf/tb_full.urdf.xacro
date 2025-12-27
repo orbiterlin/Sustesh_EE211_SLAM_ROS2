@@ -1,0 +1,75 @@
+<?xml version="1.0"?>
+<robot name="fishbot" xmlns:xacro="http://ros.org/wiki/xacro">
+  <xacro:include filename="$(find irobot_create_description)/urdf/create3.urdf.xacro" />
+  <xacro:include filename="$(find iqr_tb4_description)/urdf/realsense_d435.urdf.xacro" />
+  <!-- <xacro:include filename="$(find interbotix_xsarm_descriptions)/urdf/px100.urdf.xacro" /> -->
+  <xacro:include filename="$(find pan_tilt_description)/urdf/pan_tilt.urdf.xacro"/>
+
+  <link name="top_fix_link">
+    <visual>
+    <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <mesh filename="package://iqr_tb4_description/meshes/iqr_tb4_pro.stl" />
+      </geometry>
+      <material name="black">
+        <color rgba="0.0 0.0 0.0 0.8" /> 
+      </material>
+    </visual>
+  </link>
+
+  <xacro:pan_tilt parent="top_fix_link">
+    <origin xyz="-0.019 0 0.2804" rpy="0 0 0"/>
+  </xacro:pan_tilt>
+
+  <xacro:sensor_d435 parent="pan_tilt_surface" prefix="camera">
+    <origin xyz="0.04515 0 0.005" rpy="0 0 0"/>
+  </xacro:sensor_d435>
+
+  <link name="imu_extra_link">
+    <visual>
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+      <geometry>
+        <cylinder length="0.02" radius="0.02"/>
+      </geometry>
+      <material name="black">
+        <color rgba="0.0 0.0 0.0 0.8" /> 
+      </material>
+    </visual>
+  </link>
+
+  <joint name="imu_extra_joint" type="fixed">
+      <parent link="top_fix_link" />
+      <child link="imu_extra_link" />
+      <origin xyz="0 0 0.1014" />
+  </joint>
+
+  <joint name="top_fix_joint" type="fixed">
+      <parent link="base_link" />
+      <child link="top_fix_link" />
+      <origin xyz="0 0 0" rpy="0 0 0"/>
+  </joint>
+
+  <link name="laser_link">
+    <visual>
+      <origin xyz="0 0 -0.005" rpy="0 0 0"/>
+      <geometry>
+    <cylinder length="0.041" radius="0.038"/>
+      </geometry>
+      <material name="black">
+        <color rgba="0.0 0.0 0.0 0.8" /> 
+      </material>
+    </visual>
+  </link>
+    
+  <joint name="laser_joint" type="fixed">
+      <parent link="top_fix_link" />
+      <child link="laser_link" />
+      <origin xyz="0 0 0.478" rpy="0 0 3.1415926"/>
+  </joint>
+
+  <!-- <joint name="px100_base_link_joint" type="fixed">
+      <parent link="top_fix_link" />
+      <child link="px100/base_link" />
+      <origin xyz="0.065 0 0.1279" />
+  </joint> -->
+</robot>

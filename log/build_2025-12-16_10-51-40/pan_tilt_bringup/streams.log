@@ -1,0 +1,29 @@
+[0.443s] Invoking command in '/home/tony/ros2_ws/build/pan_tilt_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tony/ros2_ws/install/yolov10_inference:/home/tony/ros2_ws/install/witmotion_ros_driver:/home/tony/ros2_ws/install/turtlebot3_teleop:/home/tony/ros2_ws/install/turtlebot3_example:/home/tony/ros2_ws/install/ros2_aruco:/home/tony/ros2_ws/install/opencv_pkg:/home/tony/ros2_ws/install/ax12a_arm_controller:/opt/ros/humble /usr/bin/cmake /home/tony/ros2_ws/src/pan_tilt_ros/pan_tilt_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/tony/ros2_ws/install/pan_tilt_bringup
+[0.569s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.645s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.759s] -- Configuring done
+[0.761s] -- Generating done
+[0.762s] -- Build files have been written to: /home/tony/ros2_ws/build/pan_tilt_bringup
+[0.980s] Invoked command in '/home/tony/ros2_ws/build/pan_tilt_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tony/ros2_ws/install/yolov10_inference:/home/tony/ros2_ws/install/witmotion_ros_driver:/home/tony/ros2_ws/install/turtlebot3_teleop:/home/tony/ros2_ws/install/turtlebot3_example:/home/tony/ros2_ws/install/ros2_aruco:/home/tony/ros2_ws/install/opencv_pkg:/home/tony/ros2_ws/install/ax12a_arm_controller:/opt/ros/humble /usr/bin/cmake /home/tony/ros2_ws/src/pan_tilt_ros/pan_tilt_bringup -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/tony/ros2_ws/install/pan_tilt_bringup
+[0.983s] Invoking command in '/home/tony/ros2_ws/build/pan_tilt_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tony/ros2_ws/install/yolov10_inference:/home/tony/ros2_ws/install/witmotion_ros_driver:/home/tony/ros2_ws/install/turtlebot3_teleop:/home/tony/ros2_ws/install/turtlebot3_example:/home/tony/ros2_ws/install/ros2_aruco:/home/tony/ros2_ws/install/opencv_pkg:/home/tony/ros2_ws/install/ax12a_arm_controller:/opt/ros/humble /usr/bin/cmake --build /home/tony/ros2_ws/build/pan_tilt_bringup -- -j8 -l8
+[1.445s] Invoked command in '/home/tony/ros2_ws/build/pan_tilt_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tony/ros2_ws/install/yolov10_inference:/home/tony/ros2_ws/install/witmotion_ros_driver:/home/tony/ros2_ws/install/turtlebot3_teleop:/home/tony/ros2_ws/install/turtlebot3_example:/home/tony/ros2_ws/install/ros2_aruco:/home/tony/ros2_ws/install/opencv_pkg:/home/tony/ros2_ws/install/ax12a_arm_controller:/opt/ros/humble /usr/bin/cmake --build /home/tony/ros2_ws/build/pan_tilt_bringup -- -j8 -l8
+[1.696s] Invoking command in '/home/tony/ros2_ws/build/pan_tilt_bringup': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tony/ros2_ws/install/yolov10_inference:/home/tony/ros2_ws/install/witmotion_ros_driver:/home/tony/ros2_ws/install/turtlebot3_teleop:/home/tony/ros2_ws/install/turtlebot3_example:/home/tony/ros2_ws/install/ros2_aruco:/home/tony/ros2_ws/install/opencv_pkg:/home/tony/ros2_ws/install/ax12a_arm_controller:/opt/ros/humble /usr/bin/cmake --install /home/tony/ros2_ws/build/pan_tilt_bringup
+[1.846s] -- Install configuration: ""
+[1.847s] -- Execute custom install script
+[1.847s] -- Up-to-date symlink: /home/tony/ros2_ws/install/pan_tilt_bringup/share/pan_tilt_bringup//launch/panTilt_bringup.launch.py
+[1.847s] -- Up-to-date symlink: /home/tony/ros2_ws/install/pan_tilt_bringup/share/ament_index/resource_index/package_run_dependencies/pan_tilt_bringup
+[1.847s] -- Up-to-date symlink: /home/tony/ros2_ws/install/pan_tilt_bringup/share/ament_index/resource_index/parent_prefix_path/pan_tilt_bringup
+[1.847s] -- Up-to-date symlink: /home/tony/ros2_ws/install/pan_tilt_bringup/share/pan_tilt_bringup/environment/ament_prefix_path.sh
+[1.847s] -- Up-to-date symlink: /home/tony/ros2_ws/install/pan_tilt_bringup/share/pan_tilt_bringup/environment/ament_prefix_path.dsv
+[1.847s] -- Up-to-date symlink: /home/tony/ros2_ws/install/pan_tilt_bringup/share/pan_tilt_bringup/environment/path.sh
+[1.847s] -- Up-to-date symlink: /home/tony/ros2_ws/install/pan_tilt_bringup/share/pan_tilt_bringup/environment/path.dsv
+[1.847s] -- Up-to-date symlink: /home/tony/ros2_ws/install/pan_tilt_bringup/share/pan_tilt_bringup/local_setup.bash
+[1.847s] -- Up-to-date symlink: /home/tony/ros2_ws/install/pan_tilt_bringup/share/pan_tilt_bringup/local_setup.sh
+[1.847s] -- Up-to-date symlink: /home/tony/ros2_ws/install/pan_tilt_bringup/share/pan_tilt_bringup/local_setup.zsh
+[1.847s] -- Up-to-date symlink: /home/tony/ros2_ws/install/pan_tilt_bringup/share/pan_tilt_bringup/local_setup.dsv
+[1.847s] -- Symlinking: /home/tony/ros2_ws/install/pan_tilt_bringup/share/pan_tilt_bringup/package.dsv
+[1.848s] -- Up-to-date symlink: /home/tony/ros2_ws/install/pan_tilt_bringup/share/ament_index/resource_index/packages/pan_tilt_bringup
+[1.848s] -- Up-to-date symlink: /home/tony/ros2_ws/install/pan_tilt_bringup/share/pan_tilt_bringup/cmake/pan_tilt_bringupConfig.cmake
+[1.848s] -- Up-to-date symlink: /home/tony/ros2_ws/install/pan_tilt_bringup/share/pan_tilt_bringup/cmake/pan_tilt_bringupConfig-version.cmake
+[1.848s] -- Up-to-date symlink: /home/tony/ros2_ws/install/pan_tilt_bringup/share/pan_tilt_bringup/package.xml
+[2.349s] Invoked command in '/home/tony/ros2_ws/build/pan_tilt_bringup' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tony/ros2_ws/install/yolov10_inference:/home/tony/ros2_ws/install/witmotion_ros_driver:/home/tony/ros2_ws/install/turtlebot3_teleop:/home/tony/ros2_ws/install/turtlebot3_example:/home/tony/ros2_ws/install/ros2_aruco:/home/tony/ros2_ws/install/opencv_pkg:/home/tony/ros2_ws/install/ax12a_arm_controller:/opt/ros/humble /usr/bin/cmake --install /home/tony/ros2_ws/build/pan_tilt_bringup

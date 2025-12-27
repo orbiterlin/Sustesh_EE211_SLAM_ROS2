@@ -1,0 +1,55 @@
+[0.747s] Invoking command in '/home/tony/ros2_ws/build/pan_tilt_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tony/ros2_ws/install/yolov10_inference:/home/tony/ros2_ws/install/witmotion_ros_driver:/home/tony/ros2_ws/install/turtlebot3_teleop:/home/tony/ros2_ws/install/turtlebot3_example:/home/tony/ros2_ws/install/ros2_aruco:/home/tony/ros2_ws/install/opencv_pkg:/home/tony/ros2_ws/install/dxl_tools:/home/tony/ros2_ws/install/ax12_arm_bringup:/opt/ros/humble /usr/bin/cmake /home/tony/ros2_ws/src/pan_tilt_ros/pan_tilt_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/tony/ros2_ws/install/pan_tilt_description
+[2.153s] -- The C compiler identification is GNU 11.4.0
+[2.153s] -- The CXX compiler identification is GNU 11.4.0
+[2.153s] -- Detecting C compiler ABI info
+[2.153s] -- Detecting C compiler ABI info - done
+[2.153s] -- Check for working C compiler: /usr/bin/cc - skipped
+[2.153s] -- Detecting C compile features
+[2.153s] -- Detecting C compile features - done
+[2.153s] -- Detecting CXX compiler ABI info
+[2.153s] -- Detecting CXX compiler ABI info - done
+[2.153s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[2.153s] -- Detecting CXX compile features
+[2.154s] -- Detecting CXX compile features - done
+[2.154s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[3.044s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[3.190s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[3.286s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.576s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.584s] -- Added test 'flake8' to check Python code syntax and style conventions
+[3.584s] -- Added test 'lint_cmake' to check CMake code style
+[3.589s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[3.596s] -- Added test 'xmllint' to check XML markup files
+[3.598s] -- Configuring done
+[3.607s] -- Generating done
+[3.611s] -- Build files have been written to: /home/tony/ros2_ws/build/pan_tilt_description
+[3.624s] Invoked command in '/home/tony/ros2_ws/build/pan_tilt_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tony/ros2_ws/install/yolov10_inference:/home/tony/ros2_ws/install/witmotion_ros_driver:/home/tony/ros2_ws/install/turtlebot3_teleop:/home/tony/ros2_ws/install/turtlebot3_example:/home/tony/ros2_ws/install/ros2_aruco:/home/tony/ros2_ws/install/opencv_pkg:/home/tony/ros2_ws/install/dxl_tools:/home/tony/ros2_ws/install/ax12_arm_bringup:/opt/ros/humble /usr/bin/cmake /home/tony/ros2_ws/src/pan_tilt_ros/pan_tilt_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/tony/ros2_ws/install/pan_tilt_description
+[3.625s] Invoking command in '/home/tony/ros2_ws/build/pan_tilt_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tony/ros2_ws/install/yolov10_inference:/home/tony/ros2_ws/install/witmotion_ros_driver:/home/tony/ros2_ws/install/turtlebot3_teleop:/home/tony/ros2_ws/install/turtlebot3_example:/home/tony/ros2_ws/install/ros2_aruco:/home/tony/ros2_ws/install/opencv_pkg:/home/tony/ros2_ws/install/dxl_tools:/home/tony/ros2_ws/install/ax12_arm_bringup:/opt/ros/humble /usr/bin/cmake --build /home/tony/ros2_ws/build/pan_tilt_description -- -j8 -l8
+[3.727s] Invoked command in '/home/tony/ros2_ws/build/pan_tilt_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tony/ros2_ws/install/yolov10_inference:/home/tony/ros2_ws/install/witmotion_ros_driver:/home/tony/ros2_ws/install/turtlebot3_teleop:/home/tony/ros2_ws/install/turtlebot3_example:/home/tony/ros2_ws/install/ros2_aruco:/home/tony/ros2_ws/install/opencv_pkg:/home/tony/ros2_ws/install/dxl_tools:/home/tony/ros2_ws/install/ax12_arm_bringup:/opt/ros/humble /usr/bin/cmake --build /home/tony/ros2_ws/build/pan_tilt_description -- -j8 -l8
+[3.968s] Invoking command in '/home/tony/ros2_ws/build/pan_tilt_description': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tony/ros2_ws/install/yolov10_inference:/home/tony/ros2_ws/install/witmotion_ros_driver:/home/tony/ros2_ws/install/turtlebot3_teleop:/home/tony/ros2_ws/install/turtlebot3_example:/home/tony/ros2_ws/install/ros2_aruco:/home/tony/ros2_ws/install/opencv_pkg:/home/tony/ros2_ws/install/dxl_tools:/home/tony/ros2_ws/install/ax12_arm_bringup:/opt/ros/humble /usr/bin/cmake --install /home/tony/ros2_ws/build/pan_tilt_description
+[3.981s] -- Install configuration: ""
+[3.981s] -- Execute custom install script
+[3.984s] -- Symlinking: /home/tony/ros2_ws/install/pan_tilt_description/share/pan_tilt_description/launch/view_model.launch.py
+[4.009s] -- Symlinking: /home/tony/ros2_ws/install/pan_tilt_description/share/pan_tilt_description/rviz/view_model.rviz
+[4.027s] -- Symlinking: /home/tony/ros2_ws/install/pan_tilt_description/share/pan_tilt_description/urdf/kinect_dk.xacro
+[4.064s] -- Symlinking: /home/tony/ros2_ws/install/pan_tilt_description/share/pan_tilt_description/urdf/mesh/base.stl
+[4.082s] -- Symlinking: /home/tony/ros2_ws/install/pan_tilt_description/share/pan_tilt_description/urdf/mesh/pitch.stl
+[4.118s] -- Symlinking: /home/tony/ros2_ws/install/pan_tilt_description/share/pan_tilt_description/urdf/mesh/yaw.stl
+[4.146s] -- Symlinking: /home/tony/ros2_ws/install/pan_tilt_description/share/pan_tilt_description/urdf/pan_tilt.urdf.xacro
+[4.167s] -- Symlinking: /home/tony/ros2_ws/install/pan_tilt_description/share/pan_tilt_description/urdf/pan_tilt_st.urdf.xacro
+[4.190s] -- Symlinking: /home/tony/ros2_ws/install/pan_tilt_description/share/ament_index/resource_index/package_run_dependencies/pan_tilt_description
+[4.208s] -- Symlinking: /home/tony/ros2_ws/install/pan_tilt_description/share/ament_index/resource_index/parent_prefix_path/pan_tilt_description
+[4.224s] -- Symlinking: /home/tony/ros2_ws/install/pan_tilt_description/share/pan_tilt_description/environment/ament_prefix_path.sh
+[4.248s] -- Symlinking: /home/tony/ros2_ws/install/pan_tilt_description/share/pan_tilt_description/environment/ament_prefix_path.dsv
+[4.274s] -- Symlinking: /home/tony/ros2_ws/install/pan_tilt_description/share/pan_tilt_description/environment/path.sh
+[4.293s] -- Symlinking: /home/tony/ros2_ws/install/pan_tilt_description/share/pan_tilt_description/environment/path.dsv
+[4.317s] -- Symlinking: /home/tony/ros2_ws/install/pan_tilt_description/share/pan_tilt_description/local_setup.bash
+[4.339s] -- Symlinking: /home/tony/ros2_ws/install/pan_tilt_description/share/pan_tilt_description/local_setup.sh
+[4.360s] -- Symlinking: /home/tony/ros2_ws/install/pan_tilt_description/share/pan_tilt_description/local_setup.zsh
+[4.385s] -- Symlinking: /home/tony/ros2_ws/install/pan_tilt_description/share/pan_tilt_description/local_setup.dsv
+[4.406s] -- Symlinking: /home/tony/ros2_ws/install/pan_tilt_description/share/pan_tilt_description/package.dsv
+[4.434s] -- Symlinking: /home/tony/ros2_ws/install/pan_tilt_description/share/ament_index/resource_index/packages/pan_tilt_description
+[4.442s] -- Symlinking: /home/tony/ros2_ws/install/pan_tilt_description/share/pan_tilt_description/cmake/pan_tilt_descriptionConfig.cmake
+[4.468s] -- Symlinking: /home/tony/ros2_ws/install/pan_tilt_description/share/pan_tilt_description/cmake/pan_tilt_descriptionConfig-version.cmake
+[4.485s] -- Symlinking: /home/tony/ros2_ws/install/pan_tilt_description/share/pan_tilt_description/package.xml
+[4.620s] Invoked command in '/home/tony/ros2_ws/build/pan_tilt_description' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tony/ros2_ws/install/yolov10_inference:/home/tony/ros2_ws/install/witmotion_ros_driver:/home/tony/ros2_ws/install/turtlebot3_teleop:/home/tony/ros2_ws/install/turtlebot3_example:/home/tony/ros2_ws/install/ros2_aruco:/home/tony/ros2_ws/install/opencv_pkg:/home/tony/ros2_ws/install/dxl_tools:/home/tony/ros2_ws/install/ax12_arm_bringup:/opt/ros/humble /usr/bin/cmake --install /home/tony/ros2_ws/build/pan_tilt_description

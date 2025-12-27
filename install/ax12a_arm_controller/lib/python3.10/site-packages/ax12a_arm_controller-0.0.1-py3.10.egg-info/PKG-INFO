@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: ax12a-arm-controller
+Version: 0.0.1
+Summary: 5-DOF AX-12A arm driver using DYNAMIXEL SDK (ROS 2 Humble)
+Maintainer: you
+Maintainer-email: you@example.com
+License: BSD-3-Clause

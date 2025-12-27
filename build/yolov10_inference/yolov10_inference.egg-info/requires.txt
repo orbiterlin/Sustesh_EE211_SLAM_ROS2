@@ -1,0 +1,4 @@
+setuptools
+opencv-python
+supervision
+ultralytics

@@ -1,0 +1,2 @@
+[console_scripts]
+yolo_rgs = yolov10_inference.yolo_rgs:main

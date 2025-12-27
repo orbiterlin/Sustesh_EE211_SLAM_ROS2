@@ -1,0 +1,23 @@
+[0.393s] Invoking command in '/home/tony/ros2_ws/build/interbotix_xsarm_joy': CMAKE_PREFIX_PATH=/home/tony/ros2_ws/install/interbotix_xsarm_control:/home/tony/ros2_ws/install/interbotix_xsarm_descriptions:/home/tony/ros2_ws/install/interbotix_xsarm_sim:/home/tony/ros2_ws/install/turtlebot3:/home/tony/ros2_ws/install/turtlebot3_bringup:/home/tony/ros2_ws/install/turtlebot3_node:/home/tony/ros2_ws/install/turtlebot3_navigation2:/home/tony/ros2_ws/install/turtlebot3_description:/home/tony/ros2_ws/install/turtlebot3_cartographer:/home/tony/ros2_ws/install/ros2_aruco_interfaces:/home/tony/ros2_ws/install/realsense2_description:/home/tony/ros2_ws/install/realsense2_camera:/home/tony/ros2_ws/install/realsense2_camera_msgs:/home/tony/ros2_ws/install/pan_tilt_driver:/home/tony/ros2_ws/install/pan_tilt_msgs:/home/tony/ros2_ws/install/pan_tilt_description:/home/tony/ros2_ws/install/pan_tilt_bringup:/home/tony/ros2_ws/install/iqr_tb4_navigation:/home/tony/ros2_ws/install/iqr_tb4_description:/home/tony/ros2_ws/install/iqr_tb4_bringup:/home/tony/ros2_ws/install/EI_Final_Project:/home/tony/ros2_ws/install/yolov10_inference:/home/tony/ros2_ws/install/witmotion_ros_driver:/home/tony/ros2_ws/install/turtlebot3_teleop:/home/tony/ros2_ws/install/turtlebot3_example:/home/tony/ros2_ws/install/ros2_aruco:/home/tony/ros2_ws/install/opencv_pkg:/home/tony/ros2_ws/install/ax12a_arm_controller:/opt/ros/humble /usr/bin/cmake /home/tony/ros2_ws/src/interbotix_ros_manipulators/interbotix_ros_xsarms/examples/interbotix_xsarm_joy -DCMAKE_INSTALL_PREFIX=/home/tony/ros2_ws/install/interbotix_xsarm_joy
+[0.415s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.681s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.708s] -- Configuring incomplete, errors occurred!
+[0.708s] See also "/home/tony/ros2_ws/build/interbotix_xsarm_joy/CMakeFiles/CMakeOutput.log".
+[0.711s] [31mCMake Error at CMakeLists.txt:14 (find_package):
+[0.711s]   By not providing "Findinterbotix_xs_msgs.cmake" in CMAKE_MODULE_PATH this
+[0.712s]   project has asked CMake to find a package configuration file provided by
+[0.712s]   "interbotix_xs_msgs", but CMake did not find one.
+[0.712s] 
+[0.712s]   Could not find a package configuration file provided by
+[0.712s]   "interbotix_xs_msgs" with any of the following names:
+[0.712s] 
+[0.712s]     interbotix_xs_msgsConfig.cmake
+[0.712s]     interbotix_xs_msgs-config.cmake
+[0.712s] 
+[0.712s]   Add the installation prefix of "interbotix_xs_msgs" to CMAKE_PREFIX_PATH or
+[0.712s]   set "interbotix_xs_msgs_DIR" to a directory containing one of the above
+[0.712s]   files.  If "interbotix_xs_msgs" provides a separate development package or
+[0.712s]   SDK, be sure it has been installed.
+[0.713s] 
+[0.713s] [0m
+[0.895s] Invoked command in '/home/tony/ros2_ws/build/interbotix_xsarm_joy' returned '1': CMAKE_PREFIX_PATH=/home/tony/ros2_ws/install/interbotix_xsarm_control:/home/tony/ros2_ws/install/interbotix_xsarm_descriptions:/home/tony/ros2_ws/install/interbotix_xsarm_sim:/home/tony/ros2_ws/install/turtlebot3:/home/tony/ros2_ws/install/turtlebot3_bringup:/home/tony/ros2_ws/install/turtlebot3_node:/home/tony/ros2_ws/install/turtlebot3_navigation2:/home/tony/ros2_ws/install/turtlebot3_description:/home/tony/ros2_ws/install/turtlebot3_cartographer:/home/tony/ros2_ws/install/ros2_aruco_interfaces:/home/tony/ros2_ws/install/realsense2_description:/home/tony/ros2_ws/install/realsense2_camera:/home/tony/ros2_ws/install/realsense2_camera_msgs:/home/tony/ros2_ws/install/pan_tilt_driver:/home/tony/ros2_ws/install/pan_tilt_msgs:/home/tony/ros2_ws/install/pan_tilt_description:/home/tony/ros2_ws/install/pan_tilt_bringup:/home/tony/ros2_ws/install/iqr_tb4_navigation:/home/tony/ros2_ws/install/iqr_tb4_description:/home/tony/ros2_ws/install/iqr_tb4_bringup:/home/tony/ros2_ws/install/EI_Final_Project:/home/tony/ros2_ws/install/yolov10_inference:/home/tony/ros2_ws/install/witmotion_ros_driver:/home/tony/ros2_ws/install/turtlebot3_teleop:/home/tony/ros2_ws/install/turtlebot3_example:/home/tony/ros2_ws/install/ros2_aruco:/home/tony/ros2_ws/install/opencv_pkg:/home/tony/ros2_ws/install/ax12a_arm_controller:/opt/ros/humble /usr/bin/cmake /home/tony/ros2_ws/src/interbotix_ros_manipulators/interbotix_ros_xsarms/examples/interbotix_xsarm_joy -DCMAKE_INSTALL_PREFIX=/home/tony/ros2_ws/install/interbotix_xsarm_joy

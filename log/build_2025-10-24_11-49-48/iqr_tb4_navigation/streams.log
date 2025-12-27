@@ -1,0 +1,55 @@
+[0.080s] Invoking command in '/home/tony/ros2_ws/build/iqr_tb4_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tony/ros2_ws/install/yolov10_inference:/home/tony/ros2_ws/install/witmotion_ros_driver:/home/tony/ros2_ws/install/turtlebot3_teleop:/home/tony/ros2_ws/install/turtlebot3_example:/home/tony/ros2_ws/install/ros2_aruco:/home/tony/ros2_ws/install/opencv_pkg:/home/tony/ros2_ws/install/dxl_tools:/home/tony/ros2_ws/install/ax12_arm_bringup:/opt/ros/humble /usr/bin/cmake /home/tony/ros2_ws/src/iqr_tb4_ros/iqr_tb4_navigation -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/tony/ros2_ws/install/iqr_tb4_navigation
+[0.580s] -- The C compiler identification is GNU 11.4.0
+[0.580s] -- The CXX compiler identification is GNU 11.4.0
+[0.580s] -- Detecting C compiler ABI info
+[0.714s] -- Detecting C compiler ABI info - done
+[0.732s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.733s] -- Detecting C compile features
+[0.734s] -- Detecting C compile features - done
+[0.744s] -- Detecting CXX compiler ABI info
+[1.017s] -- Detecting CXX compiler ABI info - done
+[1.037s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[1.037s] -- Detecting CXX compile features
+[1.037s] -- Detecting CXX compile features - done
+[1.043s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[4.763s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[5.009s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[5.182s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[5.631s] -- Added test 'copyright' to check source files copyright and LICENSE
+[5.655s] -- Added test 'flake8' to check Python code syntax and style conventions
+[5.656s] -- Added test 'lint_cmake' to check CMake code style
+[5.657s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[5.672s] -- Added test 'xmllint' to check XML markup files
+[5.681s] -- Configuring done
+[5.688s] -- Generating done
+[5.693s] -- Build files have been written to: /home/tony/ros2_ws/build/iqr_tb4_navigation
+[5.740s] Invoked command in '/home/tony/ros2_ws/build/iqr_tb4_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tony/ros2_ws/install/yolov10_inference:/home/tony/ros2_ws/install/witmotion_ros_driver:/home/tony/ros2_ws/install/turtlebot3_teleop:/home/tony/ros2_ws/install/turtlebot3_example:/home/tony/ros2_ws/install/ros2_aruco:/home/tony/ros2_ws/install/opencv_pkg:/home/tony/ros2_ws/install/dxl_tools:/home/tony/ros2_ws/install/ax12_arm_bringup:/opt/ros/humble /usr/bin/cmake /home/tony/ros2_ws/src/iqr_tb4_ros/iqr_tb4_navigation -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/tony/ros2_ws/install/iqr_tb4_navigation
+[5.740s] Invoking command in '/home/tony/ros2_ws/build/iqr_tb4_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tony/ros2_ws/install/yolov10_inference:/home/tony/ros2_ws/install/witmotion_ros_driver:/home/tony/ros2_ws/install/turtlebot3_teleop:/home/tony/ros2_ws/install/turtlebot3_example:/home/tony/ros2_ws/install/ros2_aruco:/home/tony/ros2_ws/install/opencv_pkg:/home/tony/ros2_ws/install/dxl_tools:/home/tony/ros2_ws/install/ax12_arm_bringup:/opt/ros/humble /usr/bin/cmake --build /home/tony/ros2_ws/build/iqr_tb4_navigation -- -j8 -l8
+[5.903s] Invoked command in '/home/tony/ros2_ws/build/iqr_tb4_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tony/ros2_ws/install/yolov10_inference:/home/tony/ros2_ws/install/witmotion_ros_driver:/home/tony/ros2_ws/install/turtlebot3_teleop:/home/tony/ros2_ws/install/turtlebot3_example:/home/tony/ros2_ws/install/ros2_aruco:/home/tony/ros2_ws/install/opencv_pkg:/home/tony/ros2_ws/install/dxl_tools:/home/tony/ros2_ws/install/ax12_arm_bringup:/opt/ros/humble /usr/bin/cmake --build /home/tony/ros2_ws/build/iqr_tb4_navigation -- -j8 -l8
+[6.004s] Invoking command in '/home/tony/ros2_ws/build/iqr_tb4_navigation': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tony/ros2_ws/install/yolov10_inference:/home/tony/ros2_ws/install/witmotion_ros_driver:/home/tony/ros2_ws/install/turtlebot3_teleop:/home/tony/ros2_ws/install/turtlebot3_example:/home/tony/ros2_ws/install/ros2_aruco:/home/tony/ros2_ws/install/opencv_pkg:/home/tony/ros2_ws/install/dxl_tools:/home/tony/ros2_ws/install/ax12_arm_bringup:/opt/ros/humble /usr/bin/cmake --install /home/tony/ros2_ws/build/iqr_tb4_navigation
+[6.554s] -- Install configuration: ""
+[6.554s] -- Execute custom install script
+[6.554s] -- Symlinking: /home/tony/ros2_ws/install/iqr_tb4_navigation/share/iqr_tb4_navigation/config/localization.yaml
+[6.554s] -- Symlinking: /home/tony/ros2_ws/install/iqr_tb4_navigation/share/iqr_tb4_navigation/config/nav2.yaml
+[6.554s] -- Symlinking: /home/tony/ros2_ws/install/iqr_tb4_navigation/share/iqr_tb4_navigation/config/slam.yaml
+[6.554s] -- Symlinking: /home/tony/ros2_ws/install/iqr_tb4_navigation/share/iqr_tb4_navigation/launch/localization.launch.py
+[6.554s] -- Symlinking: /home/tony/ros2_ws/install/iqr_tb4_navigation/share/iqr_tb4_navigation/launch/nav2.launch.py
+[6.554s] -- Symlinking: /home/tony/ros2_ws/install/iqr_tb4_navigation/share/iqr_tb4_navigation/launch/slam.launch.py
+[6.554s] -- Symlinking: /home/tony/ros2_ws/install/iqr_tb4_navigation/share/iqr_tb4_navigation/maps/test.pgm
+[6.554s] -- Symlinking: /home/tony/ros2_ws/install/iqr_tb4_navigation/share/iqr_tb4_navigation/maps/test.yaml
+[6.554s] -- Symlinking: /home/tony/ros2_ws/install/iqr_tb4_navigation/share/ament_index/resource_index/package_run_dependencies/iqr_tb4_navigation
+[6.555s] -- Symlinking: /home/tony/ros2_ws/install/iqr_tb4_navigation/share/ament_index/resource_index/parent_prefix_path/iqr_tb4_navigation
+[6.555s] -- Symlinking: /home/tony/ros2_ws/install/iqr_tb4_navigation/share/iqr_tb4_navigation/environment/ament_prefix_path.sh
+[6.555s] -- Symlinking: /home/tony/ros2_ws/install/iqr_tb4_navigation/share/iqr_tb4_navigation/environment/ament_prefix_path.dsv
+[6.555s] -- Symlinking: /home/tony/ros2_ws/install/iqr_tb4_navigation/share/iqr_tb4_navigation/environment/path.sh
+[6.555s] -- Symlinking: /home/tony/ros2_ws/install/iqr_tb4_navigation/share/iqr_tb4_navigation/environment/path.dsv
+[6.579s] -- Symlinking: /home/tony/ros2_ws/install/iqr_tb4_navigation/share/iqr_tb4_navigation/local_setup.bash
+[6.639s] -- Symlinking: /home/tony/ros2_ws/install/iqr_tb4_navigation/share/iqr_tb4_navigation/local_setup.sh
+[6.675s] -- Symlinking: /home/tony/ros2_ws/install/iqr_tb4_navigation/share/iqr_tb4_navigation/local_setup.zsh
+[6.718s] -- Symlinking: /home/tony/ros2_ws/install/iqr_tb4_navigation/share/iqr_tb4_navigation/local_setup.dsv
+[6.741s] -- Symlinking: /home/tony/ros2_ws/install/iqr_tb4_navigation/share/iqr_tb4_navigation/package.dsv
+[6.785s] -- Symlinking: /home/tony/ros2_ws/install/iqr_tb4_navigation/share/ament_index/resource_index/packages/iqr_tb4_navigation
+[6.807s] -- Symlinking: /home/tony/ros2_ws/install/iqr_tb4_navigation/share/iqr_tb4_navigation/cmake/iqr_tb4_navigationConfig.cmake
+[6.853s] -- Symlinking: /home/tony/ros2_ws/install/iqr_tb4_navigation/share/iqr_tb4_navigation/cmake/iqr_tb4_navigationConfig-version.cmake
+[6.874s] -- Symlinking: /home/tony/ros2_ws/install/iqr_tb4_navigation/share/iqr_tb4_navigation/package.xml
+[6.935s] Invoked command in '/home/tony/ros2_ws/build/iqr_tb4_navigation' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tony/ros2_ws/install/yolov10_inference:/home/tony/ros2_ws/install/witmotion_ros_driver:/home/tony/ros2_ws/install/turtlebot3_teleop:/home/tony/ros2_ws/install/turtlebot3_example:/home/tony/ros2_ws/install/ros2_aruco:/home/tony/ros2_ws/install/opencv_pkg:/home/tony/ros2_ws/install/dxl_tools:/home/tony/ros2_ws/install/ax12_arm_bringup:/opt/ros/humble /usr/bin/cmake --install /home/tony/ros2_ws/build/iqr_tb4_navigation

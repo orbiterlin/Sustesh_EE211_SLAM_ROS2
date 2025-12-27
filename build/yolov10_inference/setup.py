@@ -1,0 +1,1 @@
+/home/tony/ros2_ws/src/yolov10_inference/setup.py

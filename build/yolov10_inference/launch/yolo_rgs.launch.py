@@ -1,0 +1,1 @@
+/home/tony/ros2_ws/src/yolov10_inference/launch/yolo_rgs.launch.py

@@ -1,0 +1,23 @@
+[2.467s] Invoking command in '/home/tony/ros2_ws/src/yolov10_inference': PYTHONPATH=/home/tony/ros2_ws/build/yolov10_inference/prefix_override:/home/tony/ros2_ws/install/yolov10_inference/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/yolov10_inference build --build-base /home/tony/ros2_ws/build/yolov10_inference/build install --record /home/tony/ros2_ws/build/yolov10_inference/install.log --single-version-externally-managed
+[2.874s] running egg_info
+[2.891s] writing ../../build/yolov10_inference/yolov10_inference.egg-info/PKG-INFO
+[2.892s] writing dependency_links to ../../build/yolov10_inference/yolov10_inference.egg-info/dependency_links.txt
+[2.892s] writing entry points to ../../build/yolov10_inference/yolov10_inference.egg-info/entry_points.txt
+[2.892s] writing requirements to ../../build/yolov10_inference/yolov10_inference.egg-info/requires.txt
+[2.892s] writing top-level names to ../../build/yolov10_inference/yolov10_inference.egg-info/top_level.txt
+[2.924s] reading manifest file '../../build/yolov10_inference/yolov10_inference.egg-info/SOURCES.txt'
+[2.925s] writing manifest file '../../build/yolov10_inference/yolov10_inference.egg-info/SOURCES.txt'
+[2.925s] running build
+[2.925s] running build_py
+[2.926s] running install
+[2.926s] /home/tony/.local/lib/python3.10/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.926s]   warnings.warn(
+[2.931s] running install_lib
+[2.945s] running install_data
+[2.960s] running install_egg_info
+[2.977s] removing '/home/tony/ros2_ws/install/yolov10_inference/lib/python3.10/site-packages/yolov10_inference-0.0.0-py3.10.egg-info' (and everything under it)
+[2.978s] Copying ../../build/yolov10_inference/yolov10_inference.egg-info to /home/tony/ros2_ws/install/yolov10_inference/lib/python3.10/site-packages/yolov10_inference-0.0.0-py3.10.egg-info
+[2.979s] running install_scripts
+[3.037s] Installing yolo_rgs script to /home/tony/ros2_ws/install/yolov10_inference/lib/yolov10_inference
+[3.037s] writing list of installed files to '/home/tony/ros2_ws/build/yolov10_inference/install.log'
+[3.114s] Invoked command in '/home/tony/ros2_ws/src/yolov10_inference' returned '0': PYTHONPATH=/home/tony/ros2_ws/build/yolov10_inference/prefix_override:/home/tony/ros2_ws/install/yolov10_inference/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/yolov10_inference build --build-base /home/tony/ros2_ws/build/yolov10_inference/build install --record /home/tony/ros2_ws/build/yolov10_inference/install.log --single-version-externally-managed

@@ -1,0 +1,30 @@
+[4.416s] Invoking command in '/home/tony/ros2_ws/build/ax12a_arm_controller': PYTHONPATH=/home/tony/ros2_ws/build/ax12a_arm_controller/prefix_override:/home/tony/ros2_ws/install/ax12a_arm_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/tony/ros2_ws/build/ax12a_arm_controller/build --no-deps install_data
+[6.756s] running develop
+[6.757s] /home/tony/.local/lib/python3.10/site-packages/setuptools/command/easy_install.py:144: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[6.757s]   warnings.warn(
+[7.003s] /home/tony/.local/lib/python3.10/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[7.003s]   warnings.warn(
+[8.322s] running egg_info
+[8.323s] creating ax12a_arm_controller.egg-info
+[8.451s] writing ax12a_arm_controller.egg-info/PKG-INFO
+[8.451s] writing dependency_links to ax12a_arm_controller.egg-info/dependency_links.txt
+[8.452s] writing entry points to ax12a_arm_controller.egg-info/entry_points.txt
+[8.452s] writing requirements to ax12a_arm_controller.egg-info/requires.txt
+[8.452s] writing top-level names to ax12a_arm_controller.egg-info/top_level.txt
+[8.452s] writing manifest file 'ax12a_arm_controller.egg-info/SOURCES.txt'
+[8.668s] reading manifest file 'ax12a_arm_controller.egg-info/SOURCES.txt'
+[8.668s] writing manifest file 'ax12a_arm_controller.egg-info/SOURCES.txt'
+[8.757s] running build_ext
+[8.768s] Creating /home/tony/ros2_ws/install/ax12a_arm_controller/lib/python3.10/site-packages/ax12a-arm-controller.egg-link (link to .)
+[8.769s] Installing ax12a_arm_node script to /home/tony/ros2_ws/install/ax12a_arm_controller/lib/ax12a_arm_controller
+[8.769s] 
+[8.769s] Installed /home/tony/ros2_ws/build/ax12a_arm_controller
+[8.769s] running install_data
+[8.770s] creating /home/tony/ros2_ws/install/ax12a_arm_controller/share/ament_index
+[8.770s] creating /home/tony/ros2_ws/install/ax12a_arm_controller/share/ament_index/resource_index
+[8.770s] creating /home/tony/ros2_ws/install/ax12a_arm_controller/share/ament_index/resource_index/packages
+[8.770s] copying resource/ax12a_arm_controller -> /home/tony/ros2_ws/install/ax12a_arm_controller/share/ament_index/resource_index/packages
+[8.770s] copying package.xml -> /home/tony/ros2_ws/install/ax12a_arm_controller/share/ax12a_arm_controller
+[8.770s] creating /home/tony/ros2_ws/install/ax12a_arm_controller/share/ax12a_arm_controller/launch
+[8.770s] copying launch/ax12a_arm.launch.py -> /home/tony/ros2_ws/install/ax12a_arm_controller/share/ax12a_arm_controller/launch
+[9.531s] Invoked command in '/home/tony/ros2_ws/build/ax12a_arm_controller' returned '0': PYTHONPATH=/home/tony/ros2_ws/build/ax12a_arm_controller/prefix_override:/home/tony/ros2_ws/install/ax12a_arm_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/tony/ros2_ws/build/ax12a_arm_controller/build --no-deps install_data

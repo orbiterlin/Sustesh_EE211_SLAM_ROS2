@@ -1,0 +1,14 @@
+package.xml
+setup.cfg
+setup.py
+opencv_pkg/__init__.py
+opencv_pkg/camera_publisher.py
+opencv_pkg/camera_subscriber.py
+opencv_pkg.egg-info/PKG-INFO
+opencv_pkg.egg-info/SOURCES.txt
+opencv_pkg.egg-info/dependency_links.txt
+opencv_pkg.egg-info/entry_points.txt
+opencv_pkg.egg-info/requires.txt
+opencv_pkg.egg-info/top_level.txt
+opencv_pkg.egg-info/zip-safe
+resource/opencv_pkg

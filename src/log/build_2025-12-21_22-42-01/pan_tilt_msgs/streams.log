@@ -1,0 +1,313 @@
+[0.267s] Invoking command in '/home/tony/ros2_ws/src/build/pan_tilt_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tony/ros2_ws/install/yolov10_inference:/home/tony/ros2_ws/install/witmotion_ros_driver:/home/tony/ros2_ws/install/turtlebot3_teleop:/home/tony/ros2_ws/install/turtlebot3_example:/home/tony/ros2_ws/install/ros2_aruco:/home/tony/ros2_ws/install/opencv_pkg:/home/tony/ros2_ws/install/iqr_tb4_description:/home/tony/ros2_ws/install/ax12a_arm_controller:/opt/ros/humble /usr/bin/cmake /home/tony/ros2_ws/src/pan_tilt_ros/pan_tilt_msgs -DCMAKE_INSTALL_PREFIX=/home/tony/ros2_ws/src/install/pan_tilt_msgs
+[0.945s] -- The C compiler identification is GNU 11.4.0
+[0.945s] -- The CXX compiler identification is GNU 11.4.0
+[0.946s] -- Detecting C compiler ABI info
+[0.946s] -- Detecting C compiler ABI info - done
+[0.946s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.946s] -- Detecting C compile features
+[0.946s] -- Detecting C compile features - done
+[0.946s] -- Detecting CXX compiler ABI info
+[0.946s] -- Detecting CXX compiler ABI info - done
+[0.946s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.946s] -- Detecting CXX compile features
+[0.946s] -- Detecting CXX compile features - done
+[0.946s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[2.081s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[2.254s] -- Found std_msgs: 4.2.3 (/opt/ros/humble/share/std_msgs/cmake)
+[2.378s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[2.380s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[2.383s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[2.412s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[2.437s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.496s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[2.888s] -- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)
+[3.428s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[3.617s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[3.648s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.10.12", minimum required is "3.6") 
+[3.654s] -- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)
+[3.683s] -- Found PythonLibs: /usr/lib/x86_64-linux-gnu/libpython3.10.so (found suitable version "3.10.12", minimum required is "3.5") 
+[3.687s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[3.687s] -- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10
+[3.687s] -- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so
+[3.708s] -- Found PythonExtra: .so  
+[3.795s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[3.852s] -- Added test 'copyright' to check source files copyright and LICENSE
+[3.853s] -- Added test 'lint_cmake' to check CMake code style
+[3.856s] -- Added test 'xmllint' to check XML markup files
+[3.859s] -- Configuring done
+[3.902s] -- Generating done
+[3.907s] -- Build files have been written to: /home/tony/ros2_ws/src/build/pan_tilt_msgs
+[4.031s] Invoked command in '/home/tony/ros2_ws/src/build/pan_tilt_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tony/ros2_ws/install/yolov10_inference:/home/tony/ros2_ws/install/witmotion_ros_driver:/home/tony/ros2_ws/install/turtlebot3_teleop:/home/tony/ros2_ws/install/turtlebot3_example:/home/tony/ros2_ws/install/ros2_aruco:/home/tony/ros2_ws/install/opencv_pkg:/home/tony/ros2_ws/install/iqr_tb4_description:/home/tony/ros2_ws/install/ax12a_arm_controller:/opt/ros/humble /usr/bin/cmake /home/tony/ros2_ws/src/pan_tilt_ros/pan_tilt_msgs -DCMAKE_INSTALL_PREFIX=/home/tony/ros2_ws/src/install/pan_tilt_msgs
+[4.033s] Invoking command in '/home/tony/ros2_ws/src/build/pan_tilt_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tony/ros2_ws/install/yolov10_inference:/home/tony/ros2_ws/install/witmotion_ros_driver:/home/tony/ros2_ws/install/turtlebot3_teleop:/home/tony/ros2_ws/install/turtlebot3_example:/home/tony/ros2_ws/install/ros2_aruco:/home/tony/ros2_ws/install/opencv_pkg:/home/tony/ros2_ws/install/iqr_tb4_description:/home/tony/ros2_ws/install/ax12a_arm_controller:/opt/ros/humble /usr/bin/cmake --build /home/tony/ros2_ws/src/build/pan_tilt_msgs -- -j8 -l8
+[4.614s] [  1%] [34m[1mGenerating C code for ROS interfaces[0m
+[4.614s] [  3%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[4.615s] [  3%] Built target ament_cmake_python_copy_pan_tilt_msgs
+[4.615s] running egg_info
+[4.615s] creating pan_tilt_msgs.egg-info
+[4.616s] writing pan_tilt_msgs.egg-info/PKG-INFO
+[4.616s] writing dependency_links to pan_tilt_msgs.egg-info/dependency_links.txt
+[4.616s] writing top-level names to pan_tilt_msgs.egg-info/top_level.txt
+[4.616s] writing manifest file 'pan_tilt_msgs.egg-info/SOURCES.txt'
+[4.616s] reading manifest file 'pan_tilt_msgs.egg-info/SOURCES.txt'
+[4.616s] writing manifest file 'pan_tilt_msgs.egg-info/SOURCES.txt'
+[4.616s] [  3%] Built target ament_cmake_python_build_pan_tilt_msgs_egg
+[4.629s] [  5%] [32mBuilding C object CMakeFiles/pan_tilt_msgs__rosidl_generator_c.dir/rosidl_generator_c/pan_tilt_msgs/msg/detail/pan_tilt_cmd_deg__functions.c.o[0m
+[4.631s] [  9%] [32mBuilding C object CMakeFiles/pan_tilt_msgs__rosidl_generator_c.dir/rosidl_generator_c/pan_tilt_msgs/msg/detail/pan_tilt_status__functions.c.o[0m
+[4.631s] [  9%] [32mBuilding C object CMakeFiles/pan_tilt_msgs__rosidl_generator_c.dir/rosidl_generator_c/pan_tilt_msgs/msg/detail/pan_tilt_cmd_rad__functions.c.o[0m
+[4.631s] [ 10%] [32mBuilding C object CMakeFiles/pan_tilt_msgs__rosidl_generator_c.dir/rosidl_generator_c/pan_tilt_msgs/msg/detail/pan_joint_state__functions.c.o[0m
+[4.695s] [ 12%] [32m[1mLinking C shared library libpan_tilt_msgs__rosidl_generator_c.so[0m
+[4.698s] [ 12%] Built target pan_tilt_msgs__cpp
+[4.709s] [ 14%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[4.716s] [ 16%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[4.716s] [ 18%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[4.770s] [ 18%] Built target pan_tilt_msgs__rosidl_generator_c
+[4.799s] [ 20%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[4.805s] [ 21%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[4.866s] [ 23%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[5.811s] [ 25%] [32mBuilding CXX object CMakeFiles/pan_tilt_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/pan_tilt_msgs/msg/detail/dds_fastrtps/pan_tilt_status__type_support.cpp.o[0m
+[5.811s] [ 27%] [32mBuilding CXX object CMakeFiles/pan_tilt_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/pan_tilt_msgs/msg/detail/dds_fastrtps/pan_tilt_cmd_deg__type_support.cpp.o[0m
+[5.851s] [ 29%] [32mBuilding CXX object CMakeFiles/pan_tilt_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/pan_tilt_msgs/msg/detail/dds_fastrtps/pan_tilt_cmd_rad__type_support.cpp.o[0m
+[7.256s] [ 30%] [32mBuilding CXX object CMakeFiles/pan_tilt_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/pan_tilt_msgs/msg/pan_tilt_cmd_deg__type_support.cpp.o[0m
+[7.291s] [ 32%] [32mBuilding CXX object CMakeFiles/pan_tilt_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/pan_tilt_msgs/msg/detail/pan_tilt_cmd_deg__type_support.cpp.o[0m
+[7.622s] [ 34%] [32mBuilding CXX object CMakeFiles/pan_tilt_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/pan_tilt_msgs/msg/pan_tilt_cmd_deg__type_support.cpp.o[0m
+[7.724s] [ 36%] [32mBuilding CXX object CMakeFiles/pan_tilt_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/pan_tilt_msgs/msg/pan_tilt_cmd_rad__type_support.cpp.o[0m
+[7.755s] [ 38%] [32mBuilding CXX object CMakeFiles/pan_tilt_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/pan_tilt_msgs/msg/detail/pan_tilt_cmd_deg__type_support_c.cpp.o[0m
+[7.769s] [ 40%] [32mBuilding CXX object CMakeFiles/pan_tilt_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/pan_tilt_msgs/msg/pan_tilt_cmd_rad__type_support.cpp.o[0m
+[7.866s] [ 41%] [32mBuilding CXX object CMakeFiles/pan_tilt_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/pan_tilt_msgs/msg/pan_tilt_status__type_support.cpp.o[0m
+[7.999s] [ 43%] [32mBuilding C object CMakeFiles/pan_tilt_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/pan_tilt_msgs/msg/detail/pan_tilt_cmd_deg__type_support.c.o[0m
+[8.069s] [ 45%] [32mBuilding CXX object CMakeFiles/pan_tilt_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/pan_tilt_msgs/msg/pan_joint_state__type_support.cpp.o[0m
+[8.182s] [ 47%] [32mBuilding C object CMakeFiles/pan_tilt_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/pan_tilt_msgs/msg/detail/pan_tilt_cmd_rad__type_support.c.o[0m
+[8.257s] [ 49%] [32m[1mLinking CXX shared library libpan_tilt_msgs__rosidl_typesupport_c.so[0m
+[8.330s] [ 50%] [32mBuilding C object CMakeFiles/pan_tilt_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/pan_tilt_msgs/msg/detail/pan_tilt_status__type_support.c.o[0m
+[8.488s] [ 50%] Built target pan_tilt_msgs__rosidl_typesupport_c
+[8.500s] [ 52%] [32mBuilding C object CMakeFiles/pan_tilt_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/pan_tilt_msgs/msg/detail/pan_joint_state__type_support.c.o[0m
+[8.531s] [ 54%] [32mBuilding CXX object CMakeFiles/pan_tilt_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/pan_tilt_msgs/msg/pan_tilt_status__type_support.cpp.o[0m
+[8.554s] [ 56%] [32m[1mLinking C shared library libpan_tilt_msgs__rosidl_typesupport_introspection_c.so[0m
+[8.637s] [ 58%] [32mBuilding CXX object CMakeFiles/pan_tilt_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/pan_tilt_msgs/msg/detail/dds_fastrtps/pan_joint_state__type_support.cpp.o[0m
+[8.662s] [ 58%] Built target pan_tilt_msgs__rosidl_typesupport_introspection_c
+[8.713s] [ 60%] [32mBuilding CXX object CMakeFiles/pan_tilt_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/pan_tilt_msgs/msg/detail/pan_tilt_cmd_rad__type_support.cpp.o[0m
+[8.854s] [ 61%] [32mBuilding CXX object CMakeFiles/pan_tilt_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/pan_tilt_msgs/msg/detail/pan_tilt_cmd_rad__type_support_c.cpp.o[0m
+[8.878s] [ 63%] [32mBuilding CXX object CMakeFiles/pan_tilt_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/pan_tilt_msgs/msg/pan_joint_state__type_support.cpp.o[0m
+[9.220s] [ 65%] [32mBuilding CXX object CMakeFiles/pan_tilt_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/pan_tilt_msgs/msg/detail/pan_tilt_status__type_support.cpp.o[0m
+[9.544s] [ 67%] [32mBuilding CXX object CMakeFiles/pan_tilt_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/pan_tilt_msgs/msg/detail/pan_joint_state__type_support.cpp.o[0m
+[9.717s] [ 69%] [32mBuilding CXX object CMakeFiles/pan_tilt_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/pan_tilt_msgs/msg/detail/pan_tilt_status__type_support_c.cpp.o[0m
+[10.177s] [ 70%] [32mBuilding CXX object CMakeFiles/pan_tilt_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/pan_tilt_msgs/msg/detail/pan_joint_state__type_support_c.cpp.o[0m
+[10.492s] [ 72%] [32m[1mLinking CXX shared library libpan_tilt_msgs__rosidl_typesupport_cpp.so[0m
+[10.679s] [ 72%] Built target pan_tilt_msgs__rosidl_typesupport_cpp
+[11.035s] [ 74%] [32m[1mLinking CXX shared library libpan_tilt_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[11.364s] [ 76%] [32m[1mLinking CXX shared library libpan_tilt_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[11.583s] [ 76%] Built target pan_tilt_msgs__rosidl_typesupport_fastrtps_cpp
+[11.625s] [ 76%] Built target pan_tilt_msgs__rosidl_typesupport_introspection_cpp
+[12.488s] [ 78%] [32m[1mLinking CXX shared library libpan_tilt_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[12.862s] [ 78%] Built target pan_tilt_msgs__rosidl_typesupport_fastrtps_c
+[12.925s] [ 78%] Built target pan_tilt_msgs
+[12.967s] [ 80%] [34m[1mGenerating Python code for ROS interfaces[0m
+[16.024s] [ 80%] Built target pan_tilt_msgs__py
+[16.080s] [ 83%] [32mBuilding C object CMakeFiles/pan_tilt_msgs__rosidl_generator_py.dir/rosidl_generator_py/pan_tilt_msgs/msg/_pan_tilt_cmd_rad_s.c.o[0m
+[16.084s] [ 85%] [32mBuilding C object CMakeFiles/pan_tilt_msgs__rosidl_generator_py.dir/rosidl_generator_py/pan_tilt_msgs/msg/_pan_tilt_status_s.c.o[0m
+[16.089s] [ 85%] [32mBuilding C object CMakeFiles/pan_tilt_msgs__rosidl_generator_py.dir/rosidl_generator_py/pan_tilt_msgs/msg/_pan_tilt_cmd_deg_s.c.o[0m
+[16.091s] [ 87%] [32mBuilding C object CMakeFiles/pan_tilt_msgs__rosidl_generator_py.dir/rosidl_generator_py/pan_tilt_msgs/msg/_pan_joint_state_s.c.o[0m
+[16.658s] [ 89%] [32m[1mLinking C shared library rosidl_generator_py/pan_tilt_msgs/libpan_tilt_msgs__rosidl_generator_py.so[0m
+[16.736s] [ 89%] Built target pan_tilt_msgs__rosidl_generator_py
+[16.785s] [ 90%] [32mBuilding C object CMakeFiles/pan_tilt_msgs__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/pan_tilt_msgs/_pan_tilt_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[16.812s] [ 92%] [32mBuilding C object CMakeFiles/pan_tilt_msgs__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/pan_tilt_msgs/_pan_tilt_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[16.828s] [ 94%] [32mBuilding C object CMakeFiles/pan_tilt_msgs__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/pan_tilt_msgs/_pan_tilt_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[17.034s] [ 96%] [32m[1mLinking C shared library rosidl_generator_py/pan_tilt_msgs/pan_tilt_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so[0m
+[17.133s] [ 98%] [32m[1mLinking C shared library rosidl_generator_py/pan_tilt_msgs/pan_tilt_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so[0m
+[17.153s] [ 98%] Built target pan_tilt_msgs__rosidl_typesupport_fastrtps_c__pyext
+[17.179s] [100%] [32m[1mLinking C shared library rosidl_generator_py/pan_tilt_msgs/pan_tilt_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so[0m
+[17.257s] [100%] Built target pan_tilt_msgs__rosidl_typesupport_introspection_c__pyext
+[17.286s] [100%] Built target pan_tilt_msgs__rosidl_typesupport_c__pyext
+[17.554s] Invoked command in '/home/tony/ros2_ws/src/build/pan_tilt_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tony/ros2_ws/install/yolov10_inference:/home/tony/ros2_ws/install/witmotion_ros_driver:/home/tony/ros2_ws/install/turtlebot3_teleop:/home/tony/ros2_ws/install/turtlebot3_example:/home/tony/ros2_ws/install/ros2_aruco:/home/tony/ros2_ws/install/opencv_pkg:/home/tony/ros2_ws/install/iqr_tb4_description:/home/tony/ros2_ws/install/ax12a_arm_controller:/opt/ros/humble /usr/bin/cmake --build /home/tony/ros2_ws/src/build/pan_tilt_msgs -- -j8 -l8
+[18.113s] Invoking command in '/home/tony/ros2_ws/src/build/pan_tilt_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tony/ros2_ws/install/yolov10_inference:/home/tony/ros2_ws/install/witmotion_ros_driver:/home/tony/ros2_ws/install/turtlebot3_teleop:/home/tony/ros2_ws/install/turtlebot3_example:/home/tony/ros2_ws/install/ros2_aruco:/home/tony/ros2_ws/install/opencv_pkg:/home/tony/ros2_ws/install/iqr_tb4_description:/home/tony/ros2_ws/install/ax12a_arm_controller:/opt/ros/humble /usr/bin/cmake --install /home/tony/ros2_ws/src/build/pan_tilt_msgs
+[18.137s] -- Install configuration: ""
+[18.138s] -- Installing: /home/tony/ros2_ws/src/install/pan_tilt_msgs/share/ament_index/resource_index/rosidl_interfaces/pan_tilt_msgs
+[18.140s] -- Installing: /home/tony/ros2_ws/src/install/pan_tilt_msgs/include/pan_tilt_msgs/pan_tilt_msgs
+[18.141s] -- Installing: /home/tony/ros2_ws/src/install/pan_tilt_msgs/include/pan_tilt_msgs/pan_tilt_msgs/msg
+[18.141s] -- Installing: /home/tony/ros2_ws/src/install/pan_tilt_msgs/include/pan_tilt_msgs/pan_tilt_msgs/msg/pan_tilt_cmd_rad.h
+[18.142s] -- Installing: /home/tony/ros2_ws/src/install/pan_tilt_msgs/include/pan_tilt_msgs/pan_tilt_msgs/msg/pan_tilt_cmd_deg.h
+[18.142s] -- Installing: /home/tony/ros2_ws/src/install/pan_tilt_msgs/include/pan_tilt_msgs/pan_tilt_msgs/msg/pan_joint_state.h
+[18.142s] -- Installing: /home/tony/ros2_ws/src/install/pan_tilt_msgs/include/pan_tilt_msgs/pan_tilt_msgs/msg/detail
+[18.142s] -- Installing: /home/tony/ros2_ws/src/install/pan_tilt_msgs/include/pan_tilt_msgs/pan_tilt_msgs/msg/detail/pan_tilt_cmd_deg__functions.h
+[18.144s] -- Installing: /home/tony/ros2_ws/src/install/pan_tilt_msgs/include/pan_tilt_msgs/pan_tilt_msgs/msg/detail/pan_tilt_status__struct.h
+[18.145s] -- Installing: /home/tony/ros2_ws/src/install/pan_tilt_msgs/include/pan_tilt_msgs/pan_tilt_msgs/msg/detail/pan_tilt_cmd_deg__type_support.h
+[18.145s] -- Installing: /home/tony/ros2_ws/src/install/pan_tilt_msgs/include/pan_tilt_msgs/pan_tilt_msgs/msg/detail/pan_tilt_cmd_rad__functions.h
+[18.145s] -- Installing: /home/tony/ros2_ws/src/install/pan_tilt_msgs/include/pan_tilt_msgs/pan_tilt_msgs/msg/detail/pan_joint_state__type_support.h
+[18.145s] -- Installing: /home/tony/ros2_ws/src/install/pan_tilt_msgs/include/pan_tilt_msgs/pan_tilt_msgs/msg/detail/pan_tilt_status__functions.c
+[18.145s] -- Installing: /home/tony/ros2_ws/src/install/pan_tilt_msgs/include/pan_tilt_msgs/pan_tilt_msgs/msg/detail/pan_joint_state__functions.h
+[18.145s] -- Installing: /home/tony/ros2_ws/src/install/pan_tilt_msgs/include/pan_tilt_msgs/pan_tilt_msgs/msg/detail/pan_tilt_cmd_rad__struct.h
+[18.146s] -- Installing: /home/tony/ros2_ws/src/install/pan_tilt_msgs/include/pan_tilt_msgs/pan_tilt_msgs/msg/detail/pan_tilt_status__functions.h
+[18.146s] -- Installing: /home/tony/ros2_ws/src/install/pan_tilt_msgs/include/pan_tilt_msgs/pan_tilt_msgs/msg/detail/pan_tilt_cmd_rad__functions.c
+[18.146s] -- Installing: /home/tony/ros2_ws/src/install/pan_tilt_msgs/include/pan_tilt_msgs/pan_tilt_msgs/msg/detail/pan_tilt_cmd_rad__type_support.h
+[18.146s] -- Installing: /home/tony/ros2_ws/src/install/pan_tilt_msgs/include/pan_tilt_msgs/pan_tilt_msgs/msg/detail/pan_joint_state__functions.c
+[18.155s] -- Installing: /home/tony/ros2_ws/src/install/pan_tilt_msgs/include/pan_tilt_msgs/pan_tilt_msgs/msg/detail/pan_tilt_cmd_deg__functions.c
+[18.156s] -- Installing: /home/tony/ros2_ws/src/install/pan_tilt_msgs/include/pan_tilt_msgs/pan_tilt_msgs/msg/detail/pan_tilt_cmd_deg__struct.h
+[18.156s] -- Installing: /home/tony/ros2_ws/src/install/pan_tilt_msgs/include/pan_tilt_msgs/pan_tilt_msgs/msg/detail/pan_tilt_status__type_support.h
+[18.157s] -- Installing: /home/tony/ros2_ws/src/install/pan_tilt_msgs/include/pan_tilt_msgs/pan_tilt_msgs/msg/detail/pan_joint_state__struct.h
+[18.157s] -- Installing: /home/tony/ros2_ws/src/install/pan_tilt_msgs/include/pan_tilt_msgs/pan_tilt_msgs/msg/pan_tilt_status.h
+[18.157s] -- Installing: /home/tony/ros2_ws/src/install/pan_tilt_msgs/include/pan_tilt_msgs/pan_tilt_msgs/msg/rosidl_generator_c__visibility_control.h
+[18.157s] -- Installing: /home/tony/ros2_ws/src/install/pan_tilt_msgs/share/pan_tilt_msgs/environment/library_path.sh
+[18.157s] -- Installing: /home/tony/ros2_ws/src/install/pan_tilt_msgs/share/pan_tilt_msgs/environment/library_path.dsv
+[18.157s] -- Installing: /home/tony/ros2_ws/src/install/pan_tilt_msgs/lib/libpan_tilt_msgs__rosidl_generator_c.so
+[18.157s] -- Set runtime path of "/home/tony/ros2_ws/src/install/pan_tilt_msgs/lib/libpan_tilt_msgs__rosidl_generator_c.so" to ""
+[18.157s] -- Up-to-date: /home/tony/ros2_ws/src/install/pan_tilt_msgs/include/pan_tilt_msgs/pan_tilt_msgs
+[18.157s] -- Up-to-date: /home/tony/ros2_ws/src/install/pan_tilt_msgs/include/pan_tilt_msgs/pan_tilt_msgs/msg
+[18.158s] -- Up-to-date: /home/tony/ros2_ws/src/install/pan_tilt_msgs/include/pan_tilt_msgs/pan_tilt_msgs/msg/detail
+[18.158s] -- Installing: /home/tony/ros2_ws/src/install/pan_tilt_msgs/include/pan_tilt_msgs/pan_tilt_msgs/msg/detail/pan_joint_state__rosidl_typesupport_fastrtps_c.h
+[18.158s] -- Installing: /home/tony/ros2_ws/src/install/pan_tilt_msgs/include/pan_tilt_msgs/pan_tilt_msgs/msg/detail/pan_tilt_status__rosidl_typesupport_fastrtps_c.h
+[18.158s] -- Installing: /home/tony/ros2_ws/src/install/pan_tilt_msgs/include/pan_tilt_msgs/pan_tilt_msgs/msg/detail/pan_tilt_cmd_rad__rosidl_typesupport_fastrtps_c.h
+[18.158s] -- Installing: /home/tony/ros2_ws/src/install/pan_tilt_msgs/include/pan_tilt_msgs/pan_tilt_msgs/msg/detail/pan_tilt_cmd_deg__rosidl_typesupport_fastrtps_c.h
+[18.159s] -- Installing: /home/tony/ros2_ws/src/install/pan_tilt_msgs/include/pan_tilt_msgs/pan_tilt_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[18.159s] -- Installing: /home/tony/ros2_ws/src/install/pan_tilt_msgs/lib/libpan_tilt_msgs__rosidl_typesupport_fastrtps_c.so
+[18.159s] -- Set runtime path of "/home/tony/ros2_ws/src/install/pan_tilt_msgs/lib/libpan_tilt_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[18.159s] -- Up-to-date: /home/tony/ros2_ws/src/install/pan_tilt_msgs/include/pan_tilt_msgs/pan_tilt_msgs
+[18.159s] -- Up-to-date: /home/tony/ros2_ws/src/install/pan_tilt_msgs/include/pan_tilt_msgs/pan_tilt_msgs/msg
+[18.159s] -- Installing: /home/tony/ros2_ws/src/install/pan_tilt_msgs/include/pan_tilt_msgs/pan_tilt_msgs/msg/pan_tilt_cmd_deg.hpp
+[18.159s] -- Installing: /home/tony/ros2_ws/src/install/pan_tilt_msgs/include/pan_tilt_msgs/pan_tilt_msgs/msg/pan_tilt_status.hpp
+[18.159s] -- Installing: /home/tony/ros2_ws/src/install/pan_tilt_msgs/include/pan_tilt_msgs/pan_tilt_msgs/msg/pan_joint_state.hpp
+[18.159s] -- Up-to-date: /home/tony/ros2_ws/src/install/pan_tilt_msgs/include/pan_tilt_msgs/pan_tilt_msgs/msg/detail
+[18.168s] -- Installing: /home/tony/ros2_ws/src/install/pan_tilt_msgs/include/pan_tilt_msgs/pan_tilt_msgs/msg/detail/pan_tilt_cmd_deg__struct.hpp
+[18.170s] -- Installing: /home/tony/ros2_ws/src/install/pan_tilt_msgs/include/pan_tilt_msgs/pan_tilt_msgs/msg/detail/pan_tilt_cmd_rad__struct.hpp
+[18.170s] -- Installing: /home/tony/ros2_ws/src/install/pan_tilt_msgs/include/pan_tilt_msgs/pan_tilt_msgs/msg/detail/pan_tilt_status__struct.hpp
+[18.170s] -- Installing: /home/tony/ros2_ws/src/install/pan_tilt_msgs/include/pan_tilt_msgs/pan_tilt_msgs/msg/detail/pan_tilt_cmd_deg__builder.hpp
+[18.170s] -- Installing: /home/tony/ros2_ws/src/install/pan_tilt_msgs/include/pan_tilt_msgs/pan_tilt_msgs/msg/detail/pan_joint_state__builder.hpp
+[18.171s] -- Installing: /home/tony/ros2_ws/src/install/pan_tilt_msgs/include/pan_tilt_msgs/pan_tilt_msgs/msg/detail/pan_tilt_cmd_rad__traits.hpp
+[18.171s] -- Installing: /home/tony/ros2_ws/src/install/pan_tilt_msgs/include/pan_tilt_msgs/pan_tilt_msgs/msg/detail/pan_tilt_status__traits.hpp
+[18.171s] -- Installing: /home/tony/ros2_ws/src/install/pan_tilt_msgs/include/pan_tilt_msgs/pan_tilt_msgs/msg/detail/pan_tilt_cmd_rad__builder.hpp
+[18.171s] -- Installing: /home/tony/ros2_ws/src/install/pan_tilt_msgs/include/pan_tilt_msgs/pan_tilt_msgs/msg/detail/pan_tilt_status__builder.hpp
+[18.172s] -- Installing: /home/tony/ros2_ws/src/install/pan_tilt_msgs/include/pan_tilt_msgs/pan_tilt_msgs/msg/detail/pan_joint_state__struct.hpp
+[18.172s] -- Installing: /home/tony/ros2_ws/src/install/pan_tilt_msgs/include/pan_tilt_msgs/pan_tilt_msgs/msg/detail/pan_tilt_cmd_deg__traits.hpp
+[18.172s] -- Installing: /home/tony/ros2_ws/src/install/pan_tilt_msgs/include/pan_tilt_msgs/pan_tilt_msgs/msg/detail/pan_joint_state__traits.hpp
+[18.172s] -- Installing: /home/tony/ros2_ws/src/install/pan_tilt_msgs/include/pan_tilt_msgs/pan_tilt_msgs/msg/pan_tilt_cmd_rad.hpp
+[18.172s] -- Up-to-date: /home/tony/ros2_ws/src/install/pan_tilt_msgs/include/pan_tilt_msgs/pan_tilt_msgs
+[18.172s] -- Up-to-date: /home/tony/ros2_ws/src/install/pan_tilt_msgs/include/pan_tilt_msgs/pan_tilt_msgs/msg
+[18.172s] -- Installing: /home/tony/ros2_ws/src/install/pan_tilt_msgs/include/pan_tilt_msgs/pan_tilt_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[18.172s] -- Up-to-date: /home/tony/ros2_ws/src/install/pan_tilt_msgs/include/pan_tilt_msgs/pan_tilt_msgs/msg/detail
+[18.173s] -- Installing: /home/tony/ros2_ws/src/install/pan_tilt_msgs/include/pan_tilt_msgs/pan_tilt_msgs/msg/detail/pan_tilt_cmd_deg__rosidl_typesupport_fastrtps_cpp.hpp
+[18.173s] -- Installing: /home/tony/ros2_ws/src/install/pan_tilt_msgs/include/pan_tilt_msgs/pan_tilt_msgs/msg/detail/dds_fastrtps
+[18.173s] -- Installing: /home/tony/ros2_ws/src/install/pan_tilt_msgs/include/pan_tilt_msgs/pan_tilt_msgs/msg/detail/pan_tilt_cmd_rad__rosidl_typesupport_fastrtps_cpp.hpp
+[18.173s] -- Installing: /home/tony/ros2_ws/src/install/pan_tilt_msgs/include/pan_tilt_msgs/pan_tilt_msgs/msg/detail/pan_joint_state__rosidl_typesupport_fastrtps_cpp.hpp
+[18.173s] -- Installing: /home/tony/ros2_ws/src/install/pan_tilt_msgs/include/pan_tilt_msgs/pan_tilt_msgs/msg/detail/pan_tilt_status__rosidl_typesupport_fastrtps_cpp.hpp
+[18.181s] -- Installing: /home/tony/ros2_ws/src/install/pan_tilt_msgs/lib/libpan_tilt_msgs__rosidl_typesupport_fastrtps_cpp.so
+[18.181s] -- Set runtime path of "/home/tony/ros2_ws/src/install/pan_tilt_msgs/lib/libpan_tilt_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[18.182s] -- Up-to-date: /home/tony/ros2_ws/src/install/pan_tilt_msgs/include/pan_tilt_msgs/pan_tilt_msgs
+[18.182s] -- Up-to-date: /home/tony/ros2_ws/src/install/pan_tilt_msgs/include/pan_tilt_msgs/pan_tilt_msgs/msg
+[18.182s] -- Installing: /home/tony/ros2_ws/src/install/pan_tilt_msgs/include/pan_tilt_msgs/pan_tilt_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[18.182s] -- Up-to-date: /home/tony/ros2_ws/src/install/pan_tilt_msgs/include/pan_tilt_msgs/pan_tilt_msgs/msg/detail
+[18.182s] -- Installing: /home/tony/ros2_ws/src/install/pan_tilt_msgs/include/pan_tilt_msgs/pan_tilt_msgs/msg/detail/pan_tilt_status__type_support.c
+[18.182s] -- Installing: /home/tony/ros2_ws/src/install/pan_tilt_msgs/include/pan_tilt_msgs/pan_tilt_msgs/msg/detail/pan_tilt_status__rosidl_typesupport_introspection_c.h
+[18.182s] -- Installing: /home/tony/ros2_ws/src/install/pan_tilt_msgs/include/pan_tilt_msgs/pan_tilt_msgs/msg/detail/pan_tilt_cmd_rad__type_support.c
+[18.182s] -- Installing: /home/tony/ros2_ws/src/install/pan_tilt_msgs/include/pan_tilt_msgs/pan_tilt_msgs/msg/detail/pan_joint_state__type_support.c
+[18.182s] -- Installing: /home/tony/ros2_ws/src/install/pan_tilt_msgs/include/pan_tilt_msgs/pan_tilt_msgs/msg/detail/pan_tilt_cmd_rad__rosidl_typesupport_introspection_c.h
+[18.182s] -- Installing: /home/tony/ros2_ws/src/install/pan_tilt_msgs/include/pan_tilt_msgs/pan_tilt_msgs/msg/detail/pan_tilt_cmd_deg__rosidl_typesupport_introspection_c.h
+[18.182s] -- Installing: /home/tony/ros2_ws/src/install/pan_tilt_msgs/include/pan_tilt_msgs/pan_tilt_msgs/msg/detail/pan_tilt_cmd_deg__type_support.c
+[18.182s] -- Installing: /home/tony/ros2_ws/src/install/pan_tilt_msgs/include/pan_tilt_msgs/pan_tilt_msgs/msg/detail/pan_joint_state__rosidl_typesupport_introspection_c.h
+[18.182s] -- Installing: /home/tony/ros2_ws/src/install/pan_tilt_msgs/lib/libpan_tilt_msgs__rosidl_typesupport_introspection_c.so
+[18.183s] -- Set runtime path of "/home/tony/ros2_ws/src/install/pan_tilt_msgs/lib/libpan_tilt_msgs__rosidl_typesupport_introspection_c.so" to ""
+[18.184s] -- Installing: /home/tony/ros2_ws/src/install/pan_tilt_msgs/lib/libpan_tilt_msgs__rosidl_typesupport_c.so
+[18.185s] -- Set runtime path of "/home/tony/ros2_ws/src/install/pan_tilt_msgs/lib/libpan_tilt_msgs__rosidl_typesupport_c.so" to ""
+[18.185s] -- Up-to-date: /home/tony/ros2_ws/src/install/pan_tilt_msgs/include/pan_tilt_msgs/pan_tilt_msgs
+[18.185s] -- Up-to-date: /home/tony/ros2_ws/src/install/pan_tilt_msgs/include/pan_tilt_msgs/pan_tilt_msgs/msg
+[18.185s] -- Up-to-date: /home/tony/ros2_ws/src/install/pan_tilt_msgs/include/pan_tilt_msgs/pan_tilt_msgs/msg/detail
+[18.185s] -- Installing: /home/tony/ros2_ws/src/install/pan_tilt_msgs/include/pan_tilt_msgs/pan_tilt_msgs/msg/detail/pan_joint_state__type_support.cpp
+[18.185s] -- Installing: /home/tony/ros2_ws/src/install/pan_tilt_msgs/include/pan_tilt_msgs/pan_tilt_msgs/msg/detail/pan_joint_state__rosidl_typesupport_introspection_cpp.hpp
+[18.185s] -- Installing: /home/tony/ros2_ws/src/install/pan_tilt_msgs/include/pan_tilt_msgs/pan_tilt_msgs/msg/detail/pan_tilt_status__rosidl_typesupport_introspection_cpp.hpp
+[18.185s] -- Installing: /home/tony/ros2_ws/src/install/pan_tilt_msgs/include/pan_tilt_msgs/pan_tilt_msgs/msg/detail/pan_tilt_cmd_rad__rosidl_typesupport_introspection_cpp.hpp
+[18.185s] -- Installing: /home/tony/ros2_ws/src/install/pan_tilt_msgs/include/pan_tilt_msgs/pan_tilt_msgs/msg/detail/pan_tilt_cmd_rad__type_support.cpp
+[18.185s] -- Installing: /home/tony/ros2_ws/src/install/pan_tilt_msgs/include/pan_tilt_msgs/pan_tilt_msgs/msg/detail/pan_tilt_cmd_deg__type_support.cpp
+[18.185s] -- Installing: /home/tony/ros2_ws/src/install/pan_tilt_msgs/include/pan_tilt_msgs/pan_tilt_msgs/msg/detail/pan_tilt_cmd_deg__rosidl_typesupport_introspection_cpp.hpp
+[18.186s] -- Installing: /home/tony/ros2_ws/src/install/pan_tilt_msgs/include/pan_tilt_msgs/pan_tilt_msgs/msg/detail/pan_tilt_status__type_support.cpp
+[18.186s] -- Installing: /home/tony/ros2_ws/src/install/pan_tilt_msgs/lib/libpan_tilt_msgs__rosidl_typesupport_introspection_cpp.so
+[18.186s] -- Set runtime path of "/home/tony/ros2_ws/src/install/pan_tilt_msgs/lib/libpan_tilt_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[18.186s] -- Installing: /home/tony/ros2_ws/src/install/pan_tilt_msgs/lib/libpan_tilt_msgs__rosidl_typesupport_cpp.so
+[18.186s] -- Set runtime path of "/home/tony/ros2_ws/src/install/pan_tilt_msgs/lib/libpan_tilt_msgs__rosidl_typesupport_cpp.so" to ""
+[18.186s] -- Installing: /home/tony/ros2_ws/src/install/pan_tilt_msgs/share/pan_tilt_msgs/environment/pythonpath.sh
+[18.186s] -- Installing: /home/tony/ros2_ws/src/install/pan_tilt_msgs/share/pan_tilt_msgs/environment/pythonpath.dsv
+[18.186s] -- Installing: /home/tony/ros2_ws/src/install/pan_tilt_msgs/local/lib/python3.10/dist-packages/pan_tilt_msgs-1.0.0-py3.10.egg-info
+[18.186s] -- Installing: /home/tony/ros2_ws/src/install/pan_tilt_msgs/local/lib/python3.10/dist-packages/pan_tilt_msgs-1.0.0-py3.10.egg-info/top_level.txt
+[18.186s] -- Installing: /home/tony/ros2_ws/src/install/pan_tilt_msgs/local/lib/python3.10/dist-packages/pan_tilt_msgs-1.0.0-py3.10.egg-info/dependency_links.txt
+[18.186s] -- Installing: /home/tony/ros2_ws/src/install/pan_tilt_msgs/local/lib/python3.10/dist-packages/pan_tilt_msgs-1.0.0-py3.10.egg-info/SOURCES.txt
+[18.186s] -- Installing: /home/tony/ros2_ws/src/install/pan_tilt_msgs/local/lib/python3.10/dist-packages/pan_tilt_msgs-1.0.0-py3.10.egg-info/PKG-INFO
+[18.186s] -- Installing: /home/tony/ros2_ws/src/install/pan_tilt_msgs/local/lib/python3.10/dist-packages/pan_tilt_msgs
+[18.186s] -- Installing: /home/tony/ros2_ws/src/install/pan_tilt_msgs/local/lib/python3.10/dist-packages/pan_tilt_msgs/_pan_tilt_msgs_s.ep.rosidl_typesupport_c.c
+[18.186s] -- Installing: /home/tony/ros2_ws/src/install/pan_tilt_msgs/local/lib/python3.10/dist-packages/pan_tilt_msgs/__init__.py
+[18.186s] -- Installing: /home/tony/ros2_ws/src/install/pan_tilt_msgs/local/lib/python3.10/dist-packages/pan_tilt_msgs/_pan_tilt_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[18.189s] -- Installing: /home/tony/ros2_ws/src/install/pan_tilt_msgs/local/lib/python3.10/dist-packages/pan_tilt_msgs/pan_tilt_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[18.189s] -- Installing: /home/tony/ros2_ws/src/install/pan_tilt_msgs/local/lib/python3.10/dist-packages/pan_tilt_msgs/pan_tilt_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[18.189s] -- Installing: /home/tony/ros2_ws/src/install/pan_tilt_msgs/local/lib/python3.10/dist-packages/pan_tilt_msgs/_pan_tilt_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[18.189s] -- Installing: /home/tony/ros2_ws/src/install/pan_tilt_msgs/local/lib/python3.10/dist-packages/pan_tilt_msgs/msg
+[18.190s] -- Installing: /home/tony/ros2_ws/src/install/pan_tilt_msgs/local/lib/python3.10/dist-packages/pan_tilt_msgs/msg/_pan_tilt_cmd_deg_s.c
+[18.190s] -- Installing: /home/tony/ros2_ws/src/install/pan_tilt_msgs/local/lib/python3.10/dist-packages/pan_tilt_msgs/msg/_pan_joint_state.py
+[18.190s] -- Installing: /home/tony/ros2_ws/src/install/pan_tilt_msgs/local/lib/python3.10/dist-packages/pan_tilt_msgs/msg/_pan_joint_state_s.c
+[18.190s] -- Installing: /home/tony/ros2_ws/src/install/pan_tilt_msgs/local/lib/python3.10/dist-packages/pan_tilt_msgs/msg/_pan_tilt_status.py
+[18.190s] -- Installing: /home/tony/ros2_ws/src/install/pan_tilt_msgs/local/lib/python3.10/dist-packages/pan_tilt_msgs/msg/__init__.py
+[18.190s] -- Installing: /home/tony/ros2_ws/src/install/pan_tilt_msgs/local/lib/python3.10/dist-packages/pan_tilt_msgs/msg/_pan_tilt_cmd_deg.py
+[18.190s] -- Installing: /home/tony/ros2_ws/src/install/pan_tilt_msgs/local/lib/python3.10/dist-packages/pan_tilt_msgs/msg/_pan_tilt_cmd_rad_s.c
+[18.190s] -- Installing: /home/tony/ros2_ws/src/install/pan_tilt_msgs/local/lib/python3.10/dist-packages/pan_tilt_msgs/msg/_pan_tilt_cmd_rad.py
+[18.190s] -- Installing: /home/tony/ros2_ws/src/install/pan_tilt_msgs/local/lib/python3.10/dist-packages/pan_tilt_msgs/msg/_pan_tilt_status_s.c
+[18.190s] -- Installing: /home/tony/ros2_ws/src/install/pan_tilt_msgs/local/lib/python3.10/dist-packages/pan_tilt_msgs/pan_tilt_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[18.190s] -- Installing: /home/tony/ros2_ws/src/install/pan_tilt_msgs/local/lib/python3.10/dist-packages/pan_tilt_msgs/libpan_tilt_msgs__rosidl_generator_py.so
+[18.389s] Listing '/home/tony/ros2_ws/src/install/pan_tilt_msgs/local/lib/python3.10/dist-packages/pan_tilt_msgs'...
+[18.389s] Compiling '/home/tony/ros2_ws/src/install/pan_tilt_msgs/local/lib/python3.10/dist-packages/pan_tilt_msgs/__init__.py'...
+[18.389s] Listing '/home/tony/ros2_ws/src/install/pan_tilt_msgs/local/lib/python3.10/dist-packages/pan_tilt_msgs/msg'...
+[18.390s] Compiling '/home/tony/ros2_ws/src/install/pan_tilt_msgs/local/lib/python3.10/dist-packages/pan_tilt_msgs/msg/__init__.py'...
+[18.390s] Compiling '/home/tony/ros2_ws/src/install/pan_tilt_msgs/local/lib/python3.10/dist-packages/pan_tilt_msgs/msg/_pan_joint_state.py'...
+[18.390s] Compiling '/home/tony/ros2_ws/src/install/pan_tilt_msgs/local/lib/python3.10/dist-packages/pan_tilt_msgs/msg/_pan_tilt_cmd_deg.py'...
+[18.390s] Compiling '/home/tony/ros2_ws/src/install/pan_tilt_msgs/local/lib/python3.10/dist-packages/pan_tilt_msgs/msg/_pan_tilt_cmd_rad.py'...
+[18.390s] Compiling '/home/tony/ros2_ws/src/install/pan_tilt_msgs/local/lib/python3.10/dist-packages/pan_tilt_msgs/msg/_pan_tilt_status.py'...
+[18.407s] -- Installing: /home/tony/ros2_ws/src/install/pan_tilt_msgs/local/lib/python3.10/dist-packages/pan_tilt_msgs/pan_tilt_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so
+[18.407s] -- Set runtime path of "/home/tony/ros2_ws/src/install/pan_tilt_msgs/local/lib/python3.10/dist-packages/pan_tilt_msgs/pan_tilt_msgs_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""
+[18.407s] -- Installing: /home/tony/ros2_ws/src/install/pan_tilt_msgs/local/lib/python3.10/dist-packages/pan_tilt_msgs/pan_tilt_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so
+[18.408s] -- Set runtime path of "/home/tony/ros2_ws/src/install/pan_tilt_msgs/local/lib/python3.10/dist-packages/pan_tilt_msgs/pan_tilt_msgs_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""
+[18.408s] -- Installing: /home/tony/ros2_ws/src/install/pan_tilt_msgs/local/lib/python3.10/dist-packages/pan_tilt_msgs/pan_tilt_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so
+[18.408s] -- Set runtime path of "/home/tony/ros2_ws/src/install/pan_tilt_msgs/local/lib/python3.10/dist-packages/pan_tilt_msgs/pan_tilt_msgs_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""
+[18.408s] -- Installing: /home/tony/ros2_ws/src/install/pan_tilt_msgs/lib/libpan_tilt_msgs__rosidl_generator_py.so
+[18.408s] -- Set runtime path of "/home/tony/ros2_ws/src/install/pan_tilt_msgs/lib/libpan_tilt_msgs__rosidl_generator_py.so" to ""
+[18.408s] -- Installing: /home/tony/ros2_ws/src/install/pan_tilt_msgs/share/pan_tilt_msgs/msg/PanTiltCmdDeg.idl
+[18.408s] -- Installing: /home/tony/ros2_ws/src/install/pan_tilt_msgs/share/pan_tilt_msgs/msg/PanTiltCmdRad.idl
+[18.408s] -- Installing: /home/tony/ros2_ws/src/install/pan_tilt_msgs/share/pan_tilt_msgs/msg/PanTiltStatus.idl
+[18.408s] -- Installing: /home/tony/ros2_ws/src/install/pan_tilt_msgs/share/pan_tilt_msgs/msg/PanJointState.idl
+[18.408s] -- Installing: /home/tony/ros2_ws/src/install/pan_tilt_msgs/share/pan_tilt_msgs/msg/PanTiltCmdDeg.msg
+[18.408s] -- Installing: /home/tony/ros2_ws/src/install/pan_tilt_msgs/share/pan_tilt_msgs/msg/PanTiltCmdRad.msg
+[18.408s] -- Installing: /home/tony/ros2_ws/src/install/pan_tilt_msgs/share/pan_tilt_msgs/msg/PanTiltStatus.msg
+[18.408s] -- Installing: /home/tony/ros2_ws/src/install/pan_tilt_msgs/share/pan_tilt_msgs/msg/PanJointState.msg
+[18.409s] -- Installing: /home/tony/ros2_ws/src/install/pan_tilt_msgs/share/ament_index/resource_index/package_run_dependencies/pan_tilt_msgs
+[18.409s] -- Installing: /home/tony/ros2_ws/src/install/pan_tilt_msgs/share/ament_index/resource_index/parent_prefix_path/pan_tilt_msgs
+[18.409s] -- Installing: /home/tony/ros2_ws/src/install/pan_tilt_msgs/share/pan_tilt_msgs/environment/ament_prefix_path.sh
+[18.409s] -- Installing: /home/tony/ros2_ws/src/install/pan_tilt_msgs/share/pan_tilt_msgs/environment/ament_prefix_path.dsv
+[18.409s] -- Installing: /home/tony/ros2_ws/src/install/pan_tilt_msgs/share/pan_tilt_msgs/environment/path.sh
+[18.409s] -- Installing: /home/tony/ros2_ws/src/install/pan_tilt_msgs/share/pan_tilt_msgs/environment/path.dsv
+[18.409s] -- Installing: /home/tony/ros2_ws/src/install/pan_tilt_msgs/share/pan_tilt_msgs/local_setup.bash
+[18.409s] -- Installing: /home/tony/ros2_ws/src/install/pan_tilt_msgs/share/pan_tilt_msgs/local_setup.sh
+[18.409s] -- Installing: /home/tony/ros2_ws/src/install/pan_tilt_msgs/share/pan_tilt_msgs/local_setup.zsh
+[18.409s] -- Installing: /home/tony/ros2_ws/src/install/pan_tilt_msgs/share/pan_tilt_msgs/local_setup.dsv
+[18.409s] -- Installing: /home/tony/ros2_ws/src/install/pan_tilt_msgs/share/pan_tilt_msgs/package.dsv
+[18.409s] -- Installing: /home/tony/ros2_ws/src/install/pan_tilt_msgs/share/ament_index/resource_index/packages/pan_tilt_msgs
+[18.409s] -- Installing: /home/tony/ros2_ws/src/install/pan_tilt_msgs/share/pan_tilt_msgs/cmake/export_pan_tilt_msgs__rosidl_generator_cExport.cmake
+[18.410s] -- Installing: /home/tony/ros2_ws/src/install/pan_tilt_msgs/share/pan_tilt_msgs/cmake/export_pan_tilt_msgs__rosidl_generator_cExport-noconfig.cmake
+[18.410s] -- Installing: /home/tony/ros2_ws/src/install/pan_tilt_msgs/share/pan_tilt_msgs/cmake/export_pan_tilt_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[18.415s] -- Installing: /home/tony/ros2_ws/src/install/pan_tilt_msgs/share/pan_tilt_msgs/cmake/export_pan_tilt_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[18.416s] -- Installing: /home/tony/ros2_ws/src/install/pan_tilt_msgs/share/pan_tilt_msgs/cmake/export_pan_tilt_msgs__rosidl_generator_cppExport.cmake
+[18.416s] -- Installing: /home/tony/ros2_ws/src/install/pan_tilt_msgs/share/pan_tilt_msgs/cmake/export_pan_tilt_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[18.416s] -- Installing: /home/tony/ros2_ws/src/install/pan_tilt_msgs/share/pan_tilt_msgs/cmake/export_pan_tilt_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[18.416s] -- Installing: /home/tony/ros2_ws/src/install/pan_tilt_msgs/share/pan_tilt_msgs/cmake/pan_tilt_msgs__rosidl_typesupport_introspection_cExport.cmake
+[18.416s] -- Installing: /home/tony/ros2_ws/src/install/pan_tilt_msgs/share/pan_tilt_msgs/cmake/pan_tilt_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[18.416s] -- Installing: /home/tony/ros2_ws/src/install/pan_tilt_msgs/share/pan_tilt_msgs/cmake/pan_tilt_msgs__rosidl_typesupport_cExport.cmake
+[18.416s] -- Installing: /home/tony/ros2_ws/src/install/pan_tilt_msgs/share/pan_tilt_msgs/cmake/pan_tilt_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[18.417s] -- Installing: /home/tony/ros2_ws/src/install/pan_tilt_msgs/share/pan_tilt_msgs/cmake/pan_tilt_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[18.417s] -- Installing: /home/tony/ros2_ws/src/install/pan_tilt_msgs/share/pan_tilt_msgs/cmake/pan_tilt_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[18.417s] -- Installing: /home/tony/ros2_ws/src/install/pan_tilt_msgs/share/pan_tilt_msgs/cmake/pan_tilt_msgs__rosidl_typesupport_cppExport.cmake
+[18.417s] -- Installing: /home/tony/ros2_ws/src/install/pan_tilt_msgs/share/pan_tilt_msgs/cmake/pan_tilt_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[18.417s] -- Installing: /home/tony/ros2_ws/src/install/pan_tilt_msgs/share/pan_tilt_msgs/cmake/export_pan_tilt_msgs__rosidl_generator_pyExport.cmake
+[18.417s] -- Installing: /home/tony/ros2_ws/src/install/pan_tilt_msgs/share/pan_tilt_msgs/cmake/export_pan_tilt_msgs__rosidl_generator_pyExport-noconfig.cmake
+[18.417s] -- Installing: /home/tony/ros2_ws/src/install/pan_tilt_msgs/share/pan_tilt_msgs/cmake/rosidl_cmake-extras.cmake
+[18.417s] -- Installing: /home/tony/ros2_ws/src/install/pan_tilt_msgs/share/pan_tilt_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[18.418s] -- Installing: /home/tony/ros2_ws/src/install/pan_tilt_msgs/share/pan_tilt_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[18.418s] -- Installing: /home/tony/ros2_ws/src/install/pan_tilt_msgs/share/pan_tilt_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[18.418s] -- Installing: /home/tony/ros2_ws/src/install/pan_tilt_msgs/share/pan_tilt_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[18.418s] -- Installing: /home/tony/ros2_ws/src/install/pan_tilt_msgs/share/pan_tilt_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[18.418s] -- Installing: /home/tony/ros2_ws/src/install/pan_tilt_msgs/share/pan_tilt_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[18.418s] -- Installing: /home/tony/ros2_ws/src/install/pan_tilt_msgs/share/pan_tilt_msgs/cmake/pan_tilt_msgsConfig.cmake
+[18.418s] -- Installing: /home/tony/ros2_ws/src/install/pan_tilt_msgs/share/pan_tilt_msgs/cmake/pan_tilt_msgsConfig-version.cmake
+[18.420s] -- Installing: /home/tony/ros2_ws/src/install/pan_tilt_msgs/share/pan_tilt_msgs/package.xml
+[18.789s] Invoked command in '/home/tony/ros2_ws/src/build/pan_tilt_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tony/ros2_ws/install/yolov10_inference:/home/tony/ros2_ws/install/witmotion_ros_driver:/home/tony/ros2_ws/install/turtlebot3_teleop:/home/tony/ros2_ws/install/turtlebot3_example:/home/tony/ros2_ws/install/ros2_aruco:/home/tony/ros2_ws/install/opencv_pkg:/home/tony/ros2_ws/install/iqr_tb4_description:/home/tony/ros2_ws/install/ax12a_arm_controller:/opt/ros/humble /usr/bin/cmake --install /home/tony/ros2_ws/src/build/pan_tilt_msgs

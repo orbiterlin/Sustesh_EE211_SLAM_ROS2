@@ -1,0 +1,30 @@
+[3.083s] Invoking command in '/home/tony/ros2_ws/build/yolov10_inference': PYTHONPATH=/home/tony/ros2_ws/build/yolov10_inference/prefix_override:/home/tony/ros2_ws/install/yolov10_inference/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/tony/ros2_ws/build/yolov10_inference/build --no-deps install_data
+[3.856s] running develop
+[3.857s] /home/tony/.local/lib/python3.10/site-packages/setuptools/command/easy_install.py:144: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[3.857s]   warnings.warn(
+[3.908s] /home/tony/.local/lib/python3.10/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[3.908s]   warnings.warn(
+[4.235s] running egg_info
+[4.235s] creating yolov10_inference.egg-info
+[4.258s] writing yolov10_inference.egg-info/PKG-INFO
+[4.259s] writing dependency_links to yolov10_inference.egg-info/dependency_links.txt
+[4.259s] writing entry points to yolov10_inference.egg-info/entry_points.txt
+[4.259s] writing requirements to yolov10_inference.egg-info/requires.txt
+[4.259s] writing top-level names to yolov10_inference.egg-info/top_level.txt
+[4.259s] writing manifest file 'yolov10_inference.egg-info/SOURCES.txt'
+[4.313s] reading manifest file 'yolov10_inference.egg-info/SOURCES.txt'
+[4.316s] writing manifest file 'yolov10_inference.egg-info/SOURCES.txt'
+[4.339s] running build_ext
+[4.339s] Creating /home/tony/ros2_ws/install/yolov10_inference/lib/python3.10/site-packages/yolov10-inference.egg-link (link to .)
+[4.341s] Installing yolo_rgs script to /home/tony/ros2_ws/install/yolov10_inference/lib/yolov10_inference
+[4.341s] 
+[4.341s] Installed /home/tony/ros2_ws/build/yolov10_inference
+[4.341s] running install_data
+[4.341s] creating /home/tony/ros2_ws/install/yolov10_inference/share/ament_index
+[4.341s] creating /home/tony/ros2_ws/install/yolov10_inference/share/ament_index/resource_index
+[4.341s] creating /home/tony/ros2_ws/install/yolov10_inference/share/ament_index/resource_index/packages
+[4.341s] copying resource/yolov10_inference -> /home/tony/ros2_ws/install/yolov10_inference/share/ament_index/resource_index/packages
+[4.341s] copying package.xml -> /home/tony/ros2_ws/install/yolov10_inference/share/yolov10_inference
+[4.341s] creating /home/tony/ros2_ws/install/yolov10_inference/share/yolov10_inference/launch
+[4.341s] copying launch/yolo_rgs.launch.py -> /home/tony/ros2_ws/install/yolov10_inference/share/yolov10_inference/launch
+[4.428s] Invoked command in '/home/tony/ros2_ws/build/yolov10_inference' returned '0': PYTHONPATH=/home/tony/ros2_ws/build/yolov10_inference/prefix_override:/home/tony/ros2_ws/install/yolov10_inference/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/tony/ros2_ws/build/yolov10_inference/build --no-deps install_data

@@ -1,0 +1,42 @@
+[0.449s] Invoking command in '/home/tony/ros2_ws/src/build/ros2_aruco_interfaces': /usr/bin/cmake /home/tony/ros2_ws/src/ros2_aruco_realsense/ros2_aruco_interfaces -DCMAKE_INSTALL_PREFIX=/home/tony/ros2_ws/src/install/ros2_aruco_interfaces
+[0.544s] -- The C compiler identification is GNU 11.4.0
+[0.622s] -- The CXX compiler identification is GNU 11.4.0
+[0.634s] -- Detecting C compiler ABI info
+[0.731s] -- Detecting C compiler ABI info - done
+[0.737s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.738s] -- Detecting C compile features
+[0.739s] -- Detecting C compile features - done
+[0.739s] -- Detecting CXX compiler ABI info
+[0.838s] -- Detecting CXX compiler ABI info - done
+[0.849s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.849s] -- Detecting CXX compile features
+[0.849s] -- Detecting CXX compile features - done
+[0.855s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[1.686s] -- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter 
+[1.835s] -- Found geometry_msgs: 4.2.4 (/opt/ros/humble/share/geometry_msgs/cmake)
+[1.905s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[1.916s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[1.932s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[1.955s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.978s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[2.078s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[2.242s] [0mCMake Error: File /home/tony/ros2_ws/src/ros2_aruco_realsense/ros2_aruco_interfaces/package.xml does not exist.[0m
+[2.242s] [31mCMake Error at /opt/ros/humble/share/ament_cmake_core/cmake/core/stamp.cmake:24 (configure_file):
+[2.242s]   configure_file Problem configuring file
+[2.242s] Call Stack (most recent call first):
+[2.242s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:73 (stamp)
+[2.242s]   /opt/ros/humble/share/ament_cmake_core/cmake/core/ament_package_xml.cmake:49 (_ament_package_xml)
+[2.242s]   /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:226 (ament_package_xml)
+[2.242s]   CMakeLists.txt:28 (rosidl_generate_interfaces)
+[2.242s] 
+[2.242s] [0m
+[2.243s] [31mCMake Error at /opt/ros/humble/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:229 (message):
+[2.243s]   Packages installing interfaces must include
+[2.243s]   '<member_of_group>rosidl_interface_packages</member_of_group>' in their
+[2.243s]   package.xml
+[2.243s] Call Stack (most recent call first):
+[2.243s]   CMakeLists.txt:28 (rosidl_generate_interfaces)
+[2.243s] 
+[2.243s] [0m
+[2.243s] -- Configuring incomplete, errors occurred!
+[2.243s] See also "/home/tony/ros2_ws/src/build/ros2_aruco_interfaces/CMakeFiles/CMakeOutput.log".

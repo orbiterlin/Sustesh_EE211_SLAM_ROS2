@@ -1,0 +1,28 @@
+[35m[1mConsolidate compiler generated dependencies of target map_saver_node[0m
+[100%] Built target map_saver_node
+-- Install configuration: ""
+-- Up-to-date: /home/tony/ros2_ws/install/EI_Final_Project/lib/EI_Final_Project/map_saver_node
+-- Up-to-date: /home/tony/ros2_ws/install/EI_Final_Project/share/EI_Final_Project/launch
+-- Installing: /home/tony/ros2_ws/install/EI_Final_Project/share/EI_Final_Project/launch/slam_2d.launch.py
+-- Up-to-date: /home/tony/ros2_ws/install/EI_Final_Project/share/EI_Final_Project/launch/save_map.launch.py
+-- Up-to-date: /home/tony/ros2_ws/install/EI_Final_Project/share/EI_Final_Project/config
+-- Up-to-date: /home/tony/ros2_ws/install/EI_Final_Project/share/EI_Final_Project/config/slam_toolbox_params.yaml
+-- Up-to-date: /home/tony/ros2_ws/install/EI_Final_Project/share/EI_Final_Project/config/cartographer_params.lua
+-- Up-to-date: /home/tony/ros2_ws/install/EI_Final_Project/share/EI_Final_Project/maps
+-- Up-to-date: /home/tony/ros2_ws/install/EI_Final_Project/share/EI_Final_Project/rviz
+-- Up-to-date: /home/tony/ros2_ws/install/EI_Final_Project/share/EI_Final_Project/rviz/slam_2d.rviz
+-- Up-to-date: /home/tony/ros2_ws/install/EI_Final_Project/share/ament_index/resource_index/package_run_dependencies/EI_Final_Project
+-- Up-to-date: /home/tony/ros2_ws/install/EI_Final_Project/share/ament_index/resource_index/parent_prefix_path/EI_Final_Project
+-- Up-to-date: /home/tony/ros2_ws/install/EI_Final_Project/share/EI_Final_Project/environment/ament_prefix_path.sh
+-- Up-to-date: /home/tony/ros2_ws/install/EI_Final_Project/share/EI_Final_Project/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/tony/ros2_ws/install/EI_Final_Project/share/EI_Final_Project/environment/path.sh
+-- Up-to-date: /home/tony/ros2_ws/install/EI_Final_Project/share/EI_Final_Project/environment/path.dsv
+-- Up-to-date: /home/tony/ros2_ws/install/EI_Final_Project/share/EI_Final_Project/local_setup.bash
+-- Up-to-date: /home/tony/ros2_ws/install/EI_Final_Project/share/EI_Final_Project/local_setup.sh
+-- Up-to-date: /home/tony/ros2_ws/install/EI_Final_Project/share/EI_Final_Project/local_setup.zsh
+-- Up-to-date: /home/tony/ros2_ws/install/EI_Final_Project/share/EI_Final_Project/local_setup.dsv
+-- Installing: /home/tony/ros2_ws/install/EI_Final_Project/share/EI_Final_Project/package.dsv
+-- Up-to-date: /home/tony/ros2_ws/install/EI_Final_Project/share/ament_index/resource_index/packages/EI_Final_Project
+-- Up-to-date: /home/tony/ros2_ws/install/EI_Final_Project/share/EI_Final_Project/cmake/EI_Final_ProjectConfig.cmake
+-- Up-to-date: /home/tony/ros2_ws/install/EI_Final_Project/share/EI_Final_Project/cmake/EI_Final_ProjectConfig-version.cmake
+-- Up-to-date: /home/tony/ros2_ws/install/EI_Final_Project/share/EI_Final_Project/package.xml

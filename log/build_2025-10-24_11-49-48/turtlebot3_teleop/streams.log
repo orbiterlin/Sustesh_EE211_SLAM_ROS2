@@ -1,0 +1,28 @@
+[2.021s] Invoking command in '/home/tony/ros2_ws/build/turtlebot3_teleop': PYTHONPATH=/home/tony/ros2_ws/build/turtlebot3_teleop/prefix_override:/home/tony/ros2_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/tony/ros2_ws/build/turtlebot3_teleop/build --no-deps install_data
+[2.428s] running develop
+[2.429s] /home/tony/.local/lib/python3.10/site-packages/setuptools/command/easy_install.py:144: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[2.429s]   warnings.warn(
+[2.464s] /home/tony/.local/lib/python3.10/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[2.465s]   warnings.warn(
+[2.723s] running egg_info
+[2.723s] creating turtlebot3_teleop.egg-info
+[2.738s] writing turtlebot3_teleop.egg-info/PKG-INFO
+[2.739s] writing dependency_links to turtlebot3_teleop.egg-info/dependency_links.txt
+[2.739s] writing entry points to turtlebot3_teleop.egg-info/entry_points.txt
+[2.739s] writing requirements to turtlebot3_teleop.egg-info/requires.txt
+[2.739s] writing top-level names to turtlebot3_teleop.egg-info/top_level.txt
+[2.739s] writing manifest file 'turtlebot3_teleop.egg-info/SOURCES.txt'
+[2.779s] reading manifest file 'turtlebot3_teleop.egg-info/SOURCES.txt'
+[2.780s] writing manifest file 'turtlebot3_teleop.egg-info/SOURCES.txt'
+[2.797s] running build_ext
+[2.798s] Creating /home/tony/ros2_ws/install/turtlebot3_teleop/lib/python3.10/site-packages/turtlebot3-teleop.egg-link (link to .)
+[2.798s] Installing teleop_keyboard script to /home/tony/ros2_ws/install/turtlebot3_teleop/lib/turtlebot3_teleop
+[2.798s] 
+[2.798s] Installed /home/tony/ros2_ws/build/turtlebot3_teleop
+[2.798s] running install_data
+[2.799s] creating /home/tony/ros2_ws/install/turtlebot3_teleop/share/ament_index
+[2.799s] creating /home/tony/ros2_ws/install/turtlebot3_teleop/share/ament_index/resource_index
+[2.799s] creating /home/tony/ros2_ws/install/turtlebot3_teleop/share/ament_index/resource_index/packages
+[2.799s] copying resource/turtlebot3_teleop -> /home/tony/ros2_ws/install/turtlebot3_teleop/share/ament_index/resource_index/packages
+[2.799s] copying package.xml -> /home/tony/ros2_ws/install/turtlebot3_teleop/share/turtlebot3_teleop
+[2.975s] Invoked command in '/home/tony/ros2_ws/build/turtlebot3_teleop' returned '0': PYTHONPATH=/home/tony/ros2_ws/build/turtlebot3_teleop/prefix_override:/home/tony/ros2_ws/install/turtlebot3_teleop/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --editable --build-directory /home/tony/ros2_ws/build/turtlebot3_teleop/build --no-deps install_data

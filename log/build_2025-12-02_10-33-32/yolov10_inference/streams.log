@@ -1,0 +1,46 @@
+[2.707s] Invoking command in '/home/tony/ros2_ws/build/yolov10_inference': PYTHONPATH=/home/tony/ros2_ws/build/yolov10_inference/prefix_override:/home/tony/ros2_ws/install/yolov10_inference/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/tony/ros2_ws/build/yolov10_inference/build
+[3.335s] /home/tony/.local/lib/python3.10/site-packages/setuptools/command/easy_install.py:144: EasyInstallDeprecationWarning: easy_install command is deprecated. Use build and pip and other standards-based tools.
+[3.335s]   warnings.warn(
+[3.340s] running develop
+[3.407s] /home/tony/.local/lib/python3.10/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[3.407s]   warnings.warn(
+[3.716s] Removing /home/tony/ros2_ws/install/yolov10_inference/lib/python3.10/site-packages/yolov10-inference.egg-link (link to .)
+[3.859s] Invoked command in '/home/tony/ros2_ws/build/yolov10_inference' returned '0': PYTHONPATH=/home/tony/ros2_ws/build/yolov10_inference/prefix_override:/home/tony/ros2_ws/install/yolov10_inference/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py develop --uninstall --editable --build-directory /home/tony/ros2_ws/build/yolov10_inference/build
+[3.861s] Invoking command in '/home/tony/ros2_ws/src/yolov10_inference': PYTHONPATH=/home/tony/ros2_ws/build/yolov10_inference/prefix_override:/home/tony/ros2_ws/install/yolov10_inference/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/yolov10_inference build --build-base /home/tony/ros2_ws/build/yolov10_inference/build install --record /home/tony/ros2_ws/build/yolov10_inference/install.log --single-version-externally-managed
+[4.314s] running egg_info
+[4.334s] writing ../../build/yolov10_inference/yolov10_inference.egg-info/PKG-INFO
+[4.334s] writing dependency_links to ../../build/yolov10_inference/yolov10_inference.egg-info/dependency_links.txt
+[4.335s] writing entry points to ../../build/yolov10_inference/yolov10_inference.egg-info/entry_points.txt
+[4.335s] writing requirements to ../../build/yolov10_inference/yolov10_inference.egg-info/requires.txt
+[4.335s] writing top-level names to ../../build/yolov10_inference/yolov10_inference.egg-info/top_level.txt
+[4.375s] reading manifest file '../../build/yolov10_inference/yolov10_inference.egg-info/SOURCES.txt'
+[4.377s] writing manifest file '../../build/yolov10_inference/yolov10_inference.egg-info/SOURCES.txt'
+[4.377s] running build
+[4.377s] running build_py
+[4.377s] creating /home/tony/ros2_ws/build/yolov10_inference/build
+[4.377s] creating /home/tony/ros2_ws/build/yolov10_inference/build/lib
+[4.377s] creating /home/tony/ros2_ws/build/yolov10_inference/build/lib/yolov10_inference
+[4.377s] copying yolov10_inference/__init__.py -> /home/tony/ros2_ws/build/yolov10_inference/build/lib/yolov10_inference
+[4.378s] copying yolov10_inference/yolo_rgs.py -> /home/tony/ros2_ws/build/yolov10_inference/build/lib/yolov10_inference
+[4.378s] copying yolov10_inference/main.py -> /home/tony/ros2_ws/build/yolov10_inference/build/lib/yolov10_inference
+[4.378s] copying yolov10_inference/test.py -> /home/tony/ros2_ws/build/yolov10_inference/build/lib/yolov10_inference
+[4.378s] running install
+[4.378s] /home/tony/.local/lib/python3.10/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[4.378s]   warnings.warn(
+[4.387s] running install_lib
+[4.410s] creating /home/tony/ros2_ws/install/yolov10_inference/lib/python3.10/site-packages/yolov10_inference
+[4.411s] copying /home/tony/ros2_ws/build/yolov10_inference/build/lib/yolov10_inference/__init__.py -> /home/tony/ros2_ws/install/yolov10_inference/lib/python3.10/site-packages/yolov10_inference
+[4.411s] copying /home/tony/ros2_ws/build/yolov10_inference/build/lib/yolov10_inference/yolo_rgs.py -> /home/tony/ros2_ws/install/yolov10_inference/lib/python3.10/site-packages/yolov10_inference
+[4.411s] copying /home/tony/ros2_ws/build/yolov10_inference/build/lib/yolov10_inference/main.py -> /home/tony/ros2_ws/install/yolov10_inference/lib/python3.10/site-packages/yolov10_inference
+[4.411s] copying /home/tony/ros2_ws/build/yolov10_inference/build/lib/yolov10_inference/test.py -> /home/tony/ros2_ws/install/yolov10_inference/lib/python3.10/site-packages/yolov10_inference
+[4.412s] byte-compiling /home/tony/ros2_ws/install/yolov10_inference/lib/python3.10/site-packages/yolov10_inference/__init__.py to __init__.cpython-310.pyc
+[4.412s] byte-compiling /home/tony/ros2_ws/install/yolov10_inference/lib/python3.10/site-packages/yolov10_inference/yolo_rgs.py to yolo_rgs.cpython-310.pyc
+[4.413s] byte-compiling /home/tony/ros2_ws/install/yolov10_inference/lib/python3.10/site-packages/yolov10_inference/main.py to main.cpython-310.pyc
+[4.413s] byte-compiling /home/tony/ros2_ws/install/yolov10_inference/lib/python3.10/site-packages/yolov10_inference/test.py to test.cpython-310.pyc
+[4.414s] running install_data
+[4.438s] running install_egg_info
+[4.464s] Copying ../../build/yolov10_inference/yolov10_inference.egg-info to /home/tony/ros2_ws/install/yolov10_inference/lib/python3.10/site-packages/yolov10_inference-0.0.0-py3.10.egg-info
+[4.465s] running install_scripts
+[4.540s] Installing yolo_rgs script to /home/tony/ros2_ws/install/yolov10_inference/lib/yolov10_inference
+[4.540s] writing list of installed files to '/home/tony/ros2_ws/build/yolov10_inference/install.log'
+[4.596s] Invoked command in '/home/tony/ros2_ws/src/yolov10_inference' returned '0': PYTHONPATH=/home/tony/ros2_ws/build/yolov10_inference/prefix_override:/home/tony/ros2_ws/install/yolov10_inference/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../../build/yolov10_inference build --build-base /home/tony/ros2_ws/build/yolov10_inference/build install --record /home/tony/ros2_ws/build/yolov10_inference/install.log --single-version-externally-managed

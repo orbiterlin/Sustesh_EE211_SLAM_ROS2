@@ -1,0 +1,31 @@
+[0.066s] Invoking command in '/home/tony/ros2_ws/build/EI_Final_Project': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tony/ros2_ws/install/yolov10_inference:/home/tony/ros2_ws/install/witmotion_ros_driver:/home/tony/ros2_ws/install/turtlebot3_teleop:/home/tony/ros2_ws/install/turtlebot3_example:/home/tony/ros2_ws/install/ros2_aruco:/home/tony/ros2_ws/install/opencv_pkg:/home/tony/ros2_ws/install/ax12a_arm_controller:/opt/ros/humble /usr/bin/cmake --build /home/tony/ros2_ws/build/EI_Final_Project -- -j8 -l8
+[0.113s] [100%] Built target map_saver_node
+[0.124s] Invoked command in '/home/tony/ros2_ws/build/EI_Final_Project' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tony/ros2_ws/install/yolov10_inference:/home/tony/ros2_ws/install/witmotion_ros_driver:/home/tony/ros2_ws/install/turtlebot3_teleop:/home/tony/ros2_ws/install/turtlebot3_example:/home/tony/ros2_ws/install/ros2_aruco:/home/tony/ros2_ws/install/opencv_pkg:/home/tony/ros2_ws/install/ax12a_arm_controller:/opt/ros/humble /usr/bin/cmake --build /home/tony/ros2_ws/build/EI_Final_Project -- -j8 -l8
+[0.157s] Invoking command in '/home/tony/ros2_ws/build/EI_Final_Project': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tony/ros2_ws/install/yolov10_inference:/home/tony/ros2_ws/install/witmotion_ros_driver:/home/tony/ros2_ws/install/turtlebot3_teleop:/home/tony/ros2_ws/install/turtlebot3_example:/home/tony/ros2_ws/install/ros2_aruco:/home/tony/ros2_ws/install/opencv_pkg:/home/tony/ros2_ws/install/ax12a_arm_controller:/opt/ros/humble /usr/bin/cmake --install /home/tony/ros2_ws/build/EI_Final_Project
+[0.162s] -- Install configuration: ""
+[0.163s] -- Up-to-date: /home/tony/ros2_ws/install/EI_Final_Project/lib/EI_Final_Project/map_saver_node
+[0.163s] -- Up-to-date: /home/tony/ros2_ws/install/EI_Final_Project/share/EI_Final_Project/launch
+[0.163s] -- Up-to-date: /home/tony/ros2_ws/install/EI_Final_Project/share/EI_Final_Project/launch/slam_2d.launch.py
+[0.163s] -- Up-to-date: /home/tony/ros2_ws/install/EI_Final_Project/share/EI_Final_Project/launch/save_map.launch.py
+[0.163s] -- Up-to-date: /home/tony/ros2_ws/install/EI_Final_Project/share/EI_Final_Project/config
+[0.163s] -- Up-to-date: /home/tony/ros2_ws/install/EI_Final_Project/share/EI_Final_Project/config/slam_toolbox_params.yaml
+[0.163s] -- Up-to-date: /home/tony/ros2_ws/install/EI_Final_Project/share/EI_Final_Project/config/cartographer_params.lua
+[0.163s] -- Up-to-date: /home/tony/ros2_ws/install/EI_Final_Project/share/EI_Final_Project/maps
+[0.163s] -- Up-to-date: /home/tony/ros2_ws/install/EI_Final_Project/share/EI_Final_Project/rviz
+[0.163s] -- Up-to-date: /home/tony/ros2_ws/install/EI_Final_Project/share/EI_Final_Project/rviz/slam_2d.rviz
+[0.163s] -- Up-to-date: /home/tony/ros2_ws/install/EI_Final_Project/share/ament_index/resource_index/package_run_dependencies/EI_Final_Project
+[0.163s] -- Up-to-date: /home/tony/ros2_ws/install/EI_Final_Project/share/ament_index/resource_index/parent_prefix_path/EI_Final_Project
+[0.163s] -- Up-to-date: /home/tony/ros2_ws/install/EI_Final_Project/share/EI_Final_Project/environment/ament_prefix_path.sh
+[0.163s] -- Up-to-date: /home/tony/ros2_ws/install/EI_Final_Project/share/EI_Final_Project/environment/ament_prefix_path.dsv
+[0.163s] -- Up-to-date: /home/tony/ros2_ws/install/EI_Final_Project/share/EI_Final_Project/environment/path.sh
+[0.163s] -- Up-to-date: /home/tony/ros2_ws/install/EI_Final_Project/share/EI_Final_Project/environment/path.dsv
+[0.163s] -- Up-to-date: /home/tony/ros2_ws/install/EI_Final_Project/share/EI_Final_Project/local_setup.bash
+[0.163s] -- Up-to-date: /home/tony/ros2_ws/install/EI_Final_Project/share/EI_Final_Project/local_setup.sh
+[0.164s] -- Up-to-date: /home/tony/ros2_ws/install/EI_Final_Project/share/EI_Final_Project/local_setup.zsh
+[0.164s] -- Up-to-date: /home/tony/ros2_ws/install/EI_Final_Project/share/EI_Final_Project/local_setup.dsv
+[0.164s] -- Installing: /home/tony/ros2_ws/install/EI_Final_Project/share/EI_Final_Project/package.dsv
+[0.164s] -- Up-to-date: /home/tony/ros2_ws/install/EI_Final_Project/share/ament_index/resource_index/packages/EI_Final_Project
+[0.164s] -- Up-to-date: /home/tony/ros2_ws/install/EI_Final_Project/share/EI_Final_Project/cmake/EI_Final_ProjectConfig.cmake
+[0.164s] -- Up-to-date: /home/tony/ros2_ws/install/EI_Final_Project/share/EI_Final_Project/cmake/EI_Final_ProjectConfig-version.cmake
+[0.164s] -- Up-to-date: /home/tony/ros2_ws/install/EI_Final_Project/share/EI_Final_Project/package.xml
+[0.165s] Invoked command in '/home/tony/ros2_ws/build/EI_Final_Project' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/tony/ros2_ws/install/yolov10_inference:/home/tony/ros2_ws/install/witmotion_ros_driver:/home/tony/ros2_ws/install/turtlebot3_teleop:/home/tony/ros2_ws/install/turtlebot3_example:/home/tony/ros2_ws/install/ros2_aruco:/home/tony/ros2_ws/install/opencv_pkg:/home/tony/ros2_ws/install/ax12a_arm_controller:/opt/ros/humble /usr/bin/cmake --install /home/tony/ros2_ws/build/EI_Final_Project

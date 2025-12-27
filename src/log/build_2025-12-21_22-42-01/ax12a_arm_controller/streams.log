@@ -1,0 +1,44 @@
+[5.033s] Invoking command in '/home/tony/ros2_ws/src/ax12a_arm_controller': PYTHONPATH=/home/tony/ros2_ws/src/build/ax12a_arm_controller/prefix_override:/home/tony/ros2_ws/src/install/ax12a_arm_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/ax12a_arm_controller build --build-base /home/tony/ros2_ws/src/build/ax12a_arm_controller/build install --record /home/tony/ros2_ws/src/build/ax12a_arm_controller/install.log --single-version-externally-managed
+[9.303s] running egg_info
+[9.303s] creating ../build/ax12a_arm_controller/ax12a_arm_controller.egg-info
+[9.303s] writing ../build/ax12a_arm_controller/ax12a_arm_controller.egg-info/PKG-INFO
+[9.303s] writing dependency_links to ../build/ax12a_arm_controller/ax12a_arm_controller.egg-info/dependency_links.txt
+[9.303s] writing entry points to ../build/ax12a_arm_controller/ax12a_arm_controller.egg-info/entry_points.txt
+[9.303s] writing requirements to ../build/ax12a_arm_controller/ax12a_arm_controller.egg-info/requires.txt
+[9.303s] writing top-level names to ../build/ax12a_arm_controller/ax12a_arm_controller.egg-info/top_level.txt
+[9.303s] writing manifest file '../build/ax12a_arm_controller/ax12a_arm_controller.egg-info/SOURCES.txt'
+[9.303s] reading manifest file '../build/ax12a_arm_controller/ax12a_arm_controller.egg-info/SOURCES.txt'
+[9.303s] writing manifest file '../build/ax12a_arm_controller/ax12a_arm_controller.egg-info/SOURCES.txt'
+[9.303s] running build
+[9.304s] running build_py
+[9.304s] creating /home/tony/ros2_ws/src/build/ax12a_arm_controller/build
+[9.304s] creating /home/tony/ros2_ws/src/build/ax12a_arm_controller/build/lib
+[9.304s] creating /home/tony/ros2_ws/src/build/ax12a_arm_controller/build/lib/ax12a_arm_controller
+[9.304s] copying ax12a_arm_controller/read_dxl_deg.py -> /home/tony/ros2_ws/src/build/ax12a_arm_controller/build/lib/ax12a_arm_controller
+[9.304s] copying ax12a_arm_controller/__init__.py -> /home/tony/ros2_ws/src/build/ax12a_arm_controller/build/lib/ax12a_arm_controller
+[9.304s] copying ax12a_arm_controller/ax12a_arm_node.py -> /home/tony/ros2_ws/src/build/ax12a_arm_controller/build/lib/ax12a_arm_controller
+[9.304s] running install
+[9.304s] running install_lib
+[9.304s] creating /home/tony/ros2_ws/src/install/ax12a_arm_controller/lib/python3.10/site-packages/ax12a_arm_controller
+[9.304s] copying /home/tony/ros2_ws/src/build/ax12a_arm_controller/build/lib/ax12a_arm_controller/read_dxl_deg.py -> /home/tony/ros2_ws/src/install/ax12a_arm_controller/lib/python3.10/site-packages/ax12a_arm_controller
+[9.304s] copying /home/tony/ros2_ws/src/build/ax12a_arm_controller/build/lib/ax12a_arm_controller/__init__.py -> /home/tony/ros2_ws/src/install/ax12a_arm_controller/lib/python3.10/site-packages/ax12a_arm_controller
+[9.304s] copying /home/tony/ros2_ws/src/build/ax12a_arm_controller/build/lib/ax12a_arm_controller/ax12a_arm_node.py -> /home/tony/ros2_ws/src/install/ax12a_arm_controller/lib/python3.10/site-packages/ax12a_arm_controller
+[9.304s] byte-compiling /home/tony/ros2_ws/src/install/ax12a_arm_controller/lib/python3.10/site-packages/ax12a_arm_controller/read_dxl_deg.py to read_dxl_deg.cpython-310.pyc
+[9.304s] byte-compiling /home/tony/ros2_ws/src/install/ax12a_arm_controller/lib/python3.10/site-packages/ax12a_arm_controller/__init__.py to __init__.cpython-310.pyc
+[9.305s] byte-compiling /home/tony/ros2_ws/src/install/ax12a_arm_controller/lib/python3.10/site-packages/ax12a_arm_controller/ax12a_arm_node.py to ax12a_arm_node.cpython-310.pyc
+[9.305s] running install_data
+[9.305s] creating /home/tony/ros2_ws/src/install/ax12a_arm_controller/share/ament_index
+[9.305s] creating /home/tony/ros2_ws/src/install/ax12a_arm_controller/share/ament_index/resource_index
+[9.305s] creating /home/tony/ros2_ws/src/install/ax12a_arm_controller/share/ament_index/resource_index/packages
+[9.305s] copying resource/ax12a_arm_controller -> /home/tony/ros2_ws/src/install/ax12a_arm_controller/share/ament_index/resource_index/packages
+[9.310s] copying package.xml -> /home/tony/ros2_ws/src/install/ax12a_arm_controller/share/ax12a_arm_controller
+[9.310s] creating /home/tony/ros2_ws/src/install/ax12a_arm_controller/share/ax12a_arm_controller/launch
+[9.310s] copying launch/ax12a_arm.launch.py -> /home/tony/ros2_ws/src/install/ax12a_arm_controller/share/ax12a_arm_controller/launch
+[9.310s] running install_egg_info
+[9.310s] Copying ../build/ax12a_arm_controller/ax12a_arm_controller.egg-info to /home/tony/ros2_ws/src/install/ax12a_arm_controller/lib/python3.10/site-packages/ax12a_arm_controller-0.0.1-py3.10.egg-info
+[9.311s] running install_scripts
+[9.311s] Installing ax12a_arm_node script to /home/tony/ros2_ws/src/install/ax12a_arm_controller/lib/ax12a_arm_controller
+[9.311s] writing list of installed files to '/home/tony/ros2_ws/src/build/ax12a_arm_controller/install.log'
+[9.320s] /home/tony/.local/lib/python3.10/site-packages/setuptools/command/install.py:34: SetuptoolsDeprecationWarning: setup.py install is deprecated. Use build and pip and other standards-based tools.
+[9.320s]   warnings.warn(
+[9.614s] Invoked command in '/home/tony/ros2_ws/src/ax12a_arm_controller' returned '0': PYTHONPATH=/home/tony/ros2_ws/src/build/ax12a_arm_controller/prefix_override:/home/tony/ros2_ws/src/install/ax12a_arm_controller/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 setup.py egg_info --egg-base ../build/ax12a_arm_controller build --build-base /home/tony/ros2_ws/src/build/ax12a_arm_controller/build install --record /home/tony/ros2_ws/src/build/ax12a_arm_controller/install.log --single-version-externally-managed
