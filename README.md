@@ -1,9 +1,16 @@
 # 🤖 ROS2 自主导航与视觉抓取机器人系统
 
-> 📚 **南方科技大学 EE211  课程项目**
+> 📚 **南方科技大学 EE211 课程项目**
 > 
 > 课程主页：[EE211 2025 Fall](https://rpai-lab.github.io/EE211-25Fall/)
+
 基于 ROS2 的移动机器人自主导航与视觉识别抓取系统，集成了 TurtleBot4 底盘、YOLO 目标检测、ArUco 标记识别、机械臂控制等功能。
+
+## 🎬 演示视频
+
+[![演示视频](https://img.shields.io/badge/Bilibili-演示视频-00A1D6?style=for-the-badge&logo=bilibili&logoColor=white)](https://www.bilibili.com/video/BV1LZBrBuETc/)
+
+👆 点击上方按钮观看完整演示视频
 
 ## ✨ 功能特点
 
@@ -221,13 +228,30 @@ ssh <username>@<robot_ip>
 
 MIT License
 
+## 👥 贡献者
+
+<table>
+  <tr>
+    <td align="center">
+      <b>Lqh</b><br>
+      <a href="mailto:orbiterlin@gmail.com">📧 orbiterlin@gmail.com</a>
+    </td>
+    <td align="center">
+      <b>Zyz</b><br>
+      <a href="mailto:2784809070@qq.com">📧 2784809070@qq.com</a>
+    </td>
+  </tr>
+</table>
+
 ## 🤝 贡献
 
 欢迎提交 Issue 和 Pull Request！
 
 ## 📞 联系方式
 
-如有问题，请提交 Issue 或联系项目维护者。
+如有问题，请通过以下方式联系我们：
+- 📧 Lqh: [orbiterlin@gmail.com](mailto:orbiterlin@gmail.com)
+- 📧 Zyz: [2784809070@qq.com](mailto:2784809070@qq.com)
 
 ---
 
